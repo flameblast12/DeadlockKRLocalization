@@ -658,7 +658,6 @@
 		"upgrade_health_stimpak_desc"					"대상에게 <span class=\"highlight\">재생</span>과 <span class=\"highlight\">전력질주 속도</span>를 부여합니다. 적으로부터 피해를 받으면 효과가 해제됩니다. 자기 자신에게 사용할 수 있습니다."
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"치유 의식"
 		"modifier_stimpak_regen" "치유 의식"
-		
 		//Divine Barrier
 		"upgrade_savior_desc"				"대상에게 <span class=\"highlight\">총탄 보호막, 스피릿 보호막, 이동 속도</span>를 부여합니다. 자기 자신에게 사용할 수 있습니다."
 		"SaviorBulletShieldHealth_label"		"총탄 보호막"

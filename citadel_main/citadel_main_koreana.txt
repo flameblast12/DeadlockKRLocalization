@@ -464,6 +464,18 @@
 		"Citadel_Play_MatchmakingOfflineTitle"				"매치메이킹 종료"
 		"Citadel_Play_MatchmakingOfflineText"				"매치메이킹은 현재 종료되었습니다. 예정된 플레이테스트 시간에 다시 방문하세요."
 
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"랭크 매치메이킹 종료"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"랭크 매치메이킹이 현재 종료되었습니다. 선택한 플레이테스트 일정에 맞춰 다시 시도해 주세요."
+
+		"Citadel_Play_RankedNoSchedule"						"선택한 일정 없음"
+		"Citadel_Play_RankedNoScheduleDesc"					"랭크 매치를 플레이하려면 먼저 일정을 선택해야 합니다."
+
+		"Citadel_RankedGames_Played"						"{i:ranked_games_played} / {i:ranked_games_required} Games Played"
+		"Citadel_RankedGame_Played_desc"					"Games Played to Qualify for Ranking"
+		"Citadel_RankedGames_PlayedQualified"				"Your Rank will be calculated based on additional games"
+		"Citadel_RankedGames_Qualified1"						"Additional games played will factor into your final ranking"
+		"Citadel_RankedGames_Qualified2"						"Final rank will be awarded {t:s:end_day}"
+
 		"Citadel_Play_BotsOfflineTitle"				"봇이 일시적으로 오프라인 상태입니다."
 		"Citadel_Play_BotsOfflineText"				"봇이 일시적으로 비활성화되었습니다. 나중에 다시 확인하세요."
 
@@ -679,6 +691,7 @@
 		"Citadel_Party_InviteSent"									"초대 보냄"
 
 		"Citadel_RosterMode_Party_Matchmaking"						"파티 매치메이킹"
+		"Citadel_RosterMode_Party_RankedMatchmaking"				"랭크 매치 플레이"
 		"Citadel_RosterMode_Party_CoopBotMM"						"파티 협동 봇 매치메이킹"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"파티 비공개 봇 매치 - 쉬움"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"파티 비공개 봇 매치 - 보통"
@@ -689,6 +702,7 @@
 		"Citael_PrivateLobbyModal_JoinCode"							"참가 코드를 입력해 참가"
 
 		"Citadel_RosterMode_Matchmaking"							"Deadlock 플레이"
+		"Citadel_RosterMode_RankedMatchmaking"						"랭크 매치 플레이"
 		"Citadel_RosterMode_CoopBotMM"								"협동 봇 매치메이킹"
 		"Citadel_RosterMode_PrivateBotEasy"							"비공개 봇 매치 - 쉬움"
 		"Citadel_RosterMode_PrivateBotMedium"						"비공개 봇 매치 - 보통"
@@ -1024,15 +1038,6 @@
 		"Citadel_Playtest_JoinedDiscord"							"디스코드에 참여했습니다."
 		"Citadel_Playtest_GoToForum"								"게시판 접속"
 
-		"Citadel_RankedSchedule_1"									"미국 서부"
-		"Citadel_RankedSchedule_2"									"미국 동부"
-		"Citadel_RankedSchedule_10"									"유럽 서부"
-		"Citadel_RankedSchedule_11"									"유럽 동부"
-		"Citadel_RankedSchedule_13"									"러시아 중부"
-		"Citadel_RankedSchedule_20"									"중국"
-		"Citadel_RankedSchedule_21"									"대한민국/일본"
-		"Citadel_RankedSchedule_22"									"호주 동부"
-
 		"Citadel_StartMatchmaking_ErrorTitle"						"오류"
 		"Citadel_StartMatchmaking_AlreadyFindingMatch"				"매치메이킹에 참여할 수 없습니다. 이미 매치를 찾고 있습니다."
 		"Citadel_StartMatchmaking_PartyMemberInLobby"				"매치메이킹에 참여할 수 없습니다. 이미 매칭에 참여 있습니다. 먼저 해당 매치에서 나가세요."
@@ -1062,6 +1067,7 @@
 		"Citadel_StartMatchmaking_RankedNotUnlocked"				"랭크 매치메이킹을 아직 잠금 해제하지 않았습니다."
 		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"낮은 우선순위 상태에서는 랭크 매치메이킹을 이용할 수 없습니다."
 		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"대화가 차단된 상태에서는 랭크 매치메이킹을 이용할 수 없습니다."
+		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"신고로 차단된 상태에서는 랭크 매치메이킹을 이용할 수 없습니다."
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam"				"동일한 팀에 플레이어 수가 너무 많습니다."
 		"Citadel_StartMatchmaking_UnableToFillTeam"					"현재 플레이어 팀을 기반으로 유효한 팀을 만들 수 없습니다."
 		"Citadel_StartMatchmaking_InvalidTeam"						"사용자에게 이 게임 모드에 대한 잘못된 팀이 선택되었습니다."
@@ -2465,12 +2471,13 @@
 		"menu_ranked_select_schedule"				"일정 선택"
 		"menu_ranked_view_schedules"				"모든 일정 보기"
 		"menu_ranked_set_schedule"					"일정 설정"
-		"menu_ranked_explainer_button"				"랭크 매치 더 알아보기"
+		"menu_ranked_week_dates"					"{t:s:start_day}~{t:s:end_day}"
 		"Citadel_SetSchedule_Failed"				"일정 설정 도중 오류 발생"
 		"Citadel_SetSchedule_FailedToSetSchedule"	"일정을 설정하지 못했습니다. 나중에 다시 시도해 주세요."
 		"Citadel_SetSchedule_AlreadySet"			"일정이 이미 설정되었으므로 일정을 설정할 수 없습니다."
 		"Citadel_SetSchedule_Success"				"설정 완료"
 		"Citadel_SetSchedule_LocalTimes"			"모든 시간은 현지 시간으로 표시됩니다."
+		"Citadel_SetSchedule_RegionWithIndex"		"{s:region_name} {d:region_index}"
 		"Citadel_SetSchedule_Selected"				"선택"
 		"Citadel_SetSchedule_SetSuccessfully"		"일정이 설정되었습니다."
 		"Citadel_ranked_scheduleModal_title"		"랭크 매치 일정"
@@ -2481,7 +2488,37 @@
 		"Citadel_ranked_comingsoon"					"첫 번째 랭크 주간은 그리니치 표준 시 10월 15일 화요일 오후 8시에 시작됩니다.(한국 시간 16일 수요일 새벽 5시)"
 		"Citadel_ranked_schedule_explainer"			"랭크 매치는 특정한 시간대에만 이용 가능합니다. 가장 플레이하기 적합한 시간대를 설정하세요."
 
-		"Citadel_ranks_rank0"						"랭크 미정"
+		"Citadel_ranked_explainer_button"			"랭크 매치 더 알아보기"
+		"Citadel_ranked_explainer_title"			"랭크 매치메이킹"
+		"Citadel_ranked_explainer_desc"				"랭크 모드는 전 세계 플레이어들 간의 실력을 겨루기 위해, 비슷한 실력의 플레이어들끼리 매칭되는 Deadlock의 경쟁전 모드입니다.<br><br>매주, 각 플레이어는 해당 지역의 시간대 중 하나를 선택하여 랭크 매치에 참가할 수 있습니다."
+		"Citadel_ranked_howitworks_title"			"자세한 정보"
+		"Citadel_ranked_howitworks_desc"			"모든 플레이어들은 '옵스큐러스'의 임시 랭크로 시작합니다. 해당 주간의 랭크를 확인하려면 매주 7개의 랭크 게임을 완료해야 합니다. 그 주간이 끝날 때 성적을 분석하여 랭크가 수여되며, 프로필에 배지로 표시됩니다.<br><br>해당 주간 동안 랭크 매치를 7번 하지 않을 경우, 랭크가 다시 그림자로 돌아가며, 해당 주기에 랭크 게임 7번을 완료해야 그 다음 주기에 다시 메달을 수여받습니다. 휴면 상태로 돌아가도 추후 랭크 매치에 활용될 플레이 성적이나 지표 등은 유지됩니다만, 해당 주기에는 배지가 표시되지 않습니다.<br><br>랭크는 총 11종류가 있으며, 각 랭크는 I부터 VI까지 하위 랭크 6단계로 나누어져 해당 랭크 내에서의 위치를 확인할 수 있습니다."
+		"Citadel_ranked_rankedmedals"				"랭크:"
+
+		"Citadel_ranked_explainer_note"				"배지 디자인은 10월 23일 수요일 첫 번째 랭크 점수 공개와 함께 발표됩니다."
+
+
+		"Citadel_ranks_rank0"						"옵스큐러스"
+		"Citadel_ranks_rank1"						"이니시에이트"
+		"Citadel_ranks_rank2"						"시커"
+		"Citadel_ranks_rank3"						"알케미스트"
+		"Citadel_ranks_rank4"						"아케니스트"
+		"Citadel_ranks_rank5"						"리추얼리스트"
+		"Citadel_ranks_rank6"						"에미서리"
+		"Citadel_ranks_rank7"						"오라클"
+		"Citadel_ranks_rank8"						"아콘"
+		"Citadel_ranks_rank9"						"팬텀"
+		"Citadel_ranks_rank10"						"어센던트"
+		"Citadel_ranks_rank11"						"이터너스"
+
+		"Citadel_subranks_1"						"I"
+		"Citadel_subranks_2"						"II"
+		"Citadel_subranks_3"						"III"
+		"Citadel_subranks_4"						"IV"
+		"Citadel_subranks_5"						"V"
+		"Citadel_subranks_6"						"VI"
+
+		"Citadel_rank_phase_example"				"2024년 | 10월 16일~22일(한국 시간)"
 
 
 		"item_info_abilities"						"능력"
@@ -2780,6 +2817,8 @@
 		"AbilityButtonHint_AltCastRestorativeGoo"		"자신 감싸기"
 		"AbilityButtonHint_AltCastStickyBomb"		"자신에게 폭탄 부착"
 		"AbilityButtonHint_CastIceDome"				"얼어붙은 성채 시전"
+		"AbilityButtonHint_CastLifeDrain"			"Drain Enemy"
+		"AbilityButtonHint_AlotCastLifeDrain"				"아군 치유"
 		
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
