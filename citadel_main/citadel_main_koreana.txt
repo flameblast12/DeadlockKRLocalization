@@ -1642,7 +1642,7 @@
 		"modifier_rejuv_pickup_aura/aura_target/timer"			"팀 활력 장치 획득 중"
 		"modifier_early_gold_pickup_aura/aura_target/timer"		"팀 영혼 획득 중"
 		"modifier_citadel_holding_golden_idol"  				"항아리를 반대편 제단으로 옮기기"							
-		"modifier_citadel_holding_golden_idol_revealed"			"당신의 위치가 드러났습니다! 서두르세요!"
+		"modifier_citadel_holding_golden_idol_revealed"			"적에게 위치가 드러났습니다! 서두르세요!"
 		"modifier_citadel_returning_golden_idol"  				"영혼 항아리 반납 중"
 		"modifier_knocked_off_zipline_slow"						"집라인에서 떨어짐"
 		"modifier_citadel_respawn_credit" 						"활력장치 효과"
@@ -2359,7 +2359,7 @@
 
 
 		"Citadel_FlexSlot_Title"						"자유 슬롯 해제됨"
-		"Citadel_FlexSlotUnlockedAllTier1"				"모든 <span class=\"FlexSlotObjectiveName\">전선 수호자</span>를 처치하여 자유 슬롯이 해제되었습니다."
+		"Citadel_FlexSlotUnlockedAllTier1"				"세 기의 <span class=\"FlexSlotObjectiveName\">전선 수호자</span>를 처치하여 자유 슬롯이 해제되었습니다."
 		"Citadel_FlexSlotUnlockedGenerator"				"하나의 <span class=\"FlexSlotObjectiveName\">성소</span>를 처치하여 자유 슬롯이 해제되었습니다."
 		"Citadel_FlexSlotUnlockedAllTier2"				"모든 <span class=\"FlexSlotObjectiveName\">보행자</span>를 처치하여 자유 슬롯이 해제되었습니다."
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"두 기의 <span class=\"FlexSlotObjectiveName\">보행자</span>를 처치하여 자유 슬롯이 해제되었습니다."
@@ -2548,7 +2548,7 @@
 		"ModIconTooltip_UnlockGuardians"			"팀이 적 기지의 수호자 한 쌍을 파괴하면 해제됨"	
 		"ModIconTooltip_UnlockGenerators"			"팀이 적 성소 하나를 파괴하면 해제됨"	
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
-		"ModIconTooltip_UnlockAllTier1"				"팀이 모든 적 전선 수호자를 파괴하면 해제됨"
+		"ModIconTooltip_UnlockAllTier1"				"팀이 적 전선 수호자를 셋 파괴하면 해제됨"
 		"ModIconTooltip_UnlockAllTier2"				"팀이 모든 적 보행자를 파괴하면 해제됨"
 
 		"HeroesPageTitle"							"영웅"
