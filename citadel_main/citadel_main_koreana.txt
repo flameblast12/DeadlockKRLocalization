@@ -2508,7 +2508,7 @@
 		"Citadel_ranks_rank6"						"특임관"
 		"Citadel_ranks_rank7"						"신탁관"
 		"Citadel_ranks_rank8"						"집정관"
-		"Citadel_ranks_rank9"						"영도자"
+		"Citadel_ranks_rank9"						"영존자"
 		"Citadel_ranks_rank10"						"승천자"
 		"Citadel_ranks_rank11"						"초월자"
 
