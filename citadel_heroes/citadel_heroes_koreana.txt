@@ -2536,7 +2536,7 @@
 		"viscous_goo_grenade/modifier_viscous_goo_grenade_debuff"		"속도 둔화"
 		"viscous_goo_grenade_t2_desc"					"+{s:Damage} 피해 및 +{s:Radius}m 반경 증가"
 		"viscous_goo_grenade_t3_desc"					"{s:MaxBounces}번 튕김"
-		"MaxBounces_label"								"튕김"
+		"MaxBounces_label"								"튕김 횟수"
 		"PuddleRadius_label"							"웅덩이 반경"
 		"PuddleRadius_postfix"							"m"
 		"PuddleDuration_label"							"웅덩이 지속 시간"
