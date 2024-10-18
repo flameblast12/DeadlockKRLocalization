@@ -472,9 +472,9 @@
 
 		"Citadel_RankedGames_Played"						"{i:ranked_games_played} / {i:ranked_games_required} 게임 플레이함"
 		"Citadel_RankedGame_Played_desc"					"랭크 매치 해제까지 플레이한 일반 게임 수입니다."
-		"Citadel_RankedGames_PlayedQualified"				"당신이 플레이한 게임이 랭크 산정에 반영됩니다."
-		"Citadel_RankedGames_Qualified1"						"추가로 플레이한 게임은 최종 랭크 산정에 반영됩니다."
-		"Citadel_RankedGames_Qualified2"						"최종 랭크는 {t:s:end_day}에 결정됩니다."
+		"Citadel_RankedGames_PlayedQualified"				"추가로 플레이한 게임 또한 랭크 산정에 반영됩니다."
+		"Citadel_RankedGames_Qualified1"						"추가로 플레이한 게임 또한 최종 랭크 산정에 반영됩니다."
+		"Citadel_RankedGames_Qualified2"						"최종 랭크는 {t:s:end_day}에 수여됩니다."
 
 		"Citadel_Play_BotsOfflineTitle"				"봇이 일시적으로 오프라인 상태입니다."
 		"Citadel_Play_BotsOfflineText"				"봇이 일시적으로 비활성화되었습니다. 나중에 다시 확인하세요."
