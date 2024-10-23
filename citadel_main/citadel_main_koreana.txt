@@ -240,6 +240,12 @@
 		"Citadel_ReportPlayer_Reason_Comments"				"기타 의견:"
 		"Citadel_ReportPlayer_CommentPlaceholder"			"이 플레이어와 어떤 문제가 있었는가요?"
 
+		"Citadel_CommendPlayer_PopupTitle"					"플레이어 추천"
+		"Citadel_CommendPlayer_PopupDesc"					"해당 플레이어의 플레이를 칭찬하며, 추후 매치메이킹에서 만날 의향이 있음을 알립니다."
+		"Citadel_CommendPlayer_Friendly"					"친절하고 유쾌함"
+		"Citadel_CommendPlayer_Teamwork"					"좋은 팀워크"
+		"Citadel_CommendPlayer_Skilled"						"뛰어난 실력자"
+
 		"Citadel_SkipTutorial_Title"						"튜토리얼 건너뛰기"
 		"Citadel_SkipTutorial_Body"							"튜토리얼을 건너뛰시겠습니까? 이전에 플레이한 적이 있는 경우에만 건너뛰시는 걸 권장드립니다."
 
@@ -280,6 +286,7 @@
 		"Citadel_MatchDetails_ServerError"							"서버 오류"
 
 		"Citadel_Hud_Paused"										"게임이 일시 중지되었습니다"
+		"Citadel_Hud_Pauser"										"{s:pauser} 님이 사용"
 		"Citadel_Hud_Unpausing"										"게임 일시 중지 해제 중"
 		"Citadel_Notification_Paused_Title"							"일시 중지됨"
 		"Citadel_Notification_Paused_Message"						"게임이 일시 중지되었습니다"
@@ -320,6 +327,10 @@
 
 		"Citadel_InvalidCast_NoFullClips"							"재장전할 탄창 없음"
 
+		"Citadel_MatchInfo_Mode_Ranked"								"랭크 매치"
+		"Citadel_MatchInfo_Mode_Standard"							"일반 매치"
+		"Citadel_MatchInfo_Mode_CoopBot"							"협동전"
+		"Citadel_MatchInfo_Mode_Private"							"사설 로비"
 
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"호환되지 않는 버전"
 		"Citadel_Reconnect_IncompatibleVersionBody"					"클라이언트가 이 서버에 연결할 수 있는 유효한 버전이 아닙니다"
@@ -1010,6 +1021,9 @@
 		"Citadel_Party_Report"										"신고"
 		"Citadel_Party_Reported"									"신고됨"
 
+		"Citadel_Party_Commend"										"추천"
+		"Citadel_Party_Commended"									"추천함"
+
 		"Citadel_PlayerList_Teammates"								"아군 팀"
 		"Citadel_PlayerList_Enemy"									"적군 팀"
 
@@ -1302,6 +1316,8 @@
 		"Citadel_Profile_Stats_Denies"							"디나이"		
 		"Citadel_Profile_Stats_Healing"							"치유"		
 		"Citadel_Profile_Stats_Networth"						"획득한 영혼"
+		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
+		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}k"
 
 		"Citadel_MatchPage_Prev"								"이전"
 		"Citadel_MatchPage_Next"								"다음"
@@ -1319,8 +1335,9 @@
 
 		"Citadel_MatchDetails_ViewGraphs"						"그래프 보기"
 		"Citadel_MatchDetails_Report"							"신고"
-		"Citadel_MatchDetails_ReportTooltip"					"플레이어 신고하려면 클릭"
+		"Citadel_MatchDetails_ReportTooltip"					"플레이어를 신고하려면 클릭"
 		"Citadel_MatchDetails_Reported"							"플레이어 신고 완료!"
+		"Citadel_MatchDetails_CommendTooltip"					"플레이어를 추천하려면 클릭"
 		"Citadel_MatchDetails_Team1NetWorth"					"{i:team1_networth}k"
 		"Citadel_MatchDetails_Team2NetWorth"					"{i:team2_networth}k"
 		"Citadel_MatchDetails_Team1Name"						"{i:team2_networth}k"
@@ -2357,7 +2374,6 @@
 		"Citadel_TeamMsg_EnemyTitanKilledTitle"			"적 후원자"
 		"Citadel_TeamMsg_TitanKilledTitle"				"아군 후원자"
 
-
 		"Citadel_FlexSlot_Title"						"자유 슬롯 해제됨"
 		"Citadel_FlexSlotUnlockedAllTier1"				"세 기의 <span class=\"FlexSlotObjectiveName\">전선 수호자</span>를 처치하여 자유 슬롯이 해제되었습니다."
 		"Citadel_FlexSlotUnlockedGenerator"				"하나의 <span class=\"FlexSlotObjectiveName\">성소</span>를 처치하여 자유 슬롯이 해제되었습니다."
@@ -2417,6 +2433,10 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"파티에 참여 중이거나 매치메이킹 중일 때는 나중에 Discord 링크를 사용하세요."
 		"Citadel_Dashboard_Recommended"				"추천"
 
+		"Citadel_Commend_Toast_Friendly"			"{s:commender} ({s:commender_hero}) 님이 당신을 친절하고 유쾌한 팀원으로 추천했습니다."
+		"Citadel_Commend_Toast_Teamwork"			"{s:commender} ({s:commender_hero}) 님이 당신을 좋은 팀워크를 가진 팀원으로 추천했습니다."
+		"Citadel_Commend_Toast_Skilled"				"{s:commender} ({s:commender_hero}) 님이 당신을 뛰어난 실력을 가진 팀원으로 추천했습니다."
+
 		"menu_exit_db_page"							"뒤로"
 		"menu_settings"								"설정"
 		"menu_profile"								"프로필"
@@ -2465,8 +2485,8 @@
 		"menu_ranked_schedule_title"				"이용 가능 시간:"
 		"menu_ranked_unavailable"					"잠김"
 		"menu_ranked_unavailable_desc"				"랭크 매치메이킹을 이용하려면 일반 매치를 50번 플레이해야 합니다."
-		"menu_ranked_schedule_weekdays_monfri"				"월요일 ~ 금요일:"
-		"menu_ranked_schedule_weekends_satsun"				"토요일 ~ 일요일:"
+		"menu_ranked_schedule_weekdays_monfri"		"월요일 ~ 금요일:"
+		"menu_ranked_schedule_weekends_satsun"		"토요일 ~ 일요일:"
 		"menu_ranked_schedule_alldays"				"매일:"
 		"menu_ranked_schedule_timeplaceholder"		"{t:t:start_time}~{t:t:end_time}"
 		"menu_ranked_select_schedule"				"일정 선택"
@@ -2497,7 +2517,13 @@
 		"Citadel_ranked_rankedmedals"				"랭크:"
 
 		"Citadel_ranked_explainer_note"				"배지 디자인은 10월 23일 수요일 첫 번째 랭크 점수 공개와 함께 발표됩니다."
-
+		
+		"Citadel_ranked_result_title"				"랭크 결과 보고"
+		"Citadel_ranked_result_rankup"				"랭크 상승!"
+		"Citadel_ranked_result_adjustment"			"랭크 조정"
+		"Citadel_ranked_numGamesPlayed"				"{s:games_played} 게임 플레이함"
+		"Citadel_ranked_match_history"				"매치 전적:"
+		"Citadel_ClickToViewReport"					"클릭하여 랭크 매치 전적을 확인하세요"
 
 		"Citadel_ranks_rank0"						"은둔인"
 		"Citadel_ranks_rank1"						"입교인"
@@ -2506,8 +2532,8 @@
 		"Citadel_ranks_rank4"						"신비술사"
 		"Citadel_ranks_rank5"						"의식술사"
 		"Citadel_ranks_rank6"						"특임관"
-		"Citadel_ranks_rank7"						"신탁관"
-		"Citadel_ranks_rank8"						"집정관"
+		"Citadel_ranks_rank7"						"집정관"
+		"Citadel_ranks_rank8"						"예지자"
 		"Citadel_ranks_rank9"						"영존자"
 		"Citadel_ranks_rank10"						"승천자"
 		"Citadel_ranks_rank11"						"초월자"

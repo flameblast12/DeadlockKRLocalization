@@ -237,7 +237,7 @@
 		//"upgrade_frenzy/modifier_frenzy_aura/modifier_frenzy_kill"		"Killed Frenzy"
 
 		//Soul Shredder Bullets
-		"upgrade_tech_defense_shredders_desc"	"총탄이 적에게 <span class=\"highlight\">스피릿 피해</span>를 증폭시키는 약화 효과를 적용하며, 적에게 <span class=\"highlight\">스피릿 생명력 흡수</span>를 부여합니다."
+		"upgrade_tech_defense_shredders_desc"	"총탄이 적에게 <span class=\"highlight\">스피릿 피해</span>를 증폭시키는 약화 효과를 적용하며, 대상에게 가한 <span class=\"highlight\">스피릿 피해의 일부를 흡혈</span> 합니다."
 		"ShreddersTechAmp_label"				"스피릿 증폭"
 		"ShreddersTechAmp_postfix"			"%"
 		"modifier_tech_defense_shredders_debuff"																"영혼 분쇄 총탄"
@@ -658,7 +658,6 @@
 		"upgrade_health_stimpak_desc"					"대상에게 <span class=\"highlight\">재생</span>과 <span class=\"highlight\">전력질주 속도</span>를 부여합니다. 적으로부터 피해를 받으면 효과가 해제됩니다. 자기 자신에게 사용할 수 있습니다."
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"치유 의식"
 		"modifier_stimpak_regen" "치유 의식"
-		
 		//Divine Barrier
 		"upgrade_savior_desc"				"대상에게 <span class=\"highlight\">총탄 보호막, 스피릿 보호막, 이동 속도</span>를 부여합니다. 자기 자신에게 사용할 수 있습니다."
 		"SaviorBulletShieldHealth_label"		"총탄 보호막"
