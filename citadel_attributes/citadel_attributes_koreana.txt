@@ -1832,7 +1832,7 @@
 		"StaminaRegenPercent_postfix"		"%"
 
 		"MeleeResistPercent_prefix"			"{s:sign}"
-		"MeleeResistPercent_label"			"근거리 공격 저항"
+		"MeleeResistPercent_label"			"근접 공격 저항"
 		"MeleeResistPercent_postfix"		"%"
 		
 		"BuffDuration_label"				"강화 지속 시간"

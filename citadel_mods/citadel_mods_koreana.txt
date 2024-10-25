@@ -24,12 +24,12 @@
 		//"upgrade_clip_size_3_desc"			"Greatly Increases <span class=\"highlight\">ammo</span>."
 
 		//Ammo Scavenger
-		"upgrade_ammo_scavenger_desc"		"영혼을 확보하거나 디나이할 때마다 <span class=\"highlight\">탄약을 회복</span>하고 <span class=\"highlight\">스피릿 위력</span>을 축적합니다."
+		"upgrade_ammo_scavenger_desc"		"영혼을 확보하거나 디나이할 때마다 <span class=\"highlight\">탄약을 회복</span>하고 <span class=\"highlight\">마력</span>을 축적합니다."
 		"AmmoPerSoul_prefix"				"+"
 		"AmmoPerSoul_label"					"영혼당 탄약"
 		"SpiritPowerPerSoul_prefix"			"+"
-		"SpiritPowerPerSoul_label"			"영혼당 스피릿 위력"
-		"AmmoScavengerDuration_label"		"스피릿 위력 지속시간"
+		"SpiritPowerPerSoul_label"			"영혼당 마력"
+		"AmmoScavengerDuration_label"		"마력 지속시간"
 		"AmmoScavengerDuration_postfix"		"초"
 
 		//Stabilizer
@@ -56,7 +56,7 @@
 		//"upgrade_small_attack_speed_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		//Silence Glyph
-		"upgrade_targeted_silence_desc"	"투사체를 발사하여 대상을 <span class=\"highlight\">침묵시키고 스피릿 피해를 입힙니다.</span> 침묵은 정신집중을 방해하지 않습니다."
+		"upgrade_targeted_silence_desc"	"투사체를 발사하여 대상을 <span class=\"highlight\">침묵시키고 마법 피해를 입힙니다.</span> 침묵은 정신집중을 방해하지 않습니다."
 
 		//EMP Bullets
 		//"upgrade_proc_silence_desc"		"Your bullets charge up an <span class=\"highlight\">EMP</span> on enemy heroes that will <span class=\"highlight\">prevent targets from using abilities</span>. Victims are immune to emp bullets for <span class=\"highlight\">{s:ImmunityDuration}s</span> after application expires."
@@ -132,14 +132,14 @@
 		"CasterSlowPercent_postfix"	"%"
 
 		//Torment Pulse
-		"upgrade_tech_damage_pulse_desc"	"주기적으로 가장 가까운 적 둘에게 <span class=\"highlight\">스피릿 피해</span>를 입힙니다."
+		"upgrade_tech_damage_pulse_desc"	"주기적으로 가장 가까운 적 둘에게 <span class=\"highlight\">마법 피해</span>를 입힙니다."
 
 		//Mystic Burst
-		"upgrade_magic_burst_desc"	"능력이 한 번의 타격으로 {s:MinimumDamage} 이상의 피해를 입히면 추가 <span class=\"highlight\">스피릿 피해</span>를 추가로 입힙니다."
+		"upgrade_magic_burst_desc"	"능력이 한 번의 타격으로 {s:MinimumDamage} 이상의 피해를 입히면 추가 <span class=\"highlight\">마법 피해</span>를 추가로 입힙니다."
 		"MagicBurstDamage_label"		"추가 피해"
 
 		//Improved Burst
-		"upgrade_magic_shock_desc"	"능력이 한 번의 타격으로 {s:MinimumDamage} 이상의 피해를 입히면 추가 <span class=\"highlight\">스피릿 피해</span>를 추가로 입힙니다.<br/>대상은 이 피해를 받은 후 <span class=\"highlight\">{s:ReProcLockoutTime}초</span> 동안 이 효과에 면역이 됩니다."
+		"upgrade_magic_shock_desc"	"능력이 한 번의 타격으로 {s:MinimumDamage} 이상의 피해를 입히면 추가 <span class=\"highlight\">마법 피해</span>를 추가로 입힙니다.<br/>대상은 이 피해를 받은 후 <span class=\"highlight\">{s:ReProcLockoutTime}초</span> 동안 이 효과에 면역이 됩니다."
 		"MagicShockDamage_label"		"최대 체력 추가 피해"
 		"MagicShockDamage_postfix"	"%"
 
@@ -161,11 +161,11 @@
 		//"upgrade_attack_speed_2_desc"	"Increases your <span class=\"highlight\">Fire Rate</span>."
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"총탄이 적 영웅에게 상태 효과를 누적시킵니다. 누적이 최대가 되면 내 영웅이 추가 <span class=\"highlight\">스피릿 위력</span>을 얻습니다."
+		"upgrade_tech_overflow_desc"	"총탄이 적 영웅에게 상태 효과를 누적시킵니다. 누적이 최대가 되면 내 영웅이 추가 <span class=\"highlight\">마력</span>을 얻습니다."
 		"modifier_tech_overflow"		"흘러넘치는 혼령"
 		"modifier_tech_overflow_building" "흘러넘치는 혼령 누적 중..."
 
-		"OverflowTechPower_label"		"스피릿 위력"
+		"OverflowTechPower_label"		"마력"
 		//"OverflowBonusDamage_label"     "Bonus Spirit Damage"
 		"OverflowBonusDamage_postfix"	"%"
 
@@ -191,9 +191,9 @@
 		"upgrade_long_range_desc"	"대상과의 거리가 <span class=\"highlight\">최소 거리</span> 이상일 때 추가 <span class=\"highlight\">무기 피해</span>를 입힙니다."
 
 		//Mystic Shot
-		"upgrade_crackshot_desc"	"다음 총탄이 추가 <span class=\"highlight\">스피릿 피해</span>를 입힙니다."
+		"upgrade_crackshot_desc"	"다음 총탄이 추가 <span class=\"highlight\">마법 피해</span>를 입힙니다."
 		"ProcBonusMagicDamage_prefix"	"{s:sign}"
-		"ProcBonusMagicDamage_label"	"스피릿 피해"
+		"ProcBonusMagicDamage_label"	"마법 피해"
 
 		//Restorative Shot
 		"upgrade_medic_bullets_desc"	"다음 총탄이 대상에 적중 시 당신을 <span class=\"highlight\">치유</span>합니다."
@@ -215,10 +215,10 @@
 		"HealPercentPerHeadshot_postfix"	"%"
 
 		//Crippling Headshot
-		"upgrade_banshee_slugs_headshots_desc"	"<span class=\"highlight\">헤드샷</span>이 대상의 <span class=\"highlight\">총탄 및 스피릿 저항</span>을 감소시킵니다."
+		"upgrade_banshee_slugs_headshots_desc"	"<span class=\"highlight\">헤드샷</span>이 대상의 <span class=\"highlight\">총탄 및 마법 저항</span>을 감소시킵니다."
 		"BulletResistReduction_label"		"총탄 저항 감소"
 		"BulletResistReduction_postfix"	"%"
-		"MagicResistReduction_label"		"스피릿 저항 감소"
+		"MagicResistReduction_label"		"마법 저항 감소"
 		"MagicResistReduction_postfix"	"%"
 
 		//Berserker
@@ -237,8 +237,8 @@
 		//"upgrade_frenzy/modifier_frenzy_aura/modifier_frenzy_kill"		"Killed Frenzy"
 
 		//Soul Shredder Bullets
-		"upgrade_tech_defense_shredders_desc"	"총탄이 적에게 <span class=\"highlight\">스피릿 피해</span>를 증폭시키는 약화 효과를 적용하며, 대상에게 가한 <span class=\"highlight\">스피릿 피해의 일부를 흡혈</span> 합니다."
-		"ShreddersTechAmp_label"				"스피릿 증폭"
+		"upgrade_tech_defense_shredders_desc"	"총탄이 적에게 <span class=\"highlight\">마법 피해</span>를 증폭시키는 약화 효과를 적용하며, 대상에게 가한 <span class=\"highlight\">마법 피해의 일부를 흡혈</span> 합니다."
+		"ShreddersTechAmp_label"				"마법 증폭"
 		"ShreddersTechAmp_postfix"			"%"
 		"modifier_tech_defense_shredders_debuff"																"영혼 분쇄 총탄"
 		//"upgrade_tech_defense_shredders/modifier_tech_defense_shredders_proc/modifier_base"						"Spirit Armor Reduced"
@@ -368,7 +368,7 @@
 		"CritDamagePercent_postfix"			"%"
 
 		//Veil Walker
-		"upgrade_veil_walker_desc"			"<span class=\"highlight\">우주의 장막</span>을 지나면 <span class=\"highlight\">은신</span>하며, <span class=\"highlight\">이동 속도가 증가</span>하고, 모든 <span class=\"highlight\">총탄 및 스피릿 보호막</span>이 회복됩니다."
+		"upgrade_veil_walker_desc"			"<span class=\"highlight\">우주의 장막</span>을 지나면 <span class=\"highlight\">은신</span>하며, <span class=\"highlight\">이동 속도가 증가</span>하고, 모든 <span class=\"highlight\">총탄 및 마법 보호막</span>이 회복됩니다."
 		"VeilWalker_MoveSpeed_label"			"은신 이동 속도"
 		"VeilWalker_MoveSpeed_postfix"		"m/s"
 
@@ -384,21 +384,21 @@
 		"NonHeroAbilityLifestealTooltipOnly_postfix"		"%"
 		
 		//Mystic Vulnerability
-		"upgrade_magic_vulnerability_desc"	"대상이 <span class=\"highlight\">스피릿 피해</span>를 입으면, <span class=\"highlight\">스피릿 저항</span>이 감소합니다."		
+		"upgrade_magic_vulnerability_desc"	"대상이 <span class=\"highlight\">마법 피해</span>를 입으면, <span class=\"highlight\">마법 저항</span>이 감소합니다."		
 
 		//Healbane
-		"upgrade_healbane_desc"	"<span class=\"highlight\">스피릿 피해</span>가 대상에게 <span class=\"highlight\">치유 감소</span>를 적용합니다. 이 효과를 가진 적 영웅이 죽으면, 당신은 체력을 대량 회복합니다."
+		"upgrade_healbane_desc"	"<span class=\"highlight\">마법 피해</span>가 대상에게 <span class=\"highlight\">치유 감소</span>를 적용합니다. 이 효과를 가진 적 영웅이 죽으면, 당신은 체력을 대량 회복합니다."
 		"HealOnKill_label"		"영웅 처치 시 치유"
 
 		//Mystic Slow
-		"upgrade_magic_slow_desc"	"대상이 <span class=\"highlight\">스피릿 피해</span>를 입으면, <span class=\"highlight\">이동 속도</span>와 <span class=\"highlight\">연사 속도</span>가 감소합니다."
+		"upgrade_magic_slow_desc"	"대상이 <span class=\"highlight\">마법 피해</span>를 입으면, <span class=\"highlight\">이동 속도</span>와 <span class=\"highlight\">연사 속도</span>가 감소합니다."
 
 		//Escalating Exposure
-		"upgrade_escalating_exposure_desc"	"스피릿 피해를 입히면, 대상에게 <span class=\"highlight\">스피릿 증폭</span> 중첩을 부여합니다. 중첩 당 대상이 입는 <span class=\"highlight\">스피릿 피해</span>가 증가합니다."
-		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"스피릿 저항 감소"
+		"upgrade_escalating_exposure_desc"	"마법 피해를 입히면, 대상에게 <span class=\"highlight\">마법 증폭</span> 중첩을 부여합니다. 중첩 당 대상이 입는 <span class=\"highlight\">마법 피해</span>가 증가합니다."
+		"upgrade_escalating_exposure/modifier_proc_watcher/modifier_debuff"		"마법 저항 감소"
 		"EscalatingExposureProcCooldown_label"	"대상당 최대 빈도"
 		"EscalatingExposureProcCooldown_postfix"	"초"
-		"EscalatingExposureTechArmorDamageReduction_label"	"대상의 스피릿 저항"
+		"EscalatingExposureTechArmorDamageReduction_label"	"대상의 마법 저항"
 		"EscalatingExposureTechArmorDamageReduction_postfix"	"%"
 
 		//Mystic Reach
@@ -443,7 +443,7 @@
 		"CooldownReductionOnChargedAbilities_prefix" "+"
 
 		//Alchemical Fire
-		"upgrade_thermal_detonator_desc"		"접촉 시 폭발하는 약병을 던져, 초당 증가하는 <span class=\"highlight\">스피릿 피해</span>를 발생시키고 적이 추가 <span class=\"highlight\">총탄 피해</span>를 받게 합니다.<br><br>비영웅에게는 {s:NonHeroReductionPercent}% 낮은 초당 피해를 줍니다."
+		"upgrade_thermal_detonator_desc"		"접촉 시 폭발하는 약병을 던져, 초당 증가하는 <span class=\"highlight\">마법 피해</span>를 발생시키고 적이 추가 <span class=\"highlight\">총탄 피해</span>를 받게 합니다.<br><br>비영웅에게는 {s:NonHeroReductionPercent}% 낮은 초당 피해를 줍니다."
 		"BonusBaseWeaponDamageTaken_prefix"		"+"
 		"BonusBaseWeaponDamageTaken_label"		"무기 피해"
 		"BonusBaseWeaponDamageTaken_postfix"	"%"
@@ -475,23 +475,23 @@
 		//"upgrade_succor_desc"				"<span class=\"highlight\">Pulls</span> the targeted teammate out of battle and brings them next to you."
 		
 		//Slowing Hex
-		"upgrade_containment_desc"			"대상에게 <span class=\"highlight\">스피릿 피해</span>를 입히고 <span class=\"highlight\">이동 속도 둔화</span>와 대시 속도를 감소시킵니다. 또한 <span class=\"highlight\">이동 기반 아이템과 능력을 차단</span>합니다.<br>대상의 스테미나 사용에는 영향을 미치지 않습니다."
+		"upgrade_containment_desc"			"대상에게 <span class=\"highlight\">마법 피해</span>를 입히고 <span class=\"highlight\">이동 속도 둔화</span>와 대시 속도를 감소시킵니다. 또한 <span class=\"highlight\">이동 기반 아이템과 능력을 차단</span>합니다.<br>대상의 스테미나 사용에는 영향을 미치지 않습니다."
 
 		//Withering Whip
 		"upgrade_withering_whip_desc"		"적을 지정하여 <span class=\"highlight\">연사 속도 감소</span>와 <span class=\"highlight\">총탄 저항 감소</span>을 적용합니다."
 		"modifier_withering_whip_debuff"	"연사 속도 감소"
-		"MagicAmp_label"					"스피릿 증폭"
+		"MagicAmp_label"					"마법 증폭"
 		"MagicAmp_postfix"					"%"
 		"WitheringWhipDisarmDuration_label"	"지속 시간"
 		"WitheringWhipDisarmDuration_postfix"	"초"
-		"SpiritPower_label"					"스피릿 위력"
+		"SpiritPower_label"					"마력"
 		"SpiritPower_prefix"					"+"
 
 		//Ethereal Shift
-		"upgrade_self_bubble_desc"			"공허 상태에 들어가 <span class=\"highlight\">대상 불가 및 무적</span> 상태가 되며, 지속시간 중 이동하거나 어떤 행동도 할 수 없습니다. 공허 상태가 끝난 후 <span class=\"highlight\">즉시 재장전</span>하고 추가 <span class=\"highlight\">스피릿 위력</span>을 얻습니다."
+		"upgrade_self_bubble_desc"			"공허 상태에 들어가 <span class=\"highlight\">대상 불가 및 무적</span> 상태가 되며, 지속시간 중 이동하거나 어떤 행동도 할 수 없습니다. 공허 상태 이후 <span class=\"highlight\">추가 이동 속도와 마법 저항</span>을 얻습니다."
 		"ShiftingVeilDuration_label"			"지속 시간"
 		"ShiftingVeilDuration_postfix"		"초"
-		"BonusSpiritDuration_label"			"추가 스피릿 위력 지속 시간"
+		"BonusSpiritDuration_label"			"추가 마력 지속 시간"
 		"BonusSpiritDuration_postfix"			"초"
 		"modifier_shifting_veil_buff"			"무형의 존재"
 		"shifting_veil_bonus"			"이동 속도 및 마법 저항"
@@ -533,7 +533,7 @@
 		//"upgrade_aoe_tech_shield/modifier_duration" "Spirit Barrier Pulse"
 		
 		//Cold Front
-		"upgrade_cold_front_desc"			"확장되는 얼음 폭발을 방출하여 <span class=\"highlight\">스피릿 피해</span>를 입히고 적의 <span class=\"highlight\">이동 속도</span>를 감소시킵니다."
+		"upgrade_cold_front_desc"			"확장되는 얼음 폭발을 방출하여 <span class=\"highlight\">마법 피해</span>를 입히고 적의 <span class=\"highlight\">이동 속도</span>를 감소시킵니다."
 		
 		//Knockdown
 		"upgrade_target_stun_desc"			"대상이 <span class=\"highlight\">{s:StunDelay}s 지연 시간</span> 후<span class=\"highlight\">넘어지고</span> <span class=\"highlight\">기절</span>하여, 행동을 방해하고 일시적으로 모든 행동을 하지 못하게 합니다."
@@ -557,7 +557,7 @@
 		"upgrade_glitch/modifier_glitch_debuff"	"저주받음!"
 
 		//Bullet Resist Shredder
-		"upgrade_bullet_resist_shredder_desc"	"스피릿 피해를 입힐 때 적의 <span class=\"highlight\">총탄 저항</span>을 감소시킵니다."
+		"upgrade_bullet_resist_shredder_desc"	"마법 피해를 입힐 때 적의 <span class=\"highlight\">총탄 저항</span>을 감소시킵니다."
 		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "총탄 저항 감소"
 
 		//Weapon Eater
@@ -581,22 +581,22 @@
 		"upgrade_imbued_duration_extender_desc"	"당신의 능력과 아이템의 <span class=\"highlight\">지속 시간</span>을 증가시킵니다."
 
 		//Diviner's Kevlar
-		"upgrade_diviners_kevlar_desc"			"<span class=\"highlight\">궁극기 능력</span>을 사용할 때 일시적으로 <span class=\"highlight\">총탄 보호막, 스피릿 보호막</span> 및 <span class=\"highlight\">스피릿 위력</span>을 얻습니다."
+		"upgrade_diviners_kevlar_desc"			"<span class=\"highlight\">궁극기 능력</span>을 사용할 때 일시적으로 <span class=\"highlight\">총탄 보호막, 마법 보호막</span> 및 <span class=\"highlight\">마력</span>을 얻습니다."
 		//"BonusChannelTechPower_label"			"Spirit Power While Channeling"
 		"BonusChannelTechPower_prefix"			"+"
-		"BonusChannelTimePercentage_label"		"채널 지속 시간"
+		"BonusChannelTimePercentage_label"		"정신집중 지속 시간"
 		"BonusChannelTimePercentage_prefix"		"+"
 		"BonusChannelTimePercentage_postfix"	"%"
 		//"ChannelBulletShield_label"				"Bullet Barrier While Channeling"
 
 		//Infuser
-		"upgrade_infuser_desc"			"<span class=\"highlight\">스피릿 위력</span>과 <span class=\"highlight\">스피릿 생명력 흡수</span>를 얻습니다."
+		"upgrade_infuser_desc"			"<span class=\"highlight\">마력</span>과 <span class=\"highlight\">마법 생명력 흡수</span>를 얻습니다."
 		"modifier_infuser" "Infuser"
 
 		//Spirit Strike
-		"upgrade_acolytes_glove_desc"			"영웅에게 <span class=\"highlight\">가벼운 또는 강력한 근접 공격</span>을 수행할 때, 추가로 <span class=\"highlight\">스피릿 피해</span>를 입히고 대상의 <span class=\"highlight\">스피릿 저항</span>을 감소시킵니다."
-		"SpiritDamage_label"						"스피릿 피해"
-		"modifier_acolytes_glove_triggered"		"스피릿 타격"
+		"upgrade_acolytes_glove_desc"			"영웅에게 <span class=\"highlight\">가벼운 또는 강력한 근접 공격</span>을 수행할 때, 추가로 <span class=\"highlight\">마법 피해</span>를 입히고 대상의 <span class=\"highlight\">마법 저항</span>을 감소시킵니다."
+		"SpiritDamage_label"						"마법 피해"
+		"modifier_acolytes_glove_triggered"		"마법 타격"
 
 		//Melee Charge
 		"upgrade_melee_charge_desc"				"적에게 <span class=\"highlight\">강력 근접 공격</span>이 적중 시 <span class=\"highlight\">증가한 피해</span>를 입힙니다. 또한 무기가 <span class=\"highlight\">즉시 재장전</span>되거나, <span class=\"highlight\">+100%의 임시 탄약</span>을 얻습니다. <br>이 효과는 임시 탄약을 사용하지 경우 발동하지 않습니다."
@@ -615,19 +615,19 @@
 		//"ClarityBonusSpirit_label"				"Next Ability Bonus Spirit Power"
 
 		//Surge of Power
-		"upgrade_magic_storm_desc"				"능력 하나에 <span class=\"highlight\">영구적인 스피릿 위력</span>을 부여합니다. 그 능력을 사용할 때 추가 <span class=\"highlight\">이동 속도</span>를 얻습니다."
+		"upgrade_magic_storm_desc"				"능력 하나에 <span class=\"highlight\">영구적인 마력</span>을 부여합니다. 그 능력을 사용할 때 추가 <span class=\"highlight\">이동 속도</span>를 얻습니다."
 		"modifier_upgrade_magic_storm"			"힘의 쇄도"
 
 		//Suppressor
-		"upgrade_suppressor_desc"					"적에게 <span class=\"highlight\">스피릿 피해</span>를 입힐 때, <span class=\"highlight\">연사 속도 감소</span>를 적용합니다."
+		"upgrade_suppressor_desc"					"적에게 <span class=\"highlight\">마법 피해</span>를 입힐 때, <span class=\"highlight\">연사 속도 감소</span>를 적용합니다."
 		"suppressor_debuff"						"연사 속도 감소"
 
 		//Quicksilver Reload
-		"upgrade_quick_silver_desc"				"능력 하나를 연동합니다. 그 능력이 적에게 처음 피해를 입히면 추가 <span class=\"highlight\">스피릿 피해</span>를 입힙니다. 또한 해당 능력을 사용할 때 무기가 <span class=\"highlight\">재장전</span>되고, 그 클립에 <span class=\"highlight\">연사 속도</span> 추가가 적용됩니다."
+		"upgrade_quick_silver_desc"				"능력 하나를 연동합니다. 그 능력이 적에게 처음 피해를 입히면 추가 <span class=\"highlight\">마법 피해</span>를 입힙니다. 또한 해당 능력을 사용할 때 무기가 <span class=\"highlight\">재장전</span>되고, 그 클립에 <span class=\"highlight\">연사 속도</span> 추가가 적용됩니다."
 		//"modifier_quick_silver_buff"				"+Fire Rate"
 
 		// Magic carpet
-		"upgrade_magic_carpet_desc"				"마법 양탄자를 소환하여 당신을 태우고 날아갑니다. 날아가는 동안 총탄 및 스피릿 보호막을 얻습니다. 양탄자를 소환하는 동안 능력을 사용할 수 없습니다. 날아가는 동안 둔화 효과에 면역을 얻으며, 다른 행동을 하면 양탄자가 사라집니다."
+		"upgrade_magic_carpet_desc"				"마법 양탄자를 소환하여 당신을 태우고 날아갑니다. 날아가는 동안 총탄 및 마법 보호막을 얻습니다. 양탄자를 소환하는 동안 능력을 사용할 수 없습니다. 날아가는 동안 둔화 효과에 면역을 얻으며, 다른 행동을 하면 양탄자가 사라집니다."
 		"modifier_magiccarpet"					"마법 양탄자"
 		"modifier_summon_magiccarpet"			"마법 양탄자 소환 중"
 		"MagicCarpetMoveSpeed_prefix"			"+"
@@ -637,8 +637,8 @@
 		"MagicCarpetShieldDuration_postfix"		"초"
 
 		//
-		"upgrade_superacolytes_glove_desc"			"누적 <span class=\"highlight\">{s:StoredSpiritDamage}</span> 스피릿 피해를 입힌 후, 다음 <span class=\"highlight\">강력 근접 공격</span>이 추가 <span class=\"highlight\">{s:StoredSpiritDamage}  스피릿 피해</span>를 입힙니다."
-		"StoredSpiritDamage_label"			"스피릿 피해 축적"
+		"upgrade_superacolytes_glove_desc"			"누적 <span class=\"highlight\">{s:StoredSpiritDamage}</span> 마법 피해를 입힌 후, 다음 <span class=\"highlight\">강력 근접 공격</span>이 추가 <span class=\"highlight\">{s:StoredSpiritDamage}  마법 피해</span>를 입힙니다."
+		"StoredSpiritDamage_label"			"마법 피해 축적"
 		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "피해 방출!"
 
 		//-----------------------------------------------------------------------------
@@ -659,9 +659,9 @@
 		"upgrade_health_stimpak/modifier_stimpak_regen"			"치유 의식"
 		"modifier_stimpak_regen" "치유 의식"
 		//Divine Barrier
-		"upgrade_savior_desc"				"대상에게 <span class=\"highlight\">총탄 보호막, 스피릿 보호막, 이동 속도</span>를 부여합니다. 자기 자신에게 사용할 수 있습니다."
+		"upgrade_savior_desc"				"대상에게 <span class=\"highlight\">총탄 보호막, 마법 보호막, 이동 속도</span>를 부여합니다. 자기 자신에게 사용할 수 있습니다."
 		"SaviorBulletShieldHealth_label"		"총탄 보호막"
-		"SaviorMagicShieldHealth_label"		"스피릿 보호막"
+		"SaviorMagicShieldHealth_label"		"마법 보호막"
 	
 		//Restorative Locket
 		"upgrade_restorative_locket_passive_desc"		"적이 당신의 {s:Radius}m 범위 내에서 능력을 사용할 때마다 하나의 <span class=\"highlight\">회복 충전</span>을 저장합니다."
@@ -806,8 +806,8 @@
 		"FireRateWhenShielded_prefix"	"+"
 
 		//Enchanter's Barrier
-		"upgrade_magic_shield_desc"		"당신이 <span class=\"highlight\">스피릿 보호막</span>을 가진 동안, 추가 <span class=\"highlight\">스피릿 위력</span>을 얻습니다."
-		"BonusSpiritWithMagicShield_label"		"보호막이 있을 때 스피릿 위력"
+		"upgrade_magic_shield_desc"		"당신이 <span class=\"highlight\">마법 보호막</span>을 가진 동안, 추가 <span class=\"highlight\">마력</span>을 얻습니다."
+		"BonusSpiritWithMagicShield_label"		"보호막이 있을 때 마력"
 		"BonusSpiritWithMagicShield_prefix"		"+"
 		"CooldownReductionWithShield_label"		"보호막이 있을 때 쿨다운 감소"
 		"CooldownReductionWithShield_prefix"	"+"
@@ -831,7 +831,7 @@
 		"modifier_unstoppable"							"저지불가"
 
 		//Colossus
-		"upgrade_colossus_desc"			"<span class=\"highlight\">총탄 및 스피릿 저항</span>을 얻고, 가까운 적의 <span class=\"highlight\">이동 및 대시 속도</span>를 늦춥니다. 모델 크기가 20% 증가합니다."
+		"upgrade_colossus_desc"			"<span class=\"highlight\">총탄 및 마법 저항</span>을 얻고, 가까운 적의 <span class=\"highlight\">이동 및 대시 속도</span>를 늦춥니다. 모델 크기가 20% 증가합니다."
 
 		//Ablative Coat
 		//"upgrade_ablative_coat_desc"			"Provides <span class=\"highlight\">Bullet Resist</span> but you lose some each time you take Weapon Damage. Loss can only happen once every {s:StackLossFrequency}s. Bullet Resist is restored when out of combat."
@@ -865,11 +865,11 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"<span class=\"highlight\">은신 상태</span>가 됩니다. 은신 상태에서 피해를 받으면 잠시 드러나게 됩니다."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>공격하거나 능력을 사용하면 은신가 해제되고 <span class=\"highlight\">기습</span> 상태가 되어, 잠시동안 추가 <span class=\"highlight\">연사 속도</span>와 <span class=\"highlight\">스피릿 위력</span>을 부여받습니다."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>공격하거나 능력을 사용하면 은신가 해제되고 <span class=\"highlight\">기습</span> 상태가 되어, 잠시동안 추가 <span class=\"highlight\">연사 속도</span>와 <span class=\"highlight\">마력</span>을 부여받습니다."
 		"modifier_cloaking_device_active_stealth"		"그림자 엮기 - 은신"
 		"modifier_cloaking_device_active_ambush"		"그림자 엮기 - 기습"
 		"AmbushBonusTechPower_prefix"					"+"
-		"AmbushBonusTechPower_label"					"기습 스피릿 위력"
+		"AmbushBonusTechPower_label"					"기습 마력"
 		"AmbushBonusFireRate_prefix"					"+"
 		"AmbushBonusFireRate_label"					"기습 연사 속도"
 		"AmbushBonusFireRate_postfix"					"%"
@@ -914,16 +914,16 @@
 		//"modifier_citadel_active_disarm_spirit_steal"	"Drain Will"
 
 		//Reactive Barrier
-		"upgrade_vex_barrier_desc"		"<span class=\"highlight\">이동 불가, 기절, 속박, 수면</span>상태에 걸릴 경우 임시 <span class=\"highlight\">총탄 및 스피릿 보호막</span>을 얻습니다."
+		"upgrade_vex_barrier_desc"		"<span class=\"highlight\">이동 불가, 기절, 속박, 수면</span>상태에 걸릴 경우 임시 <span class=\"highlight\">총탄 및 마법 보호막</span>을 얻습니다."
 		"upgrade_vex_barrier_shield"	"적응성 보호막"
 		"VexBarrierBulletMaxHealth_label"	"총탄 보호막 체력"
-		"VexBarrierTechMaxHealth_label"		"스피릿 보호막 체력"
+		"VexBarrierTechMaxHealth_label"		"마법 보호막 체력"
 		"VexBarrierShieldDuration_label"	"지속 시간"
 		"VexBarrierShieldDuration_postfix"	"초"
 
 		//Spell Shield
-		"upgrade_spellshield_desc"		"한 번의 <span class=\"highlight\">스피릿 피해</span> 또는 <span class=\"highlight\">약화 효과</span>를 차단합니다. 이 효과는 전투 중에는 재생되지 않습니다."
-		"upgrade_spellshield_shield"	"반 스피릿 인장"
+		"upgrade_spellshield_desc"		"한 번의 <span class=\"highlight\">마법 피해</span> 또는 <span class=\"highlight\">약화 효과</span>를 차단합니다. 이 효과는 전투 중에는 재생되지 않습니다."
+		"upgrade_spellshield_shield"	"반 마법 인장"
 		"upgrade_spellshield/modifier_spellshield_buff"  "반마법 보호구"
 		"upgrade_spellshield/modifier_spellshield_linger_buff"  "반마법 보호구 소실!"
 		"SpellShieldFlavorText_label"	"라벨!"
