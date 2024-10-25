@@ -52,10 +52,10 @@
 		//"citadel_ability_chain_lightning_t3"	"360 Cone"
 		//"citadel_ability_chain_lightning_t3_desc"	"Chain lightning can hit any enemies around the target."
 
-		"citadel_ability_static_charge"			"정전기 충전"
+		"citadel_ability_static_charge"			"정전기 폭발"
 		"citadel_ability_static_charge_desc"		"적 영웅에게 정전기를 보냅니다. 짧은 시간 후, 정전기가 폭발하여 대상과 주변의 적을 <span class=\"highlight\">기절시키고 피해를 줍니다</span>.<br>대체 시전하면 자신에게 정전기를 보냅니다."
 		"citadel_ability_static_charge_quip"	"적 영웅에게 지연된 범위 기절을 적용합니다."
-		"citadel_ability_static_charge/modifier_citadel_staticcharge"	"정전기 충전"
+		"citadel_ability_static_charge/modifier_citadel_staticcharge"	"정전기 폭발"
 
 		"citadel_ability_lightning_ball"		"번개 구체"
 		"citadel_ability_lightning_ball_quip"	"피해를 주는 번개 구체를 발사합니다."
@@ -63,11 +63,11 @@
 		"citadel_ability_lightning_ball_t3_desc" "+{s:DPS} 초당 피해 및 +{s:ShockRadius}m 반경"
 		"citadel_ability_lightning_ball/modifier_citadel_lightningball"	"번개 구체 둔화"
 
-		"ability_power_surge"					"전력 폭발"
+		"ability_power_surge"					"전력 충전"
 		"ability_power_surge_quip"			"사격에 연쇄 번개 효과를 부여합니다."
 		"ability_power_surge_desc"			"무기를 충전하여 사격 시 <span class=\"highlight\">대상에게 충격 피해를 입힙니다</span>. 이 피해는 <span class=\"highlight\">대상 주변의 적들에게 전이됩니다</span>. 한 번의 발사당 한 번 발생합니다."
-		"ability_power_surge_t1_desc"			"충격 피해가 대상에게 {s:TechResistDebuff}% 스피릿 저항. {s:DebuffDuration}초 지속."
-		"ability_power_surge_t3_desc"			"+{s:DamagePerChain} 충격 피해, 스피릿 위력 효율 증가, +{s:ChainCount} 최대 전이"
+		"ability_power_surge_t1_desc"			"충격 피해가 대상에게 {s:TechResistDebuff}% 마법 저항. {s:DebuffDuration}초 지속."
+		"ability_power_surge_t3_desc"			"+{s:DamagePerChain} 충격 피해, 마력 효율 증가, +{s:ChainCount} 최대 전이"
 		"modifier_power_surge"				"연쇄 번개"
 		"modifier_power_surge_debuff"			"정신 저항 감소"
 
@@ -180,7 +180,7 @@
 
 		"citadel_ability_shieldedsentry"		"소형 포탑"
 		"citadel_ability_shieldedsentry_quip"	"자동화 포탑을 배치합니다."
-		"citadel_ability_shieldedsentry_desc"	"적을 <span class=\"highlight\">자동으로 공격하는</span> 소형 포탑을 배치합니다. 포탑은 지속시간이 다한 후 파괴됩니다.<br>포탑의 최대 체력은 {s:hero_name}의 최대 체력의 {s:TurretHealthScaling}%이며,  {s:TechResist}%의 스피릿 저항을 가지고 있습니다. 포탑은 보병 및 목표물에게 감소된 피해를 줍니다."
+		"citadel_ability_shieldedsentry_desc"	"적을 <span class=\"highlight\">자동으로 공격하는</span> 소형 포탑을 배치합니다. 포탑은 지속시간이 다한 후 파괴됩니다.<br>포탑의 최대 체력은 {s:hero_name}의 최대 체력의 {s:TurretHealthScaling}%이며,  {s:TechResist}%의 마법 저항을 가지고 있습니다. 포탑은 보병 및 목표물에게 감소된 피해를 줍니다."
 		"citadel_ability_shieldedsentry_t1_desc"	"포탑이 적에게 <span class=\"highlight\">+{s:MoveSlowPercent}%</span> 이동 속도 둔화 적용."
 		"citadel_ability_shieldedsentry_t2_desc"	"<span class=\"highlight\">+{s:TurretAttackRange}m</span> 공격 범위 및 <span class=\"highlight\">+{s:AttackSpeedMult}%</span> 포탑 연사 속도."
 
@@ -206,7 +206,7 @@
 
 		"citadel_ability_fissure_wall/modifier_fissure_wall/modifier_bonus_damage_percent"			"벽 피해 약화 효과"
 
-		"citadel_ability_rocket_barrage"		"로켓 폭격"
+		"citadel_ability_rocket_barrage"		"집중 폭격"
 		"citadel_ability_rocket_barrage_quip"	"로켓으로 지역을 폭격합니다."
 		"citadel_ability_rocket_barrage_desc"	"목표 지점을 폭격하는 로켓을 연사합니다."
 		"citadel_ability_rocket_barrage_t1_desc"	"<span class=\"highlight\">{s:MoveSlowPercent}% 이동 속도 둔화</span> 적용"
@@ -217,7 +217,7 @@
 		"MaxDistance_postfix"					"m"
 		"MinDistance_label"						"최소 범위"
 		"MinDistance_postfix"					"m"
-		"citadel_ability_rocket_barrage/modifier_forge_heavy_barrage_stacking_slow" "로켓 폭격 둔화"	 
+		"citadel_ability_rocket_barrage/modifier_forge_heavy_barrage_stacking_slow" "집중 폭격 둔화"	 
 
 		//-----------------------------------------------------------------------------
 		// Wraith
@@ -237,7 +237,7 @@
 		"citadel_ability_projectmind_quip"		"대상 위치로 순간이동합니다"
 		"citadel_ability_projectmind_desc"			"대상 위치로 <span class=\"highlight\">순간이동</span>합니다."
 		"BulletShieldOnLand_label"				"순간이동 시 총탄 보호막"
-		"citadel_ability_projectmind_t2_desc"	"순간이동 시 <span class=\"highlight\">{s:BulletShieldOnLand} 총탄 보호막</span>을 얻음. {s:BulletShieldDuration}초 지속. 방어막 양은 스피릿 위력에 따라 증가"
+		"citadel_ability_projectmind_t2_desc"	"순간이동 시 <span class=\"highlight\">{s:BulletShieldOnLand} 총탄 보호막</span>을 얻음. {s:BulletShieldDuration}초 지속. 방어막 양은 마력에 따라 증가"
 		"modifier_wraith_project_mind_shield"				"총알 방어막"
 		"citadel_ability_projectmind/modifier_citadel_projectmind/modifier_wraith_project_mind_shield"	"총알 방어막"
 		"wraith_project_mind_t2_title"			"총알 방어막:"
@@ -398,7 +398,7 @@
 		"modifier_pulsegrenade_magic_resist_debuff"		"펄스 수류탄"
 
 		"modifier_citadel_chrono_pulse_grenade_debuff"					"펄스 수류탄"
-		"modifier_chrono_pulse_grenade_tech_resist_debuff"				"펄스 수류탄 - 영혼 저항 감소"
+		"modifier_chrono_pulse_grenade_tech_resist_debuff"				"펄스 수류탄 - 마법 피해 저항 감소"
 
 
 		"TriggerDelay_label"						"폭발 지연"
@@ -428,9 +428,9 @@
 		"citadel_ability_chrono_swap"				"뒤바뀐 역설"
 		"citadel_ability_chrono_swap_quip"		"적 영웅과 위치를 교환합니다."
 		"modifier_chrono_swap_bubble_move"		"뒤바뀐 역설"
-		"citadel_ability_chrono_swap_desc"		"투사체를 발사하여 <span class=\"highlight\">대상 적 영웅과 위치를 교환</span>합니다. 효과가 발생하는 동안, 당신은 <span class=\"highlight\">스피릿 피해 흡혈</span>을 얻으며, 적은 <span class=\"highlight\">초당 피해</span>를 입습니다."
+		"citadel_ability_chrono_swap_desc"		"투사체를 발사하여 <span class=\"highlight\">대상 적 영웅과 위치를 교환</span>합니다. 효과가 발생하는 동안, 당신은 <span class=\"highlight\">마법 피해 흡혈</span>을 얻으며, 적은 <span class=\"highlight\">초당 피해</span>를 입습니다."
 		"modifier_citadel_chrono_swap_debuff"		"둔화"
-		"modifier_citadel_chrono_swap_buff"		"스피릿 면역"
+		"modifier_citadel_chrono_swap_buff"		"마법 면역"
 		//"CooldownOnMiss_Label"					"Cooldown on miss"
 		"CooldownOnMiss_postfix"					"초"
 		//"AllyCooldownReduction_label"				"Ally Cooldown Reduction"
@@ -460,7 +460,7 @@
 
 		"citadel_ability_chrono_kinetic_carbine"		"관성 카빈"
 		"citadel_ability_chrono_kinetic_carbine_quip"	"무기를 충전하여 높은 피해와 시간 정지를 부여합니다."
-		"citadel_ability_chrono_kinetic_carbine_desc"	"무기를 충전하여 충전 완료 시 <span class=\"highlight\">이동 속도 증가</span>를 얻습니다. 다음 발사는 에너지를 방출하여 적에게 <span class=\"highlight\">스피릿 피해</span>를 주고 <span class=\"highlight\">시간 정지</span>를 적용합니다. 피해는 현재 무기 피해의 증폭입니다. <br><br>충전된 상태에서 [{s:iv_attack2}]를 눌러 스스로의 시간을 느리게 할 수 있습니다."
+		"citadel_ability_chrono_kinetic_carbine_desc"	"무기를 충전하여 충전 완료 시 <span class=\"highlight\">이동 속도 증가</span>를 얻습니다. 다음 발사는 에너지를 방출하여 적에게 <span class=\"highlight\">마법 피해</span>를 주고 <span class=\"highlight\">시간 정지</span>를 적용합니다. 피해는 현재 무기 피해의 증폭입니다. <br><br>충전된 상태에서 [{s:iv_attack2}]를 눌러 스스로의 시간을 느리게 할 수 있습니다."
 		"citadel_ability_chrono_kinetic_carbine_t2_desc"	"{s:AbilityCooldown}초 쿨다운 및 +{s:SpeedBoostDuration}초 이동 속도 증가"
 		"citadel_ability_chrono_kinetic_carbine_charged"	"충전 완료!"
 		"citadel_ability_chrono_kinetic_carbine_expiring"	"만료 중"
@@ -486,7 +486,9 @@
 		"MinSlowDuration_label"						"최소 정지 지속 시간"
 		"MinSlowDuration_postfix"						"초"
 		"citadel_ability_chrono_kinetic_carbine/modifier_chrono_kinetic_carbine"  "운동성 카빈"
-
+		"CarbineHeadshotBonus_prefix"				"+"
+		"CarbineHeadshotBonus_label"				"HeadShot Bonus"
+		"CarbineHeadshotBonus_postfix"				"%"
 
 		//-----------------------------------------------------------------------------
 		// Revenant
@@ -550,7 +552,7 @@
 
 		"FlameAuraRadius_label"			"흔적 폭"
 		"FlameAuraRadius_postfix"			"m"
-		"FlameDashDebuff_label"			"추가 스피릿 피해"
+		"FlameDashDebuff_label"			"추가 마법 피해"
 		"FlameDashDebuff_postfix"		"%"
 		"GroundFlameDuration_label"		"흔적 지속 시간"
 		"GroundFlameDuration_postfix"		"초"
@@ -572,7 +574,7 @@
 		"ability_afterburn"			"후속 연소"
 		"ability_afterburn_quip"	"총탄이 적들을 불태웁니다."
 		"ability_afterburn_desc"	"적을 계속하여 적중하면 적을 <span class=\"highlight\">불태웁니다</span>. {s:hero_name}의 총알과 능력이 <span class=\"highlight\">연소 지속 시간을 갱신</span>합니다."
-		"ability_afterburn_t1_desc"	"피해를 입은 적이 가하는 스피릿 피해 <span class=\"highlight\">{s:AfterburnSpiritDamageReduction}%</span>"
+		"ability_afterburn_t1_desc"	"피해를 입은 적이 가하는 마법 피해 <span class=\"highlight\">{s:AfterburnSpiritDamageReduction}%</span>"
 
 		"modifier_citadel_afterburn_buildup"	"점화 중"
 		"BuildUpBulletPercentPerHit_label"		"총알당 점화 비율"
@@ -731,7 +733,7 @@
 		"ability_stacking_damage_desc"	"대상에게 <span class=\"highlight\"> 총탄을 맞추면 그 대상에게 가하는 총탄 피해가 증가합니다</span>. 총탄 적중당 하나의 <span class=\"highlight\">중첩</span>을 얻으며, 헤드샷 적중 시 두 개의 중첩을 얻습니다."
 		"ability_stacking_damage/modifier_passive_haze_stacking_damage"		"집요함"
 
-		"ability_stacking_damage_t1_desc" "<span class=\"highlight\">{s:ProcDamageStackCount}</span> 중첩마다 <span class=\"highlight\">{s:ProcDamage}</span> 스피릿 피해 및 <span class=\"highlight\">{s:SlowPercent}%</span> 둔화 효과를 <span class=\"highlight\">{s:SlowDuration}초</span> 동안 적용"
+		"ability_stacking_damage_t1_desc" "<span class=\"highlight\">{s:ProcDamageStackCount}</span> 중첩마다 <span class=\"highlight\">{s:ProcDamage}</span> 마법 피해 및 <span class=\"highlight\">{s:SlowPercent}%</span> 둔화 효과를 <span class=\"highlight\">{s:SlowDuration}초</span> 동안 적용"
 		"ability_stacking_damage_t2_desc" "<span class=\"highlight\">+{s:MaxStacks}</span> 최대 중첩 및 지속시간 <span class=\"highlight\">+{s:AbilityDuration}초</span>"
 
 		"DamageBonusFixedPerStack_label"					"중첩 피해"
@@ -775,11 +777,11 @@
 		"StompWidth_postfix"					"m"
 		"modifier_stomp_debuff"					"파동 약화 효과"
 
-		"citadel_ability_void_sphere"				"양자 얽힘"
+		"citadel_ability_void_sphere"				"양자 결속"
 		"citadel_ability_void_sphere_quip"		"무적 상태로 순간이동합니다."
-		"citadel_ability_void_sphere_desc"		"{s:hero_name}은 잠시 <span class=\"highlight\">다른 차원으로 사라졌다가</span> 짧은 거리에서 다시 나타납니다. 다시 나타날 때, 무기가 <span class=\"highlight\">재장전</span>되며 다음 탄창에 <span class=\"highlight\">연사 속도 보너스</span>가 부여됩니다. [{s:key_alt_cast}]로 대체 시전 시, 근처 아군을 함께 이동시키고 그들에게 절반의 연사 속도 보너스를 제공합니다."
+		"citadel_ability_void_sphere_desc"		"{s:hero_name}는 잠시 <span class=\"highlight\">다른 차원으로 사라지고</span> 짧은 거리를 이동 후 다시 나타납니다. 다시 나타날 때, 무기가 <span class=\"highlight\">재장전</span>되며 다음 탄창에 <span class=\"highlight\">연사 속도 보너스</span>가 부여됩니다. [{s:key_alt_cast}]로 대체 시전 시, 근처 아군을 함께 이동시키고 그들에게 절반의 연사 속도 보너스를 제공합니다."
 		"citadel_ability_void_sphere_t3_desc"		"다시 나타날 때, <span class=\"highlight\">기본 탄창 크기가 {s:BonusClipSizePercent}%</span> 증가"
-		"modifier_void_sphere"					"양자 얽힘"
+		"modifier_void_sphere"					"양자 결속"
 		//"modifier_voidsphere_buff"				"Void Sphere +Fire Rate"
 		"AllyDistance_label"						"아군 거리"
 		"AllyDistance_postfix"					"m"
@@ -826,7 +828,7 @@
 		"HealingPerSecond_postfix"				"/초"
 		"ShareWithFriendsRadius_label"			"아군 치유 반경"
 		"ShareWithFriendsRadius_postfix"			"m"
-		"modifier_nikuman_techshield"				"스피릿 보호막"
+		"modifier_nikuman_techshield"				"마법 보호막"
 		//"modifier_nikuman_buff"					"+Fire Rate"
 		//"modifier_nikuman_self_buff"				"+Movement Speed"
 		//"FireRatePerSecondDuration_label"			"Fire Rate Duration"
@@ -890,7 +892,7 @@
 		"WeaponPowerGainPercent_postfix"			"%"
 
 		//-----------------------------------------------------------------------------
-		// Hero Warden
+		// Warden 
 		//-----------------------------------------------------------------------------
 		"ability_warden_lock_down"				"구속 명령"
 		"ability_warden_lock_down_quip"			"대상을 저주하여 이동하지 않으면 구속시킵니다."
@@ -907,9 +909,9 @@
 		"modifier_warden_lockdown_root"			"구속 명령"
 
 		"ability_warden_high_alert"				"의지"
-		"ability_warden_high_alert_quip"			"스피릿 보호막을 얻고 이동 속도가 증가합니다."
-		"ability_warden_high_alert_desc"			"<span class=\"highlight\">스피릿 보호막</span>과 <span class=\"highlight\">보너스 이동 속도</span>를 얻습니다."
-		"ability_warden_high_alert_t3_desc"		"<span class=\"highlight\">+{s:TechShieldPoints}</span> 스피릿 보호막 체력 및 스피릿 위력에 따라 효과 증가."
+		"ability_warden_high_alert_quip"			"마법 보호막을 얻고 이동 속도가 증가합니다."
+		"ability_warden_high_alert_desc"			"<span class=\"highlight\">마법 보호막</span>과 <span class=\"highlight\">보너스 이동 속도</span>를 얻습니다."
+		"ability_warden_high_alert_t3_desc"		"<span class=\"highlight\">+{s:TechShieldPoints}</span> 마법 보호막 체력 및 마력에 따라 효과 증가."
 		"MoveSpeedBonusPct_label"					"이동 속도 보너스"
 		"MoveSpeedBonusPct_postfix"				"%"
 		"TechShieldPoints_label"					"정신 보호막 체력"
@@ -920,18 +922,24 @@
 		"ability_warden_crowd_control"			"연금술 약병"
 		"ability_warden_crowd_control_quip"		"근처의 적들에게 피해와 약화 효과를 줍니다."
 		"ability_warden_crowd_control_desc"		"약병을 던져서 적들에게 <span class=\"highlight\">피해를 입히고, 느려지게 하며,</span> <span class=\"highlight\">무기 피해</span>와 <span class=\"highlight\">스테미나</span>를 감소시킵니다."
+		"ability_warden_crowd_control_t1_desc"	"적중 시 대상의 스테미나 <span class=\"highlight\">{s:StaminaReduction}</span> 감소"
 		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown}s</span> 쿨다운 및 <span class=\"highlight\">{s:FireRateSlow}%</span> 연사 속도 감소 적용"
 		"MoveSpeedSlowPct_label"					"이동 둔화"
 		"MoveSpeedSlowPct_postfix"				"%"
 		"WeaponPowerDebuff_label"					"무기 피해"
 		"WeaponPowerDebuff_postfix"				"%"
 		"modifier_warden_crowd_control_debuff"	"연금술 약병"
+		"FlaskDebuffDuration_label"				"Weapon Debuff Duration"
+		"FlaskDebuffDuration_postfix"			"s"
 
 		"ability_warden_riot_protocol"			"최후의 저항"
 		"ability_warden_riot_protocol_quip"		"적들에게 피해를 주고 생명력을 흡수하는 파동을 방출합니다."
 		"ability_warden_riot_protocol_desc"		"{s:AbilityCastDelay}초 동안 정신집중 후, <span class=\"highlight\">적들에게 피해를 주고 자신을 치유하는 파동을 방출합니다</span>. 피해를 가하면 스스로를 치유합니다.<br>정신집중 중에 대량의 <span class=\"highlight\">총탄 피해 저항</span>을 얻습니다."
+		"ability_warden_riot_protocol_t3_desc"	"<span class=\"highlight\">{s:AbilityCooldown}초</span> 쿨다운 및 정신집중 중 <span class=\"highlight\">저지불가 효과</span>를 얻음."
 		"modifier_warden_riot_protocol"			"최후의 저항"
 		"modifier_warden_riot_protocol_enemy_debuff"	"둔화"
+
+		//UnstoppableCastDelay
 		"HealthStealPctHero_label"				"영웅 흡혈"
 		"HealthStealPctHero_postfix"				"%"
 
@@ -952,19 +960,19 @@
 		//-----------------------------------------------------------------------------
 		// Wrecker
 		//-----------------------------------------------------------------------------
-		"ability_wrecking_ball"				"파괴 공"
-		"ability_wrecking_ball_quip"			"적들을 기절시키는 파괴 공을 던지다"
-		"ability_wrecking_ball_desc"			"큰 파괴 공을 생성하여 던지며, <span class=\"highlight\">피해를 주고 기절시킵니다</span>. 공을 생성하는 데 시간이 걸리며, 공을 들고 있는 동안 이동 속도가 느려집니다."
+		"ability_wrecking_ball"				"파쇄 구체"
+		"ability_wrecking_ball_quip"			"적들을 기절시키는 파쇄 구체를 던집니다"
+		"ability_wrecking_ball_desc"			"고철로 커다란 구체를 만들어 던지며, 적중한 대상에게 <span class=\"highlight\">피해를 주고 기절시킵니다</span>. 구체를 생성하는 데 시간이 걸리며, 구체를 들고 있는 동안 이동 속도가 느려집니다."
 		"WreckingBallDamage_label"			"피해"
 		"WreckingBallPickupTime_label"		"생성 시간"
 		"WreckingBallPickupTime_postfix"		"초"
 		"MoveSpeedLimit_label"				"이동 속도"
 		"MoveSpeedLimit_postfix"				"m/s"
-		"modifier_wrecking_ball_auto_throw"	"파괴 공"
-		"hint_throw_wrecking_ball"			"공 던지기"
+		"modifier_wrecking_ball_auto_throw"	"파쇄 구체"
+		"hint_throw_wrecking_ball"			"구체 던지기"
 
 		"ability_wrecker_salvage"				"소비"
-		"ability_wrecker_salvage_desc"		"<span class=\"highlight\">적 영웅 또는 NPC를 기절시키고</span>, 피해를 입히며 처치하면 <span class=\"highlight\">연사 속도</span> 보너스를 얻고 <span class=\"highlight\">바이오 블라스트</span> 충전이 회복됩니다. 이 보너스는 독립적으로 중첩됩니다."
+		"ability_wrecker_salvage_desc"		"적 보병 또는 중립 몬스터를 붙잡아 <span class=\"highlight\">기절시키고</span>, 붙잡는 동안 지속 피해를 입힙니다. 이 능력으로 대상이 사망 시 <span class=\"highlight\">연사 속도</span>를 얻고 <span class=\"highlight\">생체 폭발</span> 충전이 회복됩니다. 이 효과는 독립적으로 중첩됩니다."
 		"ability_wrecker_salvage_quip"		"적 영웅 또는 중립 생물을 소비하다"
 		"FireRateBuffDuration_label"			"보너스 지속 시간"
 		"FireRateBuffDuration_postfix"		"초"
@@ -976,34 +984,34 @@
 
 		"modifier_wrecker_salvage_buff"		"연사 속도 증가"
 
-		"ability_scrap_blast"					"바이오 블라스트"
-		"ability_scrap_blast_desc"			"소비된 잔해의 폭발을 발사하여 <span class=\"highlight\">피해를 주고</span> <span class=\"highlight\">적을 느리게 합니다</span>. 여러 번 타격 시 느려지기가 증가합니다."
-		"ability_scrap_blast_quip"			"바이오 물질을 발사하다"
-		"EnemyMoveSlow_label"					"타격당 적 느려지기"
+		"ability_scrap_blast"					"생체 폭발"
+		"ability_scrap_blast_desc"			"소비된 잔해의 폭발을 발사하여 <span class=\"highlight\">피해를 주고</span> <span class=\"highlight\">둔화</span>시킵니다. 여러 번 타격 시 둔화량이 증가합니다."
+		"ability_scrap_blast_quip"			"생체 물질을 발사합니다."
+		"EnemyMoveSlow_label"					"타격당 적 둔화"
 		"EnemyMoveSlow_postfix"				"%"
-		"EnemyMoveSlowDuration_label"			"적 둔화 지속 시간"
+		"EnemyMoveSlowDuration_label"			"둔화 지속 시간"
 		"EnemyMoveSlowDuration_postfix"		"초"
 		"ScrapDamage_label"					"피해"
 		"ability_scrap_blast/modifier_scrap_blast_debuff"		"둔화"
 
-		"ability_wrecker_ultimate"			"자기장 플럭스"
-		"ability_wrecker_ultimate_desc"		"<span class=\"highlight\">적을 잡아</span> <span class=\"highlight\">정지 상태</span>로 만든 후 머리 위에 들고 있습니다. <span class=\"highlight\">적을 기절시키고</span>, <span class=\"highlight\">피해를 입힙니다</span>. 잡힌 NPC는 <span class=\"highlight\">소비됩니다</span>."
+		"ability_wrecker_ultimate"			"자기장 휘몰이"
+		"ability_wrecker_ultimate_desc"		"레커가 바라본 <span class=\"highlight\">적을 잡아</span> 머리 위로 들어 올려 <span class=\"highlight\">정지 상태</span>로 만듭니다. 효과 만료 시 붙잡힌 적을 <span class=\"highlight\">기절시키고</span>, <span class=\"highlight\">피해를 입힙니다</span>. 붙잡힌 NPC는 <span class=\"highlight\">소비됩니다</span>."
 		//"ThrowDamage_label"					"Throw Damage"
 		//"GrabRange_label"						"Grab Range"
 		"GrabRange_postfix"					"m"
-		"ability_wrecker_ultimate_t3_desc"	"Wrecker는 사용 중 <span class=\"highlight\">무적</span> 상태가 됩니다."
+		"ability_wrecker_ultimate_t3_desc"	"레커가 자기장 휘몰이 사용 중 <span class=\"highlight\">무적</span> 상태가 됩니다."
 
 		"wrecker_ultimate_grab_debuff"		"정지 상태"
 
-		"ability_wrecker_teleport"			"천상의 걸음"
-		"ability_wrecker_teleport_desc"		"<span class=\"highlight\">조종 가능한 그림자 복사체를 발사하여</span>, 원래의 몸을 복사체가 착지한 곳으로 텔레포트합니다. 텔레포트 폭발은 <span class=\"highlight\">적을 느리게 하고 피해를 입힙니다</span>."
-		"ability_wrecker_teleport_quip"		"자신의 그림자 복사체를 발사하여, 복사체 착지 위치로 원래 몸을 텔레포트합니다"
-		"DamagePerSecondFlown_label"			"초당 피해"
+		"ability_wrecker_teleport"			"이계의 발걸음"
+		"ability_wrecker_teleport_desc"		"<span class=\"highlight\">조종 가능한 환영을 발사하여</span>, 환영이 도착한 곳으로 순간이동합니다. 순간이동 시 날아간 시간에 비례하여 <span class=\"highlight\">피해를 입히고 적들을 둔화시킵니다</span>."
+		"ability_wrecker_teleport_quip"		"자신의 환영을 발사하며, 도착한 곳으로 순간이동합니다."
+		"DamagePerSecondFlown_label"			"날아간 시간 당 피해"
 
 		//-----------------------------------------------------------------------------
 		// Lash
 		//-----------------------------------------------------------------------------
-		"citadel_ability_lash"					"갈고리 도약"
+		"citadel_ability_lash"					"추격의 갈고리"
 		"citadel_ability_lash_quip"				"대상에게로 자신을 끌어당깁니다."
 		"citadel_ability_lash_desc"				"<span class=\"highlight\">대상 유닛 방향으로 도약합니다</span>. 갈고리 시전 시 모든 <span class=\"highlight\">공중 점프와 대시</span>가 복원됩니다."
 
@@ -1024,7 +1032,7 @@
 		"citadel_ability_lash_down_strike_desc"		"땅을 내려쳐 <span class=\"highlight\">앞에 있는 적들에게 피해를 입히고 {s:EnemySlowPct}%의 둔화를 {s:SlowDuration}초 동안 적용</span>합니다. 공중에서 시전 시 빠르게 땅으로 낙하합니다. 25m 이상 떨어진 곳에서는 피해 증가가 감소합니다."
 		"StompDamagePerMeterPrimary_label"					"미터당 피해"
 		"citadel_ability_lash_down_strike_t2_desc"	"적중한 적들이 <span class=\"highlight\">공중으로 튕겨져 나가며</span> {s:EnemySlowPct}% 둔화함. {s:SlowDuration}초 지속"
-		"citadel_ability_lash_down_strike_t3_desc"	"<span class=\"highlight\">m당 피해</span> +110% 및 스피릿 위력 효율 증가"
+		"citadel_ability_lash_down_strike_t3_desc"	"<span class=\"highlight\">m당 피해</span> +110% 및 마력 효율 증가"
 
 
 		// Custom Tool Tip +(8.75/7)% damage
@@ -1056,7 +1064,7 @@
 		//"WeaponPowerScalingTooltip_label"			"Courage Bonus Damage"
 		"WeaponPowerScalingTooltip_postfix"		"%"
 		"TargetingConeAngle_label"				"공격 각도"
-		"TargetingConeAngle_postfix"				"º"
+		"TargetingConeAngle_postfix"				"도"
 		"ability_lash_flog/modifier_lash_flog_debuff"	"채찍"
 
 		//"citadel_ability_lash_high_explosive"	"High Explosive"
@@ -1091,7 +1099,7 @@
 		"ability_ice_grenade_quip"			"적들에게 피해를 주고 느리게 합니다."
 
 		"ability_ice_grenade_desc"			"냉기가 가득한 수류탄을 던져 <span class=\"highlight\">피해를 주고</span> <span class=\"highlight\">적들을 둔화합니다</span>."
-		"ability_ice_grenade_t2_desc"		"서리 수류탄의 아군 치유량 <span class=\"highlight\">{s:HealAmount}</span> 및 스피릿 위력에 따라 효과 증가."
+		"ability_ice_grenade_t2_desc"		"서리 수류탄의 아군 치유량 <span class=\"highlight\">{s:HealAmount}</span> 및 마력에 따라 효과 증가."
 		"ability_ice_grenade/kelvin_ice_grenade_slow"	"서리 수류탄 둔화"
 
 		"ability_icebeam"					"극지 광선"
@@ -1115,7 +1123,7 @@
 		"ability_icepath"					"얼음 길"
 		"ability_icepath_quip"				"빠른 속도로 떠다니는 얼음 길을 만듭니다."
 		"ability_icepath_desc"				"{s:hero_name}가 <span class=\"highlight\">떠다니는 얼음과 눈의 길</span>을 생성하여 자신과 아군에게 추가 이동 속도를 줍니다. 켈빈은 {s:SlowResistancePercent}%의 둔화 저항을 얻습니다. 적들도 길 위를 걸을 수 있습니다. <br> 얼음 길을 생성하는 동안 [{s:key_innate_1}] / [{s:key_duck}]를 눌러 위아래로 이동할 수 있습니다."
-		"ability_icepath_t3_desc"			"활성화 중, 얼음 경로를 생성할 때마다 +{s:BonusSpiritMeter} 스피릿 위력 얻음. 최대 {s:BonusSpiritMax} 스피릿 위력"
+		"ability_icepath_t3_desc"			"활성화 중, 얼음 경로를 생성할 때마다 +{s:BonusSpiritMeter} 마력 얻음. 최대 {s:BonusSpiritMax} 마력"
 		"SprintSpeedBonus_label"				"달리기 속도"
 		"SprintSpeedBonus_prefix"				"+"
 		"SprintSpeedBonus_postfix"			"m/s"
@@ -1124,16 +1132,16 @@
 		//"BonusTechPower_label"				"Spirit Power while Pathing"
 		//"IcePathShardRadius_label"			"Path Width"
 		"IcePathShardRadius_postfix"			"m"
-		"BonusTechDamagePercent_label"		"스피릿 위력 보너스 피해"
+		"BonusTechDamagePercent_label"		"마력 보너스 피해"
 		"BonusTechDamagePercent_postfix"		"%"
 		"ability_icepath/modifier_icepath/modifier_icepath_friendly_aura/modifier_icepath_buff"			"얼음 경로"
 		"AbilityButtonHint_CancelIcePath"	"얼음 경로 취소"
 
 		"ability_ice_dome"				"얼어붙은 성채"
 		"ability_ice_dome_quip"			"파괴할 수 없는 치유의 돔 생성"
-		"ability_ice_dome_desc"			"{s:hero_name}이 주변 공기를 얼려서 <span class=\"highlight\">파괴할 수 없는 돔</span>을 생성합니다. 돔 내에서 아군은 빠르게 <span class=\"highlight\">체력을 회복</span>을 하고, 적들은 <span class=\"highlight\">느려집니다</span>."
+		"ability_ice_dome_desc"			"{s:hero_name}이 주변 공기를 얼려서 <span class=\"highlight\">파괴할 수 없는 돔</span>을 생성합니다. 돔 내에서 아군은 빠르게 <span class=\"highlight\">체력을 회복</span>을 하고, 적들은 <span class=\"highlight\">느려집니다</span>.<br>목표 건물과 소생의 보석은 돔 내에서 무적 상태로 얼어붙어 상호작용할 수 없습니다."
 		"ability_ice_dome_t1_desc"		"<span class=\"highlight\">+{s:FireRateSlow}%</span> 연사 속도 감소"
-		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> 체력 회복 및 스피릿 위력 효율 증가."
+		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">+{s:BonusHealthRegen}</span> 체력 회복 및 마력 효율 증가."
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"얼어붙은 성채"
 		"frozen_shelter_modifier_buff"		"얼어붙은 성채"
 		"ability_ice_dome/modifier_ice_dome/ice_dome_enemy_aura/modifier_debuff"	"얼어붙은 성채"
@@ -1163,7 +1171,7 @@
 
 		"citadel_ability_sticky_bomb"			"끈끈이 폭탄"
 		"citadel_ability_sticky_bomb_quip"		"적에게 폭탄을 부착합니다."
-		"citadel_ability_sticky_bomb_desc"		"근처의 대상에게 끈끈이 폭탄을 붙여 짧은 지연 시간 후에 <span class=\"highlight\">폭발 피해</span>를 입힙니다. <br> 적 영웅이 맞을 때마다 영구적으로 <span class=\"highlight\"> 폭탄 피해가 +{s:BonusDamagePctPerPlayerHit}% 증가</span>합니다. 사망 시 중첩을 {s:BonusLossPerDeath} 잃습니다.  <br> [{s:key_alt_cast}]를 사용해 자신에 끈끈이 폭탄을 붙일 수 있습니다."
+		"citadel_ability_sticky_bomb_desc"		"근처의 대상에게 끈끈이 폭탄을 붙여 짧은 지연 시간 후에 <span class=\"highlight\">폭발 피해</span>를 입힙니다. <br> 적 영웅이 맞을 때마다 <span class=\"highlight\"> 폭탄 피해가 +{s:BonusDamagePctPerPlayerHit}% 증가</span>합니다. 사망 시 피해 중첩을 {s:BonusLossPerDeath}% 잃습니다.  <br> [{s:key_alt_cast}]를 사용해 자신에 끈끈이 폭탄을 붙일 수 있습니다."
 		"modifier_citadel_sticky_bomb_attached"	"폭탄 부착됨"
 		"citadel_ability_sticky_bomb_t3_desc"	"부착 시, <span class=\"highlight\">대상을 무장 해제</span>시킴. {s:DebuffDuration}초 지속"
 		"StunTargetOnExplode_label"				"지속 시간"
@@ -1220,9 +1228,9 @@
 		// Astro
 		//-----------------------------------------------------------------------------
 		"ability_explosive_barrel"					"화약통"
-		"ability_explosive_barrel_quip"				"총으로 쏴서 폭발하는 통을 던지세요"
-		"ability_explosive_barrel_desc"				"폭발할 <span class=\"highlight\">통</span>을 배치하여, <span class=\"highlight\">총으로 쏘거나</span>, <span class=\"highlight\">근접 공격</span>이나 <span class=\"highlight\">바운스 패드</span>에 의해 떨어질 때 폭발합니다. 폭발 전 최소 시간까지 있습니다."
-		"ability_explosive_barrel_t3_desc"			"{s:AbilityCooldown} 쿨다운<br>폭발 전 시간 없음"
+		"ability_explosive_barrel_quip"				"총으로 쏴서 폭발하는 통을 던집니다"
+		"ability_explosive_barrel_desc"				"폭발하는 <span class=\"highlight\">통</span>을 배치하여, <span class=\"highlight\">총으로 쏘거나</span>, <span class=\"highlight\">근접 공격</span>이나 <span class=\"highlight\">튕기는 발판</span>으로 날아간 후 폭발합니다. 활성화 시간이 지나기 전에는 폭발하지 않습니다."
+		"ability_explosive_barrel_t3_desc"			"{s:AbilityCooldown} 쿨다운 및<br>활성화 시간 없음"
 		//"BarrelLifetime_label"						"Barrel Life Time"
 		"BarrelLifetime_postfix"						"초"
 		//MinExplodeTime_label						"Min Time to Explode"
@@ -1238,15 +1246,15 @@
 		"BarrelDamageRadius_postfix"						"m"
 
 		"ability_hat_trick"						"모자 트릭"
-		"ability_hat_trick_quip"				"모자를 던져 적을 맞추고 드러내세요"
+		"ability_hat_trick_quip"				"모자를 던져 적을 맞추고 위치를 드러냅니다"
 		"ability_hat_trick_desc"				"모자를 던져 적을 맞추고, <span class=\"highlight\">느리게</span> 하며 <span class=\"highlight\">벽을 통해 드러내</span>습니다."
 
-		"ability_bounce_pad"					"바운스 패드"
+		"ability_bounce_pad"					"튕기는 발판"
 		"ability_bounce_pad_quip"				"자신과 다른 이들을 날려 보내세요"
-		"ability_bounce_pad_desc"				"세상에 바운스 패드를 놓아 <span class=\"highlight\">자신과 다른 영웅들을 날려 보내세요</span>. 착지 시 <span class=\"highlight\">주변 적들에게 피해를 주는</span> 발을 내리칩니다."
-		"ability_bounce_pad_t1_desc"			"<span class=\"highlight\">+{s:SpeedOnLand}m/s</span> 이동 속도 보너스를 착지 시 {s:SpeedOnLandDuration}초 부여합니다."
-		"ability_bounce_pad_t2_desc"			"<span class=\"highlight\">+{s:StompDamage}</span> 발구르기 피해, 향상된 스케일링"
-		"ability_bounce_pad_t3_desc"			"<span class=\"highlight\">+{s:StompStunDuration}초 기절</span> 발구르기 시 기절"
+		"ability_bounce_pad_desc"				"지형에 튕기는 발판을 놓아 <span class=\"highlight\">밟은 영웅을 날려버립니다</span>. 착지 시 발을 크게 굴러 <span class=\"highlight\">주변 적들에게 피해</span>를 입힙니다."
+		"ability_bounce_pad_t1_desc"			"착지 시 이동 속도 <span class=\"highlight\">+{s:SpeedOnLand}m/s</span>, {s:SpeedOnLandDuration}초 지속."
+		"ability_bounce_pad_t2_desc"			"<span class=\"highlight\">+{s:StompDamage}</span> 발구르기 피해, 마력 계수 향상"
+		"ability_bounce_pad_t3_desc"			"발구르기에 적중한 대상에게 <span class=\"highlight\">+{s:StompStunDuration}초 기절</span>"
 		"StompDamage_label"			"발구르기 피해"
 		"StompStunDuration_postfix"					"초"
 		"StompStunDuration_label"					"지속 시간"
@@ -1254,8 +1262,15 @@
 		"StompRadius_postfix"						"m"
 		//"MinAirTimeForStomp_label"					"Min Air Time for Stomp"
 		//"MinAirTimeForStomp_postfix"				"s"
-		"ability_bounce_pad/speed_on_land""Move Speed"
+		"ability_bounce_pad/speed_on_land"		"이동 속도"
 
+		"ability_crackshot"						"급소 사격"
+		"ability_crackshot_quip"				"헤드샷 적중 시 추가 피해를 입히며 둔화시킵니다"
+		"ability_crackshot_desc"				"헤드샷이 대상에게 추가 <span class=\"highlight\">총탄 피해</span>와 <span class=\"highlight\">점차 감소하는 둔화</span>효과를 줍니다. 이 효과는 쿨다운 중일 때에는 발동하지 않습니다. <br><br><span class=\"diminish\">급소 사격 효과는 거리별 피해 감소 효과를 무시합니다.</span>"
+		"FadingSlowPercent_label" "이동 둔화"
+		"FadingSlowPercent_postfix" "%"
+		"AbilityCooldownPerHeadshot_label" "헤드샷 당 쿨다운"
+		"AbilityCooldownPerHeadshot_postfix" "초"
 
 		//"citadel_ability_running_decoy"					"Decoy"
 		//"citadel_ability_running_decoy_desc"			"{s:hero_name} creates a temporary decoy that will run towards the target location and shoot at any nearby enemies."
@@ -1270,7 +1285,7 @@
 		//"citadel_trick_shot_desc"		"Toss a Shooting Star that will fire slowing bullets at nearby enemies.  Shoot the Star to increase its fire rate (Enemies can shoot it to slow it down).  Weapon upgrades apply to Shooting Star."
 		//"TrickShotTargetCount_label"		"Targets Per Shot"
 
-		"BulletSlowDuration_label"			"느리게 지속 시간"
+		"BulletSlowDuration_label"			"둔화 지속 시간"
 		"BulletSlowDuration_postfix"			"초"
 
 		//"ability_target_practice"			"Target Practice"
@@ -1303,21 +1318,21 @@
 		"DamageAmplificationPerStack_label"	"Bonus Damage per Stack"
 		"DamageAmplificationPerStack_postfix"	"%"
 
-		"ability_gravity_lasso"				"Spirit Lasso"
-		"ability_gravity_lasso_quip"		"Grab an enemy and drag them behind you"
-		"ability_gravity_lasso_desc"		"<span class=\"highlight\">Grab an enemy</span> with your lasso and drag them along behind you. The <span class=\"highlight\">enemy is stunned</span> and Astro is slowed slightly during the lasso.<br><br> Lasso duration is paused for {s:BouncePadExtendDuration}s during the first usage of a bounce pad."
-		"modifier_astro_lasso_tether"		"Lasso Chained"
-		"ability_gravity_lasso_t3_desc"		"Can lasso another enemy inside targetting area"
-		"ability_gravity_lasso/modifier_citadel_gravity_lasso_enemy"	"Spirit Lasso"
-		"ability_gravity_lasso/modifier_citadel_gravity_lasso_self"		"Spirit Lasso"
+		"ability_gravity_lasso"				"영혼 올가미"
+		"ability_gravity_lasso_quip"		"적을 붙잡아 뒤로 끌고 갑니다."
+		"ability_gravity_lasso_desc"		"올가미를 던져 <span class=\"highlight\">적을 붙잡고</span> 등 뒤로 끌고 다닙니다. 대상 영웅은 올가미 지속시간 동안 <span class=\"highlight\">기절</span>하며 홀리데이는 둔화합니다.<br><br> 첫 번째로 튕기는 발판을 탈 경우 지속시간이 {s:BouncePadExtendDuration}초 정지합니다."
+		"modifier_astro_lasso_tether"		"올가미 묶임"
+		"ability_gravity_lasso_t3_desc"		"올가미로 두 번째 대상을 묶음"
+		"ability_gravity_lasso/modifier_citadel_gravity_lasso_enemy"	"영혼 올가미"
+		"ability_gravity_lasso/modifier_citadel_gravity_lasso_self"		"영혼 올가미"
 		//"ability_astro_shotgun_toggle"			"Force of Nature"
 		//"ability_astro_shotgun_toggle_desc"		"Use to toggle between your pistol and shotgun. The shotgun so powerful it forces {s:hero_name} to move the opposite direction of the shot while airborn. [{s:iv_attack}] shoots forward and [{s:iv_attack2}] shoots behind you with a slight delay. The shotgun uses special bullets that does not benefit from ammo mods. <br><br>Lassoed units do not take damage when shooting backwards."
-		"ClipSizeOverride_label"			"Ammo"
+		"ClipSizeOverride_label"			"총탄"
 		//"BulletDamageIncrease_label"		"Bullet damage increase"
 		"BulletDamageIncrease_postfix"		"%"
 		//"AstroShotgunCloseRange_label"			"Close Range Weapon Power"
 		//"ability_astro_shotgun_toggle_t1_desc"	"+{s:CloseRangeBonusWeaponPower} Close Range Weapon Power"
-		"ExtraTargetConeAngle_label"		"Targetting Cone Angle"
+		"ExtraTargetConeAngle_label"		"범위 지정 각도"
 
 		//"modifier_lasso_enemy"					"Being dragged"
 		//"modifier_lasso_self"					"Dragging someone"
@@ -1328,19 +1343,20 @@
 
 		"ability_perched_predator"				"세크메트의 혼"
 		"ability_perched_predator_desc"			"영혼 고양이를 내보내 경로에서 만난 적을 붙잡습니다. 영웅을 붙잡으면 잠시 후 폭발합니다. <br>[{s:in_ability1}]를 눌러 일찍 폭발시킵니다."
+		"ability_perched_predator_quip"			"영혼 고양으룰 내보내 적을 붙잡습니다"	
 		//"CatExplosionCount_label"				"Explosions"
 		//"CatMaxSpeed_label"						"Ghostcat Max Speed"
 		"CatMaxSpeed_postfix"						"m/s"
 		//"CatLifetime_label"						"Cat Lifetime"
-		"CatLifetime_postfix"					"s"
+		"CatLifetime_postfix"					"초"
 
 		
 		"ability_nano_pounce"						"뛰어들기"
 		"ability_nano_pounce_quip"				"대상에게 뛰어듭니다."
-		"ability_nano_pounce_desc"				"대상에게 <span class=\"highlight\">도약</span>하여 <span class=\"highlight\">일반 근접 공격</span> 피해를 입힙니다. 적을 대상으로 시전하면 주변 적에게 <span class=\"highlight\">둔화</span> 효과를 줍니다.<br>You may use <span class=\"highlight\">Pounce on a second target</span> if used within <span class=\"highlight\">{s:DoublePounceTime}s</span>"
-		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration}s</span> 둔화 지속시간"
-		"ability_nano_pounce_t2_desc"			"<span class=\"highlight\">+{s:FireRateSlow}%</span> 연사 속도 감소 <span class=\"highlight\">+{s:PounceDebuffRadius}m</span> 둔화 범위"
-		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> 충전 수 및 돌진 후 탄약 <span class=\"highlight\">{s:ActiveReloadPercent}%</span> 회복"
+		"ability_nano_pounce_desc"				"대상에게 <span class=\"highlight\">도약</span>하여 <span class=\"highlight\">일반 근접 공격</span> 피해를 입힙니다. 적을 대상으로 시전하면 주변 적에게 <span class=\"highlight\">둔화</span> 효과를 줍니다.<br> <span class=\"highlight\">{s:DoublePounceTime}초</span>내에 <span class=\"highlight\">뛰어들기를 두 번째 대상에게 시전</span>할 수 있습니다."
+		"ability_nano_pounce_t1_desc"			"<span class=\"highlight\">+{s:SlowDuration}초</span> 둔화 지속시간"
+		"ability_nano_pounce_t2_desc"			"돌진 시 <span class=\"highlight\">{s:ActiveReloadPercent}%</span> 탄약 회복 및 대상에게 <span class=\"highlight\">+{s:FireRateSlow}%</span> 연사 속도 감소 적용."
+		"ability_nano_pounce_t3_desc"			"<span class=\"highlight\">+{s:Damage}</span> 피해 및 <span class=\"highlight\">+{s:AbilityCharges}</span> 능력 충전 수."
 		"PounceDebuffRadius_label"					"둔화 범위"
 		"PounceDebuffRadius_postfix"					"m"
 		
@@ -1350,53 +1366,54 @@
 		"PounceFriendlyTargetCD_postfix"			"s"
 		"pounce_double_notify"					"이단 뛰어들기"
 
-		"ability_nano_proximity_ritual"			"포식자의 동반자"
-		"ability_nano_proximity_ritual_quip"	"Deploy your companion to attack enemies"
-		"ability_nano_proximity_ritual_desc"	"Deploy <span class=\"highlight\">Ava</span> to <span class=\"highlight\">focus</span> on a nearby enemy.  Targetted enemies have reduced healing and give health to {s:hero_name} when damaged by any ally.  Ava is only active when {s:hero_name} is nearby. <br>While nearby Press [3] to recall Ava, Ava regains health while recalled."
-		"StatueLifetime_label"					"Auto Recall Time"
-		"StatueLifetime_postfix"				"s"
-		"StatueHeldRegen_label"						"Ava Recalled Regen"
-		"StatueLifesteal_label"					"Lifesteal"
+		"ability_nano_proximity_ritual"			"고양이 와드"
+		"ability_nano_proximity_ritual_quip"	"지역을 감시하는 조각상을 배치합니다"
+		"ability_nano_proximity_ritual_desc"	"대상 내 적을 감시하는 <span class=\"highlight\">조각상</span>을 배치합니다. 와드는 최근에 {s:hero_name}에게 피해를 입은 적을 공격합니다. 와드의 대상이 된 적은 치유 감소 효과를 얻고, 피해를 입을 때 마다 <span class=\"highlight\">{s:hero_name}를 치유</span>합니다."
+		"StatueLifetime_label"					"자동 호출 시간"
+		"StatueLifetime_postfix"				"초"
+		"StatueHeldRegen_label"						"에이바 호출 체력 재생"
+		"StatueLifesteal_label"					"흡혈"
 		"StatueLifesteal_postfix"				"%"
-		"StatueLifestealNonHero_label"			"Lifesteal Non-Hero"
+		"StatueLifestealNonHero_label"			"비영웅 대상 흡혈"
 		"StatueLifestealNonHero_postfix"		"%"
-		"StatueActivateRange_label"				"Activate Range"
+		"StatueActivateRange_label"				"활성화 범위"
 		"StatueActivateRange_postfix"			"m"
-		"StatueHealth_label"					"Ava (Normalized)"
-		"StatueHealth_postfix"					"HP"
-		"StatueVictimDamageReduction_label"					"Damage Reduction"
+		"StatueHealth_label"					"에이바 (보통 상태)"
+		"StatueHealth_postfix"					"체력"
+		"StatueVictimDamageReduction_label"					"피해 감소"
 		"StatueVictimDamageReduction_postfix"				"%"
 
-		"ability_nano_proximity_ritual_t1_desc"  "<span class=\"highlight\">+{s:StatueHealth}<\span> Health for Ava"
-		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:DPS}</span> DPS and victims deal <span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> less damage to {s:hero_name}."
-		"ability_nano_proximity_ritual_t3_desc"  "<span class=\"highlight\">+{s:DamageAmplification}%</span> Damage Amplification and {s:HealAmpReceivePenaltyPercent}% Heal Reduction on Victims."
-		"ability_nano_proximity_ritual_trigger"		"Recall Ava"
+		"ability_nano_proximity_ritual_t1_desc"  "조각상이 공격 중이지 않을 때 <span class=\"highlight\">투명화</span>."
+		"ability_nano_proximity_ritual_t2_desc"  "<span class=\"highlight\">+{s:AbilityCharges}</span> 능력 충전 수 및 <span class=\"highlight\">+{s:DPS}</span> 초당 피해."
+		"ability_nano_proximity_ritual_t3_desc"  "대상이 입히는 피해 <span class=\"highlight\">{s:StatueVictimDamageReduction}%</span> 감소 및 대상의 치유 감소 {s:HealAmpReceivePenaltyPercent}%."
+		"ability_nano_proximity_ritual_trigger"		"에이바 호출"
 
-		"AvaRecallCooldown_label"				"Recall Cooldown"
-		"AvaRecallCooldown_postfix"				"s"
-		"AbilityButtonHint_AvaRecall"			"Recall Ava"
-		"AbilityButtonHint_AvaWarp"			"Warp to Ava"
-		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"Not Available"
+		"AvaRecallCooldown_label"				"호출 쿨다운"
+		"AvaRecallCooldown_postfix"				"초"
+		"AbilityButtonHint_AvaRecall"			"에이바 호출"
+		"AbilityButtonHint_AvaWarp"			"에이바에게 이동"
+		"CITADEL_ABILITY_NO_HEALTH_RESOURCE"	"사용 불가능"
 
-		"ability_nano_shadow_step"				"그림자 걸음"
-		"ability_nano_shadow_step_desc"			"Bathe yourself in shadow, to strengthen your attacks and make your dashes <span class=\"highlight\">Invisible</span>.  Hitting enemies with <span class=\"highlight\">Melee damage</span> will reduce their bullet resist (stacking)"
-		"modifier_nano_shadow_step"			"Shadow Step"
+		"ability_nano_shadow_step"				"어둠의 여왕"
+		"ability_nano_shadow_step_desc"			"어둠으로 스스로를 감싸 <span class=\"highlight\">투명화</span>합니다. 공격 시 잠시 동안만 모습이 드러납니다. 이 상태에서 적들에게 <span class=\"highlight\">근접 피해</span>를 입힐 시 대상의 총탄 저항을 감소시킵니다. (중첩 가능)"
+		"ability_nano_shadow_step_quip"			"어둠 속으로 들어가 적들을 상대로 우위를 점합니다."
+		"modifier_nano_shadow_step"			"그림자 걸음"
 		"NanoShadowBulletArmorReductionLight_prefix"	"-"
-		"NanoShadowBulletArmorReductionLight_label"	"Bullet Resist (Light)"
+		"NanoShadowBulletArmorReductionLight_label"	"총탄 저항 감소 (일반)"
 		"NanoShadowBulletArmorReductionHeavy_prefix"	"-"
-		"NanoShadowBulletArmorReductionHeavy_label"	"Bullet Resist (Heavy)"
-		"NanoShadowBulletArmorReductionDuration_label" "Bullet Resist Duration"
-		"NanoShadowBulletArmorReductionDuration_postfix" "s"
+		"NanoShadowBulletArmorReductionHeavy_label"	"총탄 저항 감소 (강력)"
+		"NanoShadowBulletArmorReductionDuration_label" "저항 감소 지속시간"
+		"NanoShadowBulletArmorReductionDuration_postfix" "초"
 		"NanoShadowMeleeAttackSpeedBonus_prefix"			"+"
-		"NanoShadowMeleeAttackSpeedBonus_label"			"Melee Attack Speed"
+		"NanoShadowMeleeAttackSpeedBonus_label"			"근접 공격 속도"
 		"NanoShadowMeleeAttackSpeedBonus_postfix"		"%"
-		"SilenceOnHeavyDuration_label"		"Silence Duration"
-		"SilenceOnHeavyDuration_postfix"		"s"
+		"SilenceOnHeavyDuration_label"		"침묵 지속시간"
+		"SilenceOnHeavyDuration_postfix"		"초"
 
-		"modifier_nano_shadow_debuff"		"-Bullet Resist"
+		"modifier_nano_shadow_debuff"		"총탄 저항 감소"
 		
-		"ability_nano_shadow_step_t2_desc"	"<span class=\"highlight\">+{s:SlowResistancePercent}%</span> Slow Resist while Active"
-		"ability_nano_shadow_step_t3_desc"	"Heavy Melee attacks cause <span class=\"highlight\">Silence</span> for {s:SilenceOnHeavyDuration}s"
+		"ability_nano_shadow_step_t2_desc"	"활성화 중 둔화 저항 <span class=\"highlight\">+{s:SlowResistancePercent}%</span>"
+		"ability_nano_shadow_step_t3_desc"	"강력 근접 공격이 대상에게 <span class=\"highlight\">침묵</span> 적용. 지속 시간 {s:SilenceOnHeavyDuration}초"
 
 		//-----------------------------------------------------------------------------
 		// Grey Talon (previous names: Archer / Orion)
@@ -1415,7 +1432,7 @@
 		"ability_power_jump_quip"		"높이 도약한 후 화살 다발을 발사합니다."
 		"ability_power_jump_desc"		"높이 도약한 후 천천히 활공합니다. 공중에 있을 때 <span class=\"highlight\">추가 무기 피해</span>와 <span class=\"highlight\">무기 다중 발사</span> 효과를 얻습니다.<br>대체 시전할 경우 낮게 도약합니다.<br>[{s:in_mantle}]을 눌러 활강을 취소할 수 있습니다."
 		"ability_power_jump_t2_desc"	"공중에 있을 때 <span class=\"highlight\">+{s:WeaponDamageBonus}</span> 무기 피해를 얻고, 무기 피해가 <span class=\"highlight\">{s:SlowPercent}%</span> 이동 속도 둔화. {s:SlowDuration}초 지속"
-		"ability_power_jump_t3_desc"	"공중에 있을 때 <span class=\"highlight\">+{s:TechLifestealPercent}%</span> 총탄 피해 흡혈과 <span class=\"highlight\">+{s:BulletLifestealPercent}%</span> 스피릿 흡혈 얻음"
+		"ability_power_jump_t3_desc"	"공중에 있을 때 <span class=\"highlight\">+{s:TechLifestealPercent}%</span> 총탄 피해 흡혈과 <span class=\"highlight\">+{s:BulletLifestealPercent}%</span> 마법 흡혈 얻음"
 		//"modifier_citadel_archer_air_raid"			"Power Jump"
 		"BulletSplitShot_label"			"무기 다중 발사"
 		//"AbilitySplitShot_label"			"Charged Shot Multishot"
@@ -1432,13 +1449,13 @@
 		"modifier_citadel_immobilize_trap_immobilize"	"구속 함정"
 		"modifier_citadel_immobilize_trap_immobilize_debuff" "구속 함정 약화 효과"
 		"ability_immobilize_trap_t3_desc"	"{s:hero_name}이 구속 함정에 맞은 적에게 <span class=\"highlight\">+{s:BulletVulnerbility}%</span> 추가 총탄 피해를 입힘. {s:DebuffDuration}초 지속"
-		"ability_immobilize_trap/trap_debuff"	"스피릿 방어력 감소"
+		"ability_immobilize_trap/trap_debuff"	"마법 방어력 감소"
 
 		"ability_guided_arrow"		"유도 올빼미"
 		"ability_guided_arrow_quip"	"올빼미를 날려 먼 거리에서 적을 공격합니다."
-		"ability_guided_arrow_desc"	"{s:AbilityCastDelay}초의 시전 시간 후 <span class=\"highlight\">조종할 수 있는 스피릿 올빼미</span>를 날립니다. 올빼미는 적 또는 지형에 충돌 시 폭발하고, 주변에 <span class=\"highlight\">피해와 기절</span>을 입힙니다. [{s:iv_attack}]을 눌러 올빼미를 가속할 수 있습니다.<br>[{s:in_mantle}]을 눌러 조종을 해제합니다. 유도 올빼미로 적 영웅을 처치하면 <span class=\"highlight\">영구 스피릿 위력</span>을 얻습니다."
+		"ability_guided_arrow_desc"	"{s:AbilityCastDelay}초의 시전 시간 후 <span class=\"highlight\">조종할 수 있는 마법 올빼미</span>를 날립니다. 올빼미는 적 또는 지형에 충돌 시 폭발하고, 주변에 <span class=\"highlight\">피해와 기절</span>을 입힙니다. [{s:iv_attack}]을 눌러 올빼미를 가속할 수 있습니다.<br>[{s:in_mantle}]을 눌러 조종을 해제합니다. 유도 올빼미로 적 영웅을 처치하면 <span class=\"highlight\">영구 마력</span>을 얻습니다."
 		"ability_guided_arrow_t3_desc"	"적중 후 체력이 <span class=\"highlight\">{s:LowHealthEnemyThresholdPct}%</span> 미만인 적 영웅을 즉시 처치"
-		"BonusTechPowerPerKill_label"		"처치당 스피릿 위력"
+		"BonusTechPowerPerKill_label"		"처치당 마력"
 
 		"modifier_citadel_archer_guided_arrow"		"유도 올빼미"
 
@@ -1448,7 +1465,7 @@
 		//-----------------------------------------------------------------------------
 		"ability_blood_bomb"				"정수 폭탄"
 		"ability_blood_bomb_quip"			"체력을 희생하여 피해를 주는 폭탄을 발사합니다."
-		"ability_blood_bomb_desc"			"<span class=\"highlight\">체력 일부를 희생</span>하여 짧은 발동 시간 후 폭발하는 폭탄을 발사하여 <span class=\"highlight\">피해를 입힙니다</span>.<br> 자해 피해는 스피릿 피해이며 경감할 수 있습니다."
+		"ability_blood_bomb_desc"			"<span class=\"highlight\">체력 일부를 희생</span>하여 짧은 발동 시간 후 폭발하는 폭탄을 발사하여 <span class=\"highlight\">피해를 입힙니다</span>.<br> 자해 피해는 마법 피해이며 경감할 수 있습니다."
 		"ability_blood_bomb_t3_desc"	"폭탄이 바닥에 독성 잔여물을 남기며, 원래 피해의 <span class=\"highlight\">{s:BloodSpillDPSPercent}%</span>를 초당 피해로 가함. <span class=\"highlight\">{s:BloodSpillDuration}초</span> 지속"
 
 		"ability_life_drain"				"흡혈"
@@ -1474,7 +1491,7 @@
 		"ability_health_swap"					"영혼 바꾸기"
 		"ability_health_swap_quip"			"자신의 현재 체력을 적 영웅과 교환합니다."
 		"ability_health_swap_desc"			"적 대상과 <span class=\"highlight\">체력의 일정 비율을 교환</span>합니다. 최소한의 체력은 반드시 남습니다. 대상의 체력에 비례해 최소한의 체력을 반드시 치유합니다."
-		"ability_health_swap_t3_desc"			"시전 시 <span class=\"highlight\">+{s:BonusFireRate}%</span> 연사 속도 및 <span class=\"highlight\">+{s:TechResist}%</span> 스피릿 피해 저항. {s:HealthSwapBuffDuration}초 지속"
+		"ability_health_swap_t3_desc"			"시전 시 <span class=\"highlight\">+{s:BonusFireRate}%</span> 연사 속도 및 <span class=\"highlight\">+{s:TechResist}%</span> 마법 피해 저항. {s:HealthSwapBuffDuration}초 지속"
 		"MinHealthTakenPct_label"				"최소 체력 수치"
 		"MinHealthTakenPct_postfix"			"%"
 		//"modifier_blood_exchange"				"Blood Exchange"
@@ -1497,10 +1514,10 @@
 
 		"ability_blood_shards"				"악의"
 		"ability_blood_shards_quip"			"적에게 피해 증가 효과를 중첩시킵니다."
-		"ability_blood_shards_desc"			"<span class=\"highlight\">체력 일부를 희생</span>하여 악의 중첩을 적용하는 가시를 발사합니다. 각 중첩은 대상의 속도를 <span class=\"highlight\">둔화</span>시키고 자신이 가하는 피해를 <span class=\"highlight\">증가</span>시킵니다. 둔화 효과는 시간이 지남에 따라 감소합니다."
-		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} 체력을 피해로 전환"
-		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} 악의 가시"
-		"NumBloodShards_label"				"악의 가시"
+		"ability_blood_shards_desc"			"<span class=\"highlight\">체력 일부를 희생</span>하여 악의 중첩을 적용하는 파편을 발사합니다. 각 중첩은 대상의 속도를 <span class=\"highlight\">둔화</span>시키고 자신이 가하는 피해를 <span class=\"highlight\">증가</span>시킵니다. 둔화 효과는 시간이 지남에 따라 감소합니다."
+		"ability_blood_shards_t2_desc"		"+{s:HealthToDamage} 체력을 피해로 전환 및 입는 피해 증가 <span class=\"highlight\">+{s:VulnerabilityPerStack}%</span>"
+		"ability_blood_shards_t3_desc"		"+{s:NumBloodShards} 악의 파편"
+		"NumBloodShards_label"				"파편 수"
 		"MoveSpeedPenaltyPerStack_label"		"이동 둔화"
 		"MoveSpeedPenaltyPerStack_postfix"	"%"
 		"VulnerabilityPerStack_label"			"피해 증가"
@@ -1561,9 +1578,9 @@
 
 		"citadel_ability_hornet_leap"			"비행"
 		"citadel_ability_hornet_leap_quip"		"비행하고 무기를 강화합니다."
-		"citadel_ability_hornet_leap_desc"		"공중으로 도약하여 <span class=\"highlight\">비행</span>합니다. 비행 중 무기가 <span class=\"highlight\">추가 스피릿 피해</span>를 입힙니다."
+		"citadel_ability_hornet_leap_desc"		"공중으로 도약하여 <span class=\"highlight\">비행</span>합니다. 비행 중 무기가 <span class=\"highlight\">추가 마법 피해</span>를 입힙니다."
 		"citadel_ability_hornet_leap_t1_desc"	"<span class=\"highlight\">+{s:BonusClipSizePercent}%</span> 비행 중 기본 탄약량 증가"
-		"MagicDamagePerBullet_label"				"탄환당 스피릿 피해"
+		"MagicDamagePerBullet_label"				"탄환당 마법 피해"
 
 		//"modifier_citadel_hornetleap"			"Vindicta Leap"
 
@@ -1598,7 +1615,7 @@
 
 		"citadel_ability_hornet_snipe"			"암살"
 		"citadel_ability_hornet_snipe_quip"		"부상당한 적을 저격하여 막대한 피해를 줍니다."
-		"citadel_ability_hornet_snipe_desc"		"조준경을 통해 조준한 후 강력한 사격을 가합니다. 조준한 후 1초가 되기 전에는 약한 피해를 입힙니다. <span class=\"highlight\">남은 체력이 {s:LowHealthEnemyThresholdPct}% 이하</span>인 적에게 추가 피해를 입힙니다. 암살로 적 영웅을 처치하면 처치에 관여한 아군들이 <span class=\"highlight\">추가 영혼</span>을 나누어 가집니다."
+		"citadel_ability_hornet_snipe_desc"		"조준경을 통해 조준한 후 강력한 사격을 가합니다. 조준한 후 1초가 되기 전에는 약한 피해를 입힙니다. <span class=\"highlight\">남은 체력이 {s:LowHealthEnemyThresholdPct}% 이하</span>인 적에게 추가 피해를 입힙니다. 암살로 적 영웅을 처치하면 <span class=\"highlight\">추가 영혼</span>을 얻습니다."
 		//"citadel_ability_hornet_snipe_t3_desc"	"Assassinate kills grant +{s:BonusGoldOnKill} souls"
 		"LowHealthEnemyDamageBonus_label"		"추가 피해"
 		"LowHealthEnemyThresholdPct_label"		"낮은 체력 기준"
@@ -1609,7 +1626,7 @@
 		"HeadshotBonus_prefix"					"+"
 		"HeadshotBonus_label"					"헤드샷 추가 피해"
 		"HeadshotBonus_postfix"					"%"
-
+		"AbilityButtonHint_AssassinateFoVCycle"	"확대 단계 조정"
 
 		//-----------------------------------------------------------------------------
 		// Digger (Formally Pouncer and Driller) Mo and Krill
@@ -1620,7 +1637,7 @@
 
 		"ability_burrow"			"땅 파기"
 		"ability_burrow_quip"		"지하를 이동하며, 지면에 올라오면서 회전 피해를 입힙니다."
-		"ability_burrow_desc"		"지하로 파고 들어가 <span class=\"highlight\">더 빠르게 이동</span>하며 <span class=\"highlight\">스피릿 및 총탄 방어</span>를 획득합니다. 적 영웅의 공격을 받으면 추가 속도가 감소합니다. 지면에 올라오면 적들을 공중으로 날려보내고 회전 공격을 가하여 <span class=\"highlight\">피해를 입히고 둔화</span>시킵니다. 쿨다운은 땅 파기가 종료된 후 시작됩니다."
+		"ability_burrow_desc"		"지하로 파고 들어가 <span class=\"highlight\">더 빠르게 이동</span>하며 <span class=\"highlight\">마법 및 총탄 방어</span>를 획득합니다. 적 영웅의 공격을 받으면 추가 속도가 감소합니다. 지면에 올라오면 적들을 공중으로 날려보내고 회전 공격을 가하여 <span class=\"highlight\">피해를 입히고 둔화</span>시킵니다. 쿨다운은 땅 파기가 종료된 후 시작됩니다."
 		"modifier_spin"				"회전"
 		"SpinDuration_label"		"회전 지속 시간"
 		"SpinDuration_postfix"		"초"
@@ -1852,6 +1869,7 @@
 		//"TornadoDuration_postfix"			"s"
 		"modifier_mirage_tornado_lift"	"회오리"
 		"modifier_mirage_tornado_slow"	"회오리 - 둔화"
+		"modifier_mirage_tornado_hold_in_place"	"Tornado"
 
 		"mirage_fire_beetles"			"화염 풍뎅이"
 		"mirage_fire_beetles_quip"		"풍뎅이를 발사해 적의 체력을 빼앗습니다."
@@ -1871,15 +1889,16 @@
 		"mirage_teleport_desc"	"지도 상의 아군 영웅 또는 모습이 보인 적 영웅을 선택합니다. 정신집중 후 시전 시 대상이 있던 위치 옆으로 <span class=\"highlight\">순간이동</span>합니다. 순간이동 후, <span class=\"highlight\">추가 이동 속도</span> 및 <span class=\"highlight\"> 다음 재장전까지 추가 연사 속도</span>를 얻습니다."
 		"MirageTeleportMoveSpeed_conditional"	"순간이동 후"
 		"mirage_teleport_movespeed"		"여행자 - 추가 이동 속도"
+		"mirage_teleport_t3_desc"	"순간이동 후, 기절, 침묵, 수면, 속박 및 무장 해제에 <span class=\"highlight\">면역</span> 효과 얻음. 지속시간 <span class=\"highlight\">{s:ImmunityDuration}초</span>."
 
-		"mirage_sand_phantom"			"지니의 표식"
+		"mirage_sand_phantom"			"진의 표식"
 		"mirage_sand_phantom_quip"		"공격으로 점차 증가하는 피해를 주는 표식을 남깁니다."
-		"mirage_sand_phantom_desc"		"사용 효과: <span class=\"highlight\">중첩을 모두 소모하고</span> 지니의 표식 피해를 즉시 입힙니다."
-		"mirage_sand_phantom_passive_desc"	"지속 효과: 총탄이 대상에게 <span class=\"highlight\">기하급수적으로 중첩되는 표식</span>을 남깁니다. 중첩 지속시간이 다 되거나, 최대 중첩에 도달한 대상은 표식을 잃고 <span class=\"highlight\">중첩 수에 비례한 스피릿 피해</span>를 입으며 <span class=\"highlight\">지도에 모습이 드러납니다</span>. 최종 피해량은 기본 피해에 표식 중첩 수를 곱한 양입니다."
+		"mirage_sand_phantom_desc"		"사용 효과: <span class=\"highlight\">중첩을 모두 소모하고</span> 진의 표식 피해를 즉시 입힙니다."
+		"mirage_sand_phantom_passive_desc"	"지속 효과: 총탄이 대상에게 <span class=\"highlight\">기하급수적으로 중첩되는 표식</span>을 남깁니다. 중첩 지속시간이 다 되거나, 최대 중첩에 도달한 대상은 표식을 잃고 <span class=\"highlight\">중첩 수에 비례한 마법 피해</span>를 입으며 <span class=\"highlight\">지도에 모습이 드러납니다</span>. 최종 피해량은 기본 피해에 표식 중첩 수를 곱한 양입니다."
 		"mirage_sand_phantom_t1_desc"	"대상에게 2 중첩 이상 부여 시 {s:MovementSpeedSlow}% 둔화 적용. {s:SlowDuration}초 지속"
 		"mirage_sand_phantom_t2_desc"	"중첩 지속시간 +{s:VictimStackDuration}초 및 기본 피해 +{s:ProcDamageBase}"
 		"mirage_sand_phantom_t3_desc"	"{s:SandPhantomProcCooldown}초 중첩 추가 쿨다운 및 +{s:MirageDjinnsMarkMaxStacks} 최대 중첩"
-		"modifier_mirage_sand_phantom_passive_victim"	"지니의 표식 피해 중첩"
+		"modifier_mirage_sand_phantom_passive_victim"	"진의 표식 피해 중첩"
 		"ProcDamageBase_label"		"기본 피해"
 		"VictimStackDuration_label"		"중첩 지속시간"
 		"VictimStackDuration_postfix"	"초"
@@ -1892,7 +1911,7 @@
 		"SandPhantomProcCooldown_label"		"중첩 추가 쿨다운"
 		"SandPhantomProcCooldown_postfix"	"초"
 		"ProcBonusMagicDamageEscalation_prefix"	"{s:sign}"
-		"ProcBonusMagicDamageEscalation_label"	"스피릿 피해 증가량"
+		"ProcBonusMagicDamageEscalation_label"	"마법 피해 증가량"
 		"WhirlwindEvasionChance_label"	"총탄 회피 확률"
 		"WhirlwindEvasionChance_postfix"	"%"
 		"WhirlwindDuration_label"			"총탄 회피 지속시간"
@@ -2139,6 +2158,29 @@
 //		"slork_chomp_t3_desc"		"Chomp deals <span class=\"highlight\">{s:DamageMissingPercentHealth}%</span> of the enemies missing health each second."
 		//"modifier_slork_chomp_grapple"	"Chomping an Enemy"
 		//"modifier_slork_chomp_hobbled" "Getting Chomped"
+
+		"fathom_scalding_spray"			"열수 분사"
+		"fathom_scalding_spray_quip"	"끓는 물을 원뿔 방향으로 분사합니다."
+		"fathom_scalding_spray_desc"	"끓는 물을 원뿔 방향으로 분사합니다. 열수가 적에게 피해를 입힐 때마다 추가 무기 피해를 얻습니다."
+		"WeaponDamageBonusPerSec_label"		"피해 당 무기 피해"
+		"WeaponDamageBonusPerSec_postfix"	"%"
+
+		"fathom_breach"				"돌파"
+		"fathom_breach_quip"		"적들을 향해 돌진합니다"
+		"fathom_breach_desc"		"전방으로 돌진합니다. 도착 시 주변의 적들에게 피해를 주고 공중으로 띄워올립니다."
+
+		"fathom_defer_damage"		"혈액 응고"
+		"fathom_defer_damage_quip"	"피해의 일정량을 유예합니다"
+
+		"fathom_reefdweller_harpoon"		"심해거주자의 작살"
+		"fathom_reefdweller_harpoon_quip"	"작살을 날려 꽃힌 방향으로 이동합니다"
+		"fathom_reefdweller_harpoon_desc"	"작살을 날려 표면에 부착한 후 해당 방향으로 이동합니다. 작살과 연결된 동안, <span class=\"highlight\">투명화하며 무적 상태</span>가 됩니다. 적이 패덤을 정면으로 바라보면 은신이 발각됩니다."
+		"fathom_reefdweller_harpoon_passive_desc" "지속 효과: 전투 중이 아니며, 미니맵에 모습이 보이지 않는 동안, 매 초 <span class=\"highlight\">최대 체력의 일정 비율을 회복</span>합니다."
+		"modifier_fathom_reefdweller_harpoon_latched"	"심해거주자의 작살"
+		"fathom_reefdweller_harpoon/regen"	"비전투 시 회복"
+		"fathom_reefdweller_harpoon/latched"	"벽에 부착됨"
+		"OutOfCombatRegen_label"			"최대 체력 회복"
+		"OutOfCombatRegen_postfix"			"%"
 
 
 		//"slork_ability_4"		"Torrent"
@@ -2546,7 +2588,7 @@
 		"viscous_restorative_goo_desc"					"대상을 회복 점액에 가둬 <span class=\"highlight\"> 피해로부터 보호하며, 체력 재생을 증가시킵니다</span>. 대상은 점액 안에 있는 동안 <span class=\"highlight\">다른 행동을 할 수 없습니다</span>. 자신에게도 시전할 수 있습니다. <span class=\"highlight\">[{s:in_mantle}]</span>를 눌러 일찍 탈출할 수 있습니다."
 		"viscous_restorative_goo_quip"					"안전한 점액으로 감쌉니다."
 		"viscous_restorative_goo_t1_desc"				"이동 속도와 스테미나 회복 속도 증가."
-		"viscous_restorative_goo_t2_desc"				"<span class=\"highlight\">모든 약화 효과 제거</span> 및 쿨다운 <span class=\"highlight\">{s:AbilityCooldown}초</span>"
+		"viscous_restorative_goo_t3_desc"				"<span class=\"highlight\">대상의 약화 효과 제거</span> 및 <span class=\"highlight\">{s:AbilityCooldown}초</span> 능력 쿨다운"
 		"viscous_restorative_goo_buff_desc"				"점액에서 나온 후, 대상은 짧은 시간 동안 <span class=\"highlight\">이동 속도와 스테미나 회복 속도</span>가 증가합니다."
 		"PostCubeBuffDuration_label"					"강화 효과 지속 시간"
 		"PostCubeBuffDuration_postfix"					"초"
@@ -2558,7 +2600,7 @@
 		//"viscous_goo_puddle_t3_desc"					"[Not Yet Implemented]"
 
 		"viscous_goo_bowling_ball"						"점액 구체"
-		"viscous_goo_bowling_ball_desc"					"거대한 점액 구체로 변신해 <span class=\"highlight\">피해를 주고</span> 충돌한 적을 <span class=\"highlight\">기절시킵니다</span>. 구체 상태에서는 높은 <span class=\"highlight\">총탄 피해 저항</span> 및 <span class=\"highlight\">스피릿 피해 저항</span>을 얻으며, 벽에 튕기고 <span class=\"highlight\">이단 점프</span>를 할 수 있습니다."
+		"viscous_goo_bowling_ball_desc"					"거대한 점액 구체로 변신해 <span class=\"highlight\">피해를 주고</span> 충돌한 적을 <span class=\"highlight\">기절시킵니다</span>. 구체 상태에서는 높은 <span class=\"highlight\">총탄 피해 저항</span> 및 <span class=\"highlight\">마법 피해 저항</span>을 얻으며, 벽에 튕기고 <span class=\"highlight\">이단 점프</span>를 할 수 있습니다."
 		"viscous_goo_bowling_ball_quip"					"굴러다니며 혼란을 일으킵니다."
 		"viscous_goo_bowling_ball_t3_desc"				"구르면서 능력과 아이템을 사용할 수 있음"
 
@@ -2740,6 +2782,91 @@
 
 		//"modifier_charged_bomb"	"Charged Bomb"
 
+		
+		//-----------------------------------------------------------------------------
+		// Hero Viper
+		//-----------------------------------------------------------------------------
+		"ability_viper_hookdagger" "갈고리 칼날"
+		"ability_viper_hookdagger_desc" "칼날을 날려 지나간 적에게 <span class=\"highlight_spirit\">마법 피해</span>를 입힙니다. 칼날은 다시 돌오며 지나간 적에게 <span class=\"highlight_spirit\">마법 피해</span>를 다시 입히며 <span class=\"highlight\">둔화</span>시킵니다. <br><br><span class=\"diminish\">갈고리 칼날은 피해를 입히기 전에 대상의 석화 효과를 제거합니다.</span>"
+		"ability_viper_hookdagger_t3_desc"	"<span class=\"highlight\">2개의 단검</span>추가 투척"
+		"ability_viper_hookdagger_quip" "다시 돌아오는 칼날을 날립니다."
+
+		"ability_viper_snakedash" "미끄러지기"
+		"ability_viper_snakedash_desc" "슬라이딩 거리가 증가하고, 슬라이딩 중 경사로를 오를 수 있으며, 방향 전환이 빨라집니다.</span>"
+		"ability_viper_snakedash_t3_desc"	"슬라이딩 중 <span class=\"highlight\">+{s:SlideEvasionChance}% 총탄 회피</span>를 얻음"
+		"ability_viper_snakedash_quip" "슬라이딩 중 기동성이 증가합니다"
+
+		"modifier_snakedash" "뱀 형상"
+		"OutgoingDamage_label" "초기 피해"
+		"ReturnDamage_label" "갈고리 피해"
+		"OutgoingProjectileLifetime_label" "갈고리 지연"
+		"OutgoingProjectileLifetime_postfix" "초"
+
+		"ability_viper_venom" "치명적 맹독"
+		"ability_viper_venom_desc" "대상에게 맹독을 주입합니다. 지연시간 후 맹독이 발동하여 <span class=\"highlight_spirit\">마법 피해</span>를 입힙니다. 발동 피해는 대상이 잃은 피해에 비례해 증가합니다.<br><br><span class=\"diminish\">맹독을 다시 적용하면 지속시간이 초기화됩니다.</span>"
+		"VenomMinDamage_label"			"최소 맹독 피해"
+		"VenomMaxDamage_label"			"최대 맹독 피해"
+		"VenomDuration_label"			"맹독 축적 지속 시간"
+		"VenomDuration_postfix"		"초"
+		"VenomMaxDamageHealthPercentage_label"		"최대 피해 조건 체력"
+		"VenomMaxDamageHealthPercentage_postfix"	"%"
+		"ability_viper_venom_t3_desc"	"+<span class=\"highlight\">{s:VenomMissingHealthDamagePercentage}% 잃은 체력 당 피해</span>"
+		"VenomMissingHealthDamagePercentage_label"		"체력 손실 피해"
+		"VenomMissingHealthDamagePercentage_postfix"	"%"
+		"ability_viper_venom_quip" "대상에게 치명적인 맹독을 주입합니다"
+
+		
+		"ability_viper_ult" "석화"
+		"ability_viper_ult_desc" "대상 지역에 저주를 내립니다. 지연시간 후, 지역 내 원기둥 구역의 모든 유닛은 <span id=\"TestID\"/></span><span class=\"highlight\">석화</span>됩니다. 적들은 또한 <span class=\"highlight_spirit\">마법 피해</span>를 입습니다.<br><br><span class=\"diminish\">석화된 대상은 피해를 입지 않지만 행동할 수 없습니다.<br>석화된 유닛은 일정량 이상의 피해를 입으면 풀려납니다.</span>"
+		"PetrifyDuration_label"			"석화 지속시간"
+		"PetrifyDuration_postfix"		"초"
+		"PetrifyDamageBreakThreshold_label"	"석화 최대 피해 방어"
+		"ability_viper_ult/viper_ult_petrify" "석화됨"
+		"ability_viper_ult_quip" "적과 아군 모두를 석화시킵니다"
+		"HalfHeight_postfix"	"m"
+
+		//-----------------------------------------------------------------------------
+		// Hero Magician
+		//-----------------------------------------------------------------------------
+		
+		"ability_magician_magicbolt" "기묘한 화살"
+		"ability_magician_magicbolt_desc" "마법의 화살을 날려 적중한 대상에게 <span class=\"highlight_spirit\">마법 피해</span>를 입히고 <span class=\"highlight\">점차 감소하는 둔화</span> 효과를 겁니다. <br><br><span class=\"highlight\">[{s:in_ability1}]</span> 버튼을 눌러 화살을 조준선 방향으로 <span class=\"highlight\">방향을 전환합니다</span>."
+		"ProjectileRedirectCount_label" "방향 전환 횟수"
+		"ability_magician_magicbolt_t3_desc" "+{s:ProjectileRedirectCount} 방향 전환 횟수 및 +{s:Damage} 피해"
+		"ability_magician_magicbolt_quip" "유도되는 마법의 화살을 날립니다"
+
+		"citadel_ability_magewalk" "현혹"
+		"citadel_ability_magewalkk_desc" "잠시 <span class=\"highlight\">대상 지정 불가</span> 상태가 된 후 다시 나타납니다. 나타난 후 다음 <span class=\"highlight\">{s:EmpoweredAttackCount} 번의 공격이</span> 추가 <span class=\"highlight_spirit\">마법 피해</span>를 입힙니다. <br><br><span class=\"highlight\">[Cast]</span> 시 대상 위치에 나타납니다.<br><span class=\"highlight\">[Alt-Cast]</span> 제자리에 나타납니다.</span><br><span class=\"diminish\">적들은 당신이 어디에 도착할 지 알 수 없습니다.</span>"
+		"MageTime_label" "대상 지정 불가 시간"
+		"MageTime_postfix" "초"
+		"modifier_magewalk_empoweredattacks" "행운의 카드"
+
+		"ability_magician_cloneturret" "영체 조수"
+		"ability_magician_cloneturret_desc" "대상 지점에 <span class=\"highlight\">조수</span>를 소환합니다. 조수는 당신이 공격 시 카드를 날려 <span class=\"highlight_spirit\">마법 피해</span>를 입힙니다. <br><br><span class=\"highlight\">[{s:in_ability2}]</span>를 눌러 조수의 위치로 순간이동합니다."
+		"ability_magician_cloneturret_t3_desc" "조수가 기묘한 화살을 같이 시전"
+		"ability_magician_cloneturret_quip" "충직한 조수를 소환합니다"
+
+		"ability_magician_animalcurse" "토끼 변신술"
+		"ability_magician_animalcurse_desc" "대상에게 주술을 걸어, <span class=\"highlight\">토끼</span>로 변신시킵니다. 토끼 상태에선 크기가 작아지고 이동 속도가 빨라지지만, 다른 행동을 할 수 없으며 추가 피해를 입습니다.<br><span class=\"highlight\">[Cast]</span>시 대상 영웅을 변신시킵니다.<br><span class=\"highlight\">[Alt-Cast]</span>시 자신을 변신시킵니다.<br><span class=\"diminish\">변신술은 정신집중을 방해하지 않습니다.</span>"
+		"ability_magician_animalcurse/animalhex_curse_modifier" "변신!"
+		"ability_magician_animalcurse_t3_desc" "주변의 적들을 <span class=\"highlight\">절반의 시간</span> 동안 <span class=\"highlight\">변신</span>시킴"
+		"DamageAmpPercentage_label" "피해 증폭"
+		"DamageAmpPercentage_postfix" "%"
+		"ability_magician_animalcurse_quip" "적들을 토끼로 변신시킵니다"
+		
+
+		"ability_magician_stage" "강제 관람"
+		"ability_magician_stage_desc" "대상 적을 지정합니다. 당신과 대상은 지속시간 동안 무대 밖으로 나갈 수 없습니다. 나머지 유닛들은 효과범위 밖으로 밀려납니다."
+
+		"ability_magician_shadowclone" "위대한 호문클루스!"
+		"ability_magician_shadowclone_desc" "감소된 체력과 공격력을 가진 <span class=\"highlight\">내 영웅의 복제체</span>를 소환합니다. 복제체가 죽거나 지속시간이 다할 시 폭발하여 <span class=\"highlight\">마법 피해</span>를 입힙니다.<br><br><span class=\"diminish\">복제체는 궁극기를 사용할 수 없습니다.</span>"
+		"CloneHealthPercentage_label" "복제체 체력"
+		"CloneHealthPercentage_postfix" "%"
+		"CloneDamagePercentage_label" "복제체 피해"
+		"CloneDamagePercentage_postfix" "%"
+		"CloneLifetime_label" "복제 지속시간"
+		"CloneLifetime_postfix" "초" 
+		"ability_magician_shadowclone_t3_desc"	"복제체가 <span class=\"highlight\">궁극기 사용 가능</span>."
 
 		//-----------------------------------------------------------------------------
 		// END HERO ABILITIES
@@ -2753,7 +2880,7 @@
 		"citadel_weapon_hero_inferno_set"			"불타는 추억"
 		"citadel_weapon_hero_gigawatt_set"			"냉혹한 인수분해"
 		"citadel_weapon_hero_hornet_set"			"외톨이의 복수"
-		"citadel_weapon_hero_orion_set"				"통곡이 따를지니"
+		"citadel_weapon_hero_orion_set"				"통곡이 따를진"
 		"citadel_weapon_hero_ghost_set"				"요한의 선물"
 		
 		"citadel_weapon_hero_atlas_set"				"사건 종결"
@@ -2781,7 +2908,11 @@
 		"citadel_weapon_hero_warden_set"			"자유의 대가"
 		"citadel_weapon_hero_mirage_set"			"약속 엄수"
 		"citadel_weapon_hero_synth_set"				"검은 양"
-		
+		"citadel_weapon_hero_viper_set"				"방울뱀"
+		"citadel_weapon_hero_magician_set"			"손기술"
+		"citadel_weapon_hero_slork_set"				"역조"
+	
+
 		//"citadel_weapon_hero_duo_set"				"Duo Gun"
 		//"citadel_weapon_hero_heavy_set"				"Heavy Gun"
 		//"citadel_weapon_hero_akimbo_set"			"Akimbo Gun"
@@ -2802,8 +2933,8 @@
 		//"citadel_weapon_hero_rutger_set"			"Rutger Gun"
 		//"citadel_weapon_hero_tokamak_set"			"Curie-ous Times"
 		//"citadel_weapon_hero_tempest_set"			"Tempest Gun"
-		"citadel_weapon_hero_wrecker_set"			"Demolition Hymn"
-		
+		"citadel_weapon_hero_wrecker_set"			"파괴의 송가"
+
 		// Melee names
 		"ability_melee_ghost"	"근접 공격"
 		"citadel_ability_melee_bull"			"근접 공격"
@@ -2845,7 +2976,7 @@
 		"hero_atlas_role"				"돌격하여 근접 전투를 수행합니다."
 		//"hero_ballista_role"			"Shields up to drop the bomb"
 		"hero_bebop_role"				"적을 갈고리 손으로 붙잡아 능력 연계로 마무리합니다."
-		"hero_wrecker_role"				"Salvages scrap to create weapons"
+		"hero_wrecker_role"				"고철을 분해하여 무기로 삼습니다."
 		"hero_chrono_role"				"시공간을 조작합니다."
 		"hero_dynamo_role"				"적 팀을 봉쇄합니다."
 		"hero_forge_role"				"전투 포탑으로 전장을 지배합니다."
@@ -2858,23 +2989,26 @@
 		"hero_kelvin_role"				"적을 그 자리에 얼어붙게 만듭니다."
 		"hero_lash_role"				"공중으로 돌진하여 적들을 밟아버립니다."
 		"hero_krill_role"				"적 아래로 파고듭니다."
-		"hero_nano_role"				"변방에서 혼란을 일으킵니다."
+		"hero_nano_role"				"측면을 파고들어 혼란을 일으킵니다."
 		"hero_orion_role"				"장거리에서 강력한 능력을 발사합니다."
 		"hero_shiv_role"				"적을 출혈시키고 나서 마무리합니다."
 		"hero_viscous_role"				"구르면서 총알을 튕겨냅니다."
 		"hero_warden_role"				"적을 약화시키고 추적합니다."
 		"hero_wraith_role"				"고립된 적을 녹입니다."
 		"hero_yamato_role"				"정교한 충전 공격을 전달합니다."
-		"hero_tengu_role"				"아군과 함께 강력한 듀오를 형성합니다."
+		"hero_tengu_role"				"아군과 함께 강력한 이인조를 형성합니다."
 		"hero_mirage_role"				"공격을 회피하며 강력한 피해를 가합니다."
+		"hero_slork_role"				"침입하여 전투를 벌인 후 숨어서 회복합니다."
 		"hero_synth_role"				"후방을 침투하고 적진을 교란합니다."
+		"hero_viper_role"				"미끄러지며 적들을 암살합니다."
+		"hero_magician_role"			"적들을 현혹시키며 변신시킵니다."
 
         //"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
-        "hero_astro_playstyle"          "Astro는 공중으로 튕겨 올린 물체를 정확하게 사격하여 중대한 피해를 입힐 수 있습니다. 그녀의 이동 기술은 적을 고립시키거나 신속히 도망치는 데 유용합니다."
+        "hero_astro_playstyle"          "홀리데이는 공중으로 튕겨 올린 물체를 정확하게 사격하여 중대한 피해를 입힐 수 있습니다. 그녀의 이동 기술은 적을 고립시키거나 신속히 도망치는 데 유용합니다."
         "hero_atlas_playstyle"          "에이브람스는 자신의 맷집을 믿고 최전방으로 뛰어들거나, 적진을 휘저으며 적들을 도망가게 만듭니다. 적들이 그에게 총알을 낭비하는 동안 후방의 아군들이 잔혹하게 보복할 것입니다."
         //"hero_ballista_playstyle"       "You know what people hate?  Being knocked back by a shotgun.  You know what they hate even more?  Being knocked back into a mine field.  Do you know what they hate even more than that?  Being atomized by a fusion bomb.  Ballista turns the battlefield into an explosive Rube Goldberg device."
         "hero_bebop_playstyle"          "비밥은 여러 능력을 조합하여 적 위치를 교란하거나, 아군을 구조하거나, 큰 피해를 주는 등 여러 상황에 대처할 수 있습니다. 상황이 여의치 않으면 거대한 레이저 광선을 발사하여 문제를 해결합니다."
-		"hero_wrecker_playstyle"		"Wrecker는 부품을 수집하여 병사를 분해하거나, Wrecking Ball로 적을 박살내고, Stasis Trap으로 모든 적을 포획할 수 있습니다."
+		"hero_wrecker_playstyle"		"레커는 부품을 수집하여 보병을 분해하거나, 파쇄 구체로 적을 박살내고, 정으로 모든 적을 포획할 수 있습니다."
         "hero_chrono_playstyle"         "시간을 조작하는 패러독스는 1대1 전투에서 적을 압도할 수 있습니다. 적과 위치를 교환하여 파동 수류탄, 시간의 벽, 또는 아군 한 가운데로 데려올 수 있습니다."
         "hero_dynamo_playstyle"         "다이너모는 기회를 살피며 아군을 지속적으로 치유할 수 있습니다. 적절한 때 발동한 특이점은 전황을 순식간에 뒤집을 수 있습니다."
         "hero_forge_playstyle"			"맥기니스는 다양한 설치물을 활용하여, 위험 구역을 만들거나 적들을 고립시킵니다. 또한 아군을 강화하여 방어선이 쉽게 무너지지 않게 할 수 있습니다."
@@ -2887,7 +3021,7 @@
         "hero_kelvin_playstyle"         "적절한 치유와 진형 붕괴만큼 팀 전투의 승패를 결정짓는 것은 없습니다. 전장을 활보하며 적들을 둔화시키는 켈빈의 능력이야말로 팀의 기동성을 끌어올리기에 안성맞춤입니다."
         "hero_lash_playstyle"           "래시는 적에게 대응할 틈을 주지 않습니다. 적에게 먼 거리에서 갑자기 날아와 싸움을 개시하거나, 도망치려는 적을 추적하는 데 능숙합니다."
         "hero_krill_playstyle"			"모와 크릴은 땅 속을 파고들어 적들을 기습할 수 있습니다. 그들에게 한 번 접근을 허용하게 되면 결과는 끔찍할 것입니다."
-        //"hero_nano_playstyle"           "(in flux) Like any good politician, Nano turns people against each other and lets them do her dirty work before swooping in and claiming credit for everything."
+        "hero_nano_playstyle"           "칼리코는 어둠을 이용하여 전투에서 유리한 고지를 점하며, 적들을 하나하나 처치하는 데 능숙합니다."
         "hero_orion_playstyle"    		"영리한 사냥군인 그레이 탈론은 치명적인 정확성, 함정, 그리고 위치 선정으로 가장 강력한 적조차 쓰러트립니다."
         "hero_shiv_playstyle"           "시브는 정정당당하게 싸우지 않습니다. 치고 빠지는 전술로 적을 약화시킨 후, 순식간에 뛰어들어 처치합니다."
         //"hero_tempest_playstyle"        "Much like how a child has no idea how a TV works, no one knows exactly HOW Tempest kills you.  Was it a tesla coil?  You didn't see a tesla coil.  Either way, you're dead and Tempest is laughing."
@@ -2900,9 +3034,10 @@
 		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
 		"hero_synth_playstyle"		"강력한 산탄총과 호리호리한 체격의 포켓은 근접전을 벌인 후 요술 가방으로 도망치거나 날아다니는 망토로 탈출하는 데 능숙합니다."
 		"hero_mirage_playstyle"		"미라지는 스스로를 회오리로 감싸 적들을 추격하고 공중으로 띄웁니다. 풍뎅이를 소환해 다수의 적에게서 생명력을 갈취하거나, 어디든지 재빨리 합류하여 아군을 돕거나 적들을 응징합니다."
-		//"hero_slork_playstyle"		"Slork's weapon poisons all it hits. Primary fire hits all in a cone, and aimed fire shoots a dart which crits when hitting a poisoned target."
+		"hero_slork_playstyle"		"A short-ranged assassin, Fathom can slip in and out of combat and win long engagements."
 		"hero_tengu_playstyle"		"아이비는 적을 둔화시키거나 기절시키는 등 여러 방해 효과를 가지고 있습니다. 또한 아군과 연결하여 총기를 강화하고 받는 피해를 서로 공유합니다."
-
+		"hero_viper_playstyle"		"With a powerful weapon (and deadly venom to match), Viper can slither into the back of teams and assassinate high-priority targets in a storm of bullets."
+		"hero_magician_playstyle"	"With the help of their unwilling assistant, the Magician can confuse enemies with curving hexes and rapid cards."
 	
 		//"hero_akimbo_lore"				"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
 		"hero_astro_lore"				"뉴욕으로 이사 가는 꿈을 꾸며 평생을 보낸 사람들이 있습니다. 홀리데이는 그런 사람이 아닙니다. 작은 마을의 보안관으로서 홀리데이는 동네 박람회에서 사격 대회에 참가할 때 외에는 총을 사용할 일이 거의 없었습니다... 그러다가 살인이 시작되었습니다.\n\n끔찍하고 비인간적인 살인 사건; 시신은 갈비뼈가 찢겨져 있었고... 내장은 마치 새가 쪼아먹은 것처럼 난도질당했습니다. 홀리데이는 '음유시인'이라고 불리던 떠돌이 민속 음악가를 추적했지만, 그와 대면했을 때 그는 갑자기 수많은 까마귀 떼로 변해 날아가 버렸습니다.\n\n그 일 이후로 6개월이 지났지만, 중부 일리노이에서의 살인은 멈췄어도 홀리데이의 조사는 끝나지 않았습니다. 그녀는 그 '음유시인'이 뉴욕으로 이동하고 있다고 확신하며, 그 악랄한 자식을 찾으면 반드시 죽일 것입니다."
@@ -2930,8 +3065,9 @@
 		"hero_tengu_lore"				"가고일은 자신이 살아났을 때 무슨 일이 일어나고 있는지 알지 못했습니다... 단지 큰 인간과 작은 인간이 다치고 있다는 것만 알았습니다. 그래서 가고일은 날아올라 습격자들을 공포에 질리게 했습니다. 작은 인간은 감사 인사를 전하고 가고일에게 이름을 물었습니다. 가고일은 이름이 없었습니다. 그래서 작은 인간은 말했습니다, \"난 널 아이비라고 부를 거야.\" 아이비 덩굴로 덮인 가고일은 그것이 다소 단순하다고 생각했지만, 작은 인간을 위해 그 이름을 받아들이기로 했습니다.\n\n사람들은 아이비가 집에 함께 가서 그들에게 감사의 표시를 할 수 있겠냐고 물었고, 그래서 아이비는 그들과 함께 걸었습니다. 그날 밤 그녀는 많은 것을 배웠습니다. 그 가족은 아로요라고 불렸습니다. 작은 아이의 이름은 소피아였습니다. 그리고 그들은 맛있는 음식을 '모퐁고'라고 불렀습니다. 그러나 가장 중요한 것은 그들을 공격한 사람들이 \"멘도자 결사단\"라고 불리며, 그들은 사람들을 해치고 있다는 사실을 배웠습니다... 아로요 네처럼 좋은 사람들 말입니다.\n\n 아로요 씨네 가족이 아이비를 집에 데려간 그 날로부터 18년이 지났고... 그 동안 그녀는 멘도자 결사단을 해체하고 스페인 할렘을 그들의 손아귀에서 해방시키기 위해 자신의 인생을 바쳤습니다. 그러나 거의 20년 동안 한 가지 목표에 인생을 바치다 보면, 정작 그 목표를 달성한 후에는 무엇을 해야 할지 모르게 됩니다. 그래서 아이비는 생애 처음으로 스페인 할렘을 벗어나 세상이 제공하는 것을 탐험할 준비를 마쳤습니다."
 		"hero_synth_lore"				"페어팩스 사의 첫 번째 상속자인 아린 페어팩스는 18번째 생일 날 총에 맞고 죽을 뻔한 후 지난 5년 동안 숨어 지내고 있습니다. 아린은 자신이 부모님의 회사를 물려받는 걸 방해하려는 자가 누구인진 모르지만... 누구라도 페어팩스 사처럼 탐욕으로 가득 찬 독사의 둥지를 빼앗고 싶을 겁니다.\n\n아린은 이제 \"포켓\"이라는 가명을 사용하며, 자신의 진정한 정체를 비밀로 유지하고 싶어 합니다... 단순히 자신의 보호를 위해서뿐만 아니라, 부모와는 다른 자신만의 정체성을 확립하고 싶기 때문입니다."
 		"hero_mirage_lore"				"The Djinn are one of the more curious groups of people in the modern world.  Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel.  As a result, most Djinn employ human bodyguards for transport, protection, and companionship.\n\nMirage is one such bodyguard.  Employeed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission.  It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people."
-
-
+		"hero_slork_lore"				"A notorious monster of The Deep, Fathom enjoyed cultivating an aura of mystery and fear around him.  He was content feasting on wayward sailors and demanding tithes from selkie's, but then The Adversary came and ruined everything.  After all, when it came to sowing terror, how could he compete with a genocidal force of nature?  It wasn't fair.  Something had to be done to save himself from fading into obscurity...and so he seeks to summon The Patrons to endure that he will always be the apex predator of The Deep."
+		"hero_viper_lore"				"When it comes to breaking the law, not getting caught is a pretty important part of the job.  Viper never got that memo.  Luckily for her, if there’s one thing she’s better at than being arrested, it’s escaping out of jail.\n\nHaving done time in every major prison in the tri-state area, Viper has built an impressive network of street level lowlifes that owe her one.  She’s also built an impressive network of street level lowlifes that want her dead, but she tries to focus on the positive."
+		"hero_magician_lore"			"Henry's parents told him he was too young and impulsive to mess with real magic, and so they gave him a deck of cards to play with.  He took to sleight of hand naturally and soon was dazzling his classmates with fantastic feats of illusions that were done without mystic artifacts or incantation.\n\nWhen he was in high school he met Savannah, and their mutal love of stage magic sparked a whirlwind romance.  Soon they fell in love and created an act together.  Obviously they were meant to be; and so at prom, Henry proposed to Savannah and they married soon after graduation.\n\nUnsurprisingly both sets of parents were not thrilled at this prospect, but Henry and Savannah knew they were soulmates.  And so they cemented their love for one another by having a blood mystic bind their souls for eternity.\n\nWhen an on-stage accident claimed both their lives, no one was sure who to blame.  Henry claims Savannah was out of position.  Savannah says Henry didn't wait for his queue.  But one things for sure, since their souls are tied to each other neither one of them have been able to move on.  Now a bickering pair of ghosts, Henry and Savannah need to work together if they want to have any chance of undoing their eternal union."
 
 	}
 }

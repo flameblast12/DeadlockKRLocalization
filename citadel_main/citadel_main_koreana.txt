@@ -1,7 +1,7 @@
-﻿"lang" 
-{ 
-	"Language" "koreana" 
-	"Tokens" 
+﻿"lang"
+{
+	"Language" "koreana"
+	"Tokens"
 	{
 		"Citadel_Dashboard_BuildVersion"	"빌드 {d:buildNumber} - {s:buildTime}"
 
@@ -83,7 +83,7 @@
 		"GameUI_Disconnect_ConnectionTimedout"		"게임 서버에 연결할 수 없습니다."
 		"GameUI_Disconnect_ServerIncompatible"		"서버 버전이 호환되지 않습니다."
 		"Player_DisconnectReason_Idle"				"Disconnected from gameserver.  You were AFK for too long."
-		
+
 
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"다른 위치에서 여러 번 릴레이를 시도했지만, 연결이 끊겼습니다. 인터넷 연결에 문제가 발생했을 가능성이 가장 큽니다."
 		"GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay"	"게임 서버와 클라이언트가 사용하는 기본 릴레이와의 연결이 끊겼습니다."
@@ -151,7 +151,7 @@
 		"Citadel_ViewMatchID_Loading_Error"					"매치를 관전할 수 없음"
 		"Citadel_ViewMatchID_InFlight_Title"				"매치가 진행 중입니다."
 		"Citadel_ViewMatchID_InFlight_Body"					"매치가 아직 진행 중입니다. 정말로 해당 매치를 관전하시겠습니까?"
-		
+
 		//Playtest User
 		"Citadel_PlaytestUser_SubmitProcessing"				"잠시 기다려 주세요"
 		"Citadel_PlaytestUser_SubmitProcessingTitle"		"플레이어 추천 제출 중"
@@ -292,6 +292,8 @@
 		"Citadel_Notification_Paused_Message"						"게임이 일시 중지되었습니다"
 		"Citadel_Notification_Unpaused_Title"						"일시 중지 해제됨"
 		"Citadel_Notification_Unpaused_Message"						"게임 일시 중지가 해제되고 있습니다..."
+		"Citadel_Notification_About_To_Respawn_Title"				"부활 시간"
+		"Citadel_Notification_About_To_Respawn_Message"				"부활 준비 중..."
 		"Citadel_Hud_PreGame_Countdown"								"게임 시작 중..."
 		"Citadel_Hud_CantPause"										"{i:pause_cooldown}초 동안 일시 중지할 수 없습니다"
 		"Citadel_Hud_CantUnpause"									"{i:pause_cooldown}초 동안 일시 중지 해제할 수 없습니다"
@@ -309,6 +311,7 @@
 		"Citadel_Hud_OutOfAmmo"										"탄약 부족"
 		"Citadel_Hud_LowAmmo"										"탄약 부족"
 		"Citadel_Hud_NotEnoughEnergy"								"에너지 부족"
+		"Citadel_Hud_CastTimeRemaining"								"{s:time_remaining}초"
 		"Citadel_Hud_DPS"											"DPS {i:dps}"
 		"Citadel_Hud_RespawnIn"										"부활까지:"
 		"Citadel_Hud_RideZipLine"									"[{s:jump_key}]를 길게 눌러 탑승"
@@ -329,6 +332,7 @@
 
 		"Citadel_MatchInfo_Mode_Ranked"								"랭크 매치"
 		"Citadel_MatchInfo_Mode_Standard"							"일반 매치"
+		"Citadel_MatchInfo_Mode_HeroLabs"							"영웅 실험"
 		"Citadel_MatchInfo_Mode_CoopBot"							"협동전"
 		"Citadel_MatchInfo_Mode_Private"							"사설 로비"
 
@@ -341,12 +345,12 @@
 		//"Citadel_Shop_TierBonus"									"Tier Bonus"
 		"Citadel_Shop_TierBonus_Weapon"								"무기 피해"
 		"Citadel_Shop_TierBonus_Armor"								"기본 체력"
-		"Citadel_Shop_TierBonus_Tech"								"스피릿 위력"
+		"Citadel_Shop_TierBonus_Tech"								"마력"
 		//"Citadel_Item_Tooltip_ReturnToShop"							"Return to Shop to purchase"
 		"Citadel_Item_Tooltip_CantAfford"							"아이템을 구매할 수 없습니다"
 		//"Citadel_Player_Level_AbilityPoints"						"<span class=\"boldText\">1 Ability Point</span> gained at levels 2, 3, 5, 7, and each level after"
 		//"Citadel_Player_Level_AbilityUnlocks"						"<span class=\"boldText\">1 Ability Unlock</span> gained at levels 1, 2, 4, and 6"
-		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"		
+		//"Citadel_Player_Level_WeaponPower"							"<span class=\"boldText\">+{s:weapon_bonus}% Base Bullet Damage</span>, <span class=\"boldText\">+{s:melee_bonus}% Base Melee damage</span> and <span class=\"boldText\">+{s:health_bonus} Max Health </span>"
 		"Citadel_Player_Level_APShort"								"AP"
 		"Citadel_Player_Level_AbilityUnlocksShort"					"능력 잠금 해제"
 		"Citadel_Player_Level_PowerIncreases"						"위력 증가"
@@ -358,13 +362,14 @@
 		"Citadel_Player_Level_BaseBullet"							"기본 총알 피해"
 		"Citadel_Player_Level_BaseMelee"							"기본 근접 피해"
 		"Citadel_Player_Level_BaseHealth"							"기본 체력"
-		"Citadel_Player_Level_SpiritAmp"							"스피릿 피해 증폭"
+		"Citadel_Player_Level_SpiritAmp"							"마법 피해 증폭"
 		"Citadel_Player_Level_BulletResist"							"총알 저항"
+		"Citadel_Player_Level_TechResist"							"마법 저항"
 		"Citadel_Player_Level_WeaponRange"							"무기 사거리"
 		"Citadel_Hero_Stats_Tooltip_WeaponPower"					"무기 항목의 아이템을 구매하여 얻은 총과 근접 피해에 대한 총 보너스"
 		"Citadel_Hero_Stats_Tooltip_HealthMult"						"생존력 항목의 아이템을 구매하여 얻은 기본 체력에 대한 총 보너스"
-		"Citadel_Hero_Stats_Tooltip_Spirit"							"<span class=\"spirit_color\">스피릿 위력</span>은 능력의 효과를 증가시킵니다. 스피릿 위력은 스피릿 항목의 아이템을 구매하여 얻습니다"
-		"Citadel_Hero_Stats_Tooltip_Spirit_IconDesc"				"스피릿 아이콘에 마우스를 올리면 능력에 대한 <span class=\"spirit_color\">스피릿 위력</span>의 효과를 확인할 수 있습니다."
+		"Citadel_Hero_Stats_Tooltip_Spirit"							"<span class=\"spirit_color\">마력</span>은 능력의 효과를 증가시킵니다. 마력은 마법 항목의 아이템을 구매하여 얻습니다"
+		"Citadel_Hero_Stats_Tooltip_Spirit_IconDesc"				"마법 아이콘에 마우스를 올리면 능력에 대한 <span class=\"spirit_color\">마력</span>의 효과를 확인할 수 있습니다."
 		"Citadel_Hero_Stats_Tooltip_Shards"							"아이템에 사용할 수 있는 재화"
 		"Citadel_Hero_Stats_Souls"									"영혼"
 		"Citadel_Hero_Stats_Unsecured"								"미확보 영혼"
@@ -377,7 +382,7 @@
 		"Citadel_Shop_BonusAttribute"								"보너스"
 		"Citadel_ShopFilter_Durabilty"								"생존력"
 		"Citadel_ShopFilter_WeaponDamage"							"무기 피해"
-		"Citadel_ShopFilter_MagicDamage"							"스피릿 피해"
+		"Citadel_ShopFilter_MagicDamage"							"마법 피해"
 		"Citadel_ShopFilter_Ammo"									"탄약"
 		"Citadel_ShopFilter_FireRate"								"연사 속도"
 		"Citadel_ShopFilter_Melee"									"근접"
@@ -392,14 +397,14 @@
 		"Citadel_ShopStats_ShopBonuses"								"상점 보너스"
 		"Citadel_ShopStats_Mods"									"아이템"
 		"Citadel_ShopStats_GoldenStatues"							"황금 동상"
-		"Citadel_ShopStats_SpiritScaling"							"스피릿"
+		"Citadel_ShopStats_SpiritScaling"							"마법"
 
 		"Citadel_Shop_ImbueTooltip_Title"							"연동할 능력을 선택"
 		"Citadel_Shop_ActivePlacementTooltip_Title"					"활성화 슬롯을 하나 선택하여 구매 완료"
-		"Citadel_Shop_ActivePlacementTooltip_Drag"					"활성화 슬롯을 드래그하여 순서를 재배열할 수 있습니다."	
+		"Citadel_Shop_ActivePlacementTooltip_Drag"					"활성화 슬롯을 드래그하여 순서를 재배열할 수 있습니다."
 
-		"Citadel_Shop_SellMaxItems_Title"							"슬롯이 가득 찼습니다!"	
-		"Citadel_Shop_SellMaxItems_Desc"							"이 구매를 완료하려면 <span class='highlight'>반값에 판매하여 교체할 아이템을 선택</span>하세요."	
+		"Citadel_Shop_SellMaxItems_Title"							"슬롯이 가득 찼습니다!"
+		"Citadel_Shop_SellMaxItems_Desc"							"이 구매를 완료하려면 <span class='highlight'>반값에 판매하여 교체할 아이템을 선택</span>하세요."
 		"Citadel_Shop_SellMaxItems_SellButton"						"판매"
 
 		"Citadel_Shop_AbilityisImbued"								"능력 연동됨"
@@ -574,7 +579,7 @@
 		"Citadel_PrivateLobby_SwapTeamsTooltip"						"전선 배정은 동일하게 유지한 채로 팀을 교체합니다."
 		"Citadel_PrivateLobby_RandomizeTeams"						"모든 플레이어 뒤섞기"
 		"Citadel_PrivateLobby_ShuffleTeamsTooltip"					"로비에 있는 플레이어를 두 팀에 무작위로 배치합니다."
-		"Citadel_PrivateLobby_ShuffleTeams"							"팀 내 플레이어 뒤섞기"		
+		"Citadel_PrivateLobby_ShuffleTeams"							"팀 내 플레이어 뒤섞기"
 		"Citadel_PrivateLobby_ShuffleLanesTooltip"					"각 팀의 플레이어를 무작위로 전선에 배치합니다."
 
 		"Citadel_ServerRegion_0"									"지역 자동 선택"
@@ -616,11 +621,11 @@
 		"Citadel_Party_CancelMM"									"취소"
 		"Citadel_Party_NotConnectedToGC"							"Deadlock 네트워크에 연결되지 않았습니다."
 		"Citadel_Party_PlayerLabel"									"플레이어"
-		"Citadel_Party_SpectatorLabel"								"관전자"	
+		"Citadel_Party_SpectatorLabel"								"관전자"
 		"Citadel_Party_Or"											"또는"
 		"Citadel_Party_ReadyUp"										"준비"
 		"Citadel_Party_RolePlayer"									"플레이어"
-		"Citadel_Party_RoleSpectator"								"관전자"	
+		"Citadel_Party_RoleSpectator"								"관전자"
 		"Citadel_Party_CreatePartyTitle"							"파티 생성 중"
 		"Citadel_Party_CreatePartyText"								"잠시 기다려주세요."
 		"Citadel_Party_JoinPartyTitle"								"파티 참여 중"
@@ -653,7 +658,7 @@
 		"Citadel_AcceptedInvitation_Title"							"초대 수락"
 		"Citadel_Party_SetMatchModeTitle"							"파티 모드 설정 중"
 		"Citadel_Party_SetMatchModeText"							"파티를 설정하는 동안 잠시 기다려주세요."
-		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} 님이 초대를 수락했습니다."		 
+		"Citadel_AcceptedInvitation_Name"							"{g:citadel_persona:accepted_invitation} 님이 초대를 수락했습니다."
 		"Citadel_Party_KickedByTitle"								"파티에서 추방됨"
 		"Citadel_Party_KickedByText"								"{g:citadel_persona:kicked_by_account} 님이 당신을 파티에서 추방했습니다."
 		"Citadel_Party_DraftEndedByTitle"							"매치 취소됨"
@@ -675,8 +680,8 @@
 		"Citadel_PartyInviteFriend_InvitesFull"						"인원 초과"
 		"Citadel_JoinParty_Title"									"파티 참여"
 		"Citadel_JoinParty_Desc"									"파티 코드를 받았다면 아래에 입력하세요."
-		"Citadel_JoinParty_Prompt"									"파티 ID"	
-		"Citadel_Party_Invites"										"파티 초대"
+		"Citadel_JoinParty_Prompt"									"파티 ID"
+		"Citadel_Party_Invites:p{party_invites}"					"<span class=\"InviteHeaderText\">파티 초대 </span> <span class=\"InviteCount\">{d:party_invites}개</span>"
 		"Citadel_PartyStartMatch"									"매치 시작"
 		"Citadel_PartyFindMatch"									"매치 찾기"
 		"Citadel_Party_CreateEasyBot"								"친구를 초대하여 쉬운 봇과 함께 플레이할 수 있는 파티를 생성합니다."
@@ -703,6 +708,7 @@
 
 		"Citadel_RosterMode_Party_Matchmaking"						"파티 매치메이킹"
 		"Citadel_RosterMode_Party_RankedMatchmaking"				"랭크 매치 플레이"
+		"Citadel_RosterMode_Party_HeroLabsMatchmake"					"영웅 실험 플레이"
 		"Citadel_RosterMode_Party_CoopBotMM"						"파티 협동 봇 매치메이킹"
 		"Citadel_RosterMode_Party_PrivateBotEasy"					"파티 비공개 봇 매치 - 쉬움"
 		"Citadel_RosterMode_Party_PrivateBotMedium"					"파티 비공개 봇 매치 - 보통"
@@ -714,6 +720,7 @@
 
 		"Citadel_RosterMode_Matchmaking"							"Deadlock 플레이"
 		"Citadel_RosterMode_RankedMatchmaking"						"랭크 매치 플레이"
+		"Citadel_RosterMode_HeroLabsMatchmaking"					"영웅 실험 플레이"
 		"Citadel_RosterMode_CoopBotMM"								"협동 봇 매치메이킹"
 		"Citadel_RosterMode_PrivateBotEasy"							"비공개 봇 매치 - 쉬움"
 		"Citadel_RosterMode_PrivateBotMedium"						"비공개 봇 매치 - 보통"
@@ -743,6 +750,9 @@
 		"Citadel_Roster_Instructions_Desc"							"최소 3명의 영웅을 선택하세요. 매치가 시작되면 이 영웅 중 하나가 자동으로 배정됩니다.<br><br>영웅을 <span class='selected'><b>선택</b></span>, <span class='priority'><b>우선</b></span> 또는 <span class='high_priority'><b>최우선</b></span>로 표시하여 해당 영웅이 배정될 확률을 높일 수 있습니다."
 		"Citadel_Roster_Instructions_Select"						"<span class='keybind'>{s:iv_attack}</span> 키를 눌러 영웅을 선택으로 표시합니다."
 		"Citadel_Roster_Instructions_Prefer"						"<span class='keybind'>{s:iv_attack2}</span> 키를 눌러 <b>우선</b> 또는 <b>최우선</b>을 순환합니다."
+
+		"Citadel_Roster_Instructions_Title_HeroLabs"				"Hero Labs"
+		"Citadel_Roster_Instructions_Desc_HeroLabs"					"Queue up to play as or against new Experimental Heroes.<br><br>Select a minimum of three Heroes, <b>two of which must be standard, non-testing Heroes.</b> Players will be more likely to be given an Experimental Hero from their roster based on how long it has been since they've played any Experimental Hero."
 
 		"Citadel_ViewMatchID_Title"									"매치 ID 보기"
 		"Citadel_ViewMatchID_Desc"									"매치 세부 정보를 보려면 매치 ID를 입력하세요."
@@ -807,8 +817,8 @@
 		"Citadel_HUD_PlayerKilledAnnouncement"						" <span class=\"dataFeedClass\">{i:param_1}</span> 획득"
 		"Citadel_HUD_PlayerKilledSelfAnnouncement"					" 자살"
 		"Citadel_HUD_PlayerLostGoldAnnouncement"					" <span class=\"dataFeedClass\">{i:param_1}</span> 손실"
-		"Citadel_HUD_RejuvCaptured"									"활력 장치 점령"
-		"Citadel_HUD_RejuvStolen"									"활력 장치 가로챔!"
+		"Citadel_HUD_RejuvCaptured"									"소생의 보석 점령"
+		"Citadel_HUD_RejuvStolen"									"소생의 보석 가로챔!"
 		"Citadel_HUD_IdolPickedUp"									"영혼 항아리 획득!"
 		"Citadel_HUD_IdolReturned"									"영혼 항아리 반환!"
 		"Citadel_HUD_DamageSummary_Title"							"피해 <i>입힘</i>"
@@ -818,11 +828,11 @@
 		"Citadel_HUD_TotalPowerIncreasesLabel"						"위력 증가 총합"
 		"Citadel_HUD_LevelReward_BulletDamage"						"총탄 피해"
 		"Citadel_HUD_LevelReward_Health"							"체력"
-		"Citadel_HUD_LevelReward_SpiritDamage"						"스피릿 피해"
+		"Citadel_HUD_LevelReward_SpiritDamage"						"마법 피해"
 		//"Citadel_HUD_LevelReward_BulletResist"						"Spirit Damage"
 		//"Citadel_HUD_LevelReward_WeaponRange"						"Spirit Damage"
 		"Citadel_HUD_LevelReward_NextRewardsLabel"					"다음 보상:"
-		
+
 		"Citadel_Hud_KillFeedNone"									"<없음>"
 		"Citadel_Hud_KillFeedTrooper"								"보병 #{i:unit_num}"
 		"Citadel_Hud_KillFeedSuperNeutral"							"사원 수호자"
@@ -874,7 +884,7 @@
 		"Objective_Enemy_ShieldGenerator"							"적 성소"
 		"Objective_Team1_ShieldGenerator"							"엠버 성소"
 		"Objective_Team2_ShieldGenerator"							"사파이어 성소"
-		
+
 		"Objective_Friendly_Final"						"아군 후원자 (약화됨)"
 		"Objective_Enemy_Final"							"적 후원자 (약화됨)"
 		"Objective_Team1_Final"							"엠버 후원자(약화됨)"
@@ -885,6 +895,8 @@
 
 		"Citadel_Team1_Name"							"엠버 핸드"
 		"Citadel_Team2_Name"							"사파이어 플레임"
+		"Citadel_Team1_Name_Uppercase:n"					"앰버 핸드"
+		"Citadel_Team2_Name_Uppercase:n"					"사파이어 플레임"
 
 		"Citadel_Mod_Tooltip_Passive"									"지속 효과"
 		"Citadel_Mod_Tooltip_Active"									"사용 효과"
@@ -904,6 +916,7 @@
 
 
 		"Citadel_HUD_Damage_TooFar"									"너무 멀리 있습니다"
+		"Citadel_HUD_Damage_TooLow"									"너무 적음"
 		"Citadel_HUD_Damage_Invulnerable"							"보호막으로 보호됨"
 		"Citadel_HUD_Damage_NoTroopers"								"보병이 필요합니다"
 		"Citadel_HUD_Damage_Resistant"								"내성이 있습니다"
@@ -930,7 +943,7 @@
 		"Citadel_HUD_DamageReport_DamageDealt"						"가한 피해"
 		"Citadel_HUD_DamageReport_TopDamageSources:p{num_damage_rows}"	"주요 피해 유형"
 		"Citadel_HUD_DamageReport_ShowMore"							"더 보기"
-		
+
 		"Citadel_HUD_DamageReport_LastRespawn"						"현재 생명력"
 		"Citadel_HUD_DamageReport_Time600"							"10분"
 		"Citadel_HUD_DamageReport_Time300"							"5분"
@@ -949,7 +962,7 @@
 		"Citadel_HUD_DamageReport_DamagePercentAbility"				"{i:ability_damage_percent}%"
 
 		"Citadel_HUD_Impact_Kill"									"처치"
-		"Citadel_HUD_Impact_Assist"									"처치<br>도움"		
+		"Citadel_HUD_Impact_Assist"									"처치<br>도움"
 
 		"Citadel_PartyChat_Title"									"파티 채팅"
 		"Citadel_PartyChat_VoiceAndText"							"음성 및 텍스트 채팅"
@@ -958,7 +971,7 @@
 		"Citadel_ChatType_Disabled"									"비활성화됨"
 		"Citadel_ChatType_AllTeam"									"전체 팀"
 		"Citadel_ChatType_PartyOnly"								"파티만"
-		
+
 		"Citadel_HUD_DamageRows_DamageName"							"{s:damage_name}"
 		"Citadel_HUD_DamageRows_DamageValue"						"{i:damage_done}"
 		"Citadel_HUD_DamageRows_Hits:p{hit_count}"					"({i:hit_count}번 타격)"
@@ -1007,6 +1020,9 @@
 		"Citadel_PlayerContextMenu_ViewProfile"						"프로필 보기"
 		"Citadel_PlayerContextMenu_AudioVolume"						"오디오 크기"
 		"Citadel_PlayerContextMenu_EmptyMenu"						"--"
+
+		"Citadel_PostGame_CopyMatchID"								"매치 ID 복사"
+		"Citadel_PostGame_CopyMatchIDSuccess"						"복사 완료"
 
 		"Citadel_PlayerCard_FavoriteHero"							"선호 영웅"
 
@@ -1091,6 +1107,9 @@
 		"Citadel_StartMatchmaking_InvalidHeroSelection"				"매치메이킹에 참여할 유효한 영웅을 선택하지 않았습니다."
 		"Citadel_StartMatchmaking_HeroRosterTooPopular"				"영웅 명단에 이미 사용 중인 영웅만 포함되어 있습니다."
 		"Citadel_StartMatchmaking_NoRegionPings"					"Steam 데이터그램 릴레이에 연결할 수 없습니다. 인터넷에 연결된 상태인 경우, 이는 일반적으로 방화벽, 최대 전송 단위(MTU) 또는 인터넷 연결 문제로 인해 발생합니다."
+		"Citadel_StartMatchmaking_HeroLabsMMNotOpen"				"현재 영웅 실험 매치를 플레이할 수 없습니다."
+		"Citadel_StartMatchmaking_HeroLabsNotUnlocked"				"아직 영웅 실험 매치를 잠금 해제하지 않았습니다."
+		"Citadel_StartMatchmaking_NoHeroLabsWhileInLowPri"			"낮은 우선순위 상태에서는 영웅 실험 매치를 플레이할 수 없습니다."
 		"Citadel_StopMatchMaking_FailedToGetResponse"				"매치메이킹이 중지되었습니다. GC에서 응답을 받지 못했습니다."
 		"Citadel_StopMatchMaking_GeneralError"						"매치메이킹에 실패했습니다. 다시 시도하세요."
 		"Citadel_LeaveLobby_FailedToGetResponse"					"매치메이킹을 중지하지 못했습니다. 다시 시도하세요."
@@ -1107,7 +1126,7 @@
 		"Citadel_IdleMatchmaking_IdleTimerExpired_Body"				"매치메이킹 대기 중에 너무 오랫동안 활동이 없었습니다. 마우스를 움직여 아직 대기 중인지 알려 주세요!"
 		"Citadel_IdleMatchmaking_Dialog_Title"						"매치메이킹 대기 중 활동 없음"
 		"Citadel_IdleMatchmaking_Dialog_Body"						"현재 매치메이킹 대기 중이지만 자리를 비운 것으로 보입니다. 마우스를 움직이지 않으면 매치메이킹에서 제외됩니다."
-		
+
 		"Citadel_Dashboard_EnterMatchmaking"						"매치메이킹\n참여"
 		"Citadel_Dashboard_Roster_HeroTooPopular"					"선택한 영웅이 모두 대기열에 있습니다."
 		"Citadel_Dashboard_Roster_MissingHeroes"					"<span class=\"rosterErrorText\">매치메이킹에 참여하려면 명단에 영웅 3명을 선택해야 합니다.</span>"
@@ -1136,7 +1155,15 @@
 		"Citadel_Dashboard_ShowAnnounceTooltip"						"공지 표시"
 		"Citadel_Dashboard_CloseAnnounceTooltip"					"공지 닫기"
 		"Citadel_Dashboard_ViewLibrary"								"도서관 보기"
-
+		"Citadel_Dashboard_ReloadPageTooltip"						"현재 페이지 다시 불러오기"
+		"Citadel_Dashboard_Status_Mode_Unranked"					"일반 매치"
+		"Citadel_Dashboard_Status_Mode_Ranked"						"랭크 매치"
+		"Citadel_Dashboard_Status_Mode_HeroLabs"					"영웅 실험 매치"
+		"Citadel_Dashboard_Status_Mode_Private"						"비공개 매치"
+		"Citadel_Dashboard_Status_Mode_Coop"						"협동 봇 매치"
+		
+		"Citadel_Dashboard_ShowHeroLabHeroes"						"Show Experimental Heroes"
+		
 		"Citadel_Watch_Title"										"매치 관전"
 		"Citadel_Watch_Featured"									"추천 매치"
 		"Citadel_Watch_Loading"										"불러오는 중..."
@@ -1225,7 +1252,7 @@
 		"Citadel_PartyAction_TooBusy"							"Deadlock 네트워크가 현재 이 작업을 처리할 수 없습니다. 몇 분 후에 다시 시도하세요."
 		"Citadel_PartyAction_RateLimited"						"짧은 시간 내에 너무 많은 작업을 수행했습니다. 잠시 기다렸다가 다시 시도하세요."
 		"Citadel_PartyAction_AlreadyDrafting"					"파티가 이미 매치를 시작했습니다. 다른 매치를 시작하려면 현재 매치를 중지해야 합니다."
-		
+
 		"Citadel_PartySetMode_ErrorTitle"						"오류"
 		"Citadel_PartySetMode_FailedToGetResponse"				"현재 Deadlock 네트워크에 연결할 수 없습니다. 몇 분 후에 다시 시도하세요."
 		"Citadel_PartySetMode_InternalError"					"예기치 않은 내부 오류가 발생했습니다. 몇 분 후에 다시 시도하세요."
@@ -1243,6 +1270,10 @@
 		"Citadel_PartySetMode_PlayerPermaBanned"				"파티원 {g:citadel_persona:nl:account_id}가 이 모드를 영구적으로 플레이할 수 없습니다."
 		"Citadel_PartySetMode_CannotLeavePrivate"				"사설 로비는 현재 게임 모드를 변경할 수 없습니다."
 		"Citadel_PartySetMode_FiveStacksNotAllowed"				"현재 매치메이킹에서 5인 파티는 허용되지 않습니다. 더 적은 수의 파티 혹은 6인 파티로 다시 시도하세요."
+		"Citadel_PartySetMode_HeroLabsMMNotOpen"				"현재 영웅 실험 매치를 플레이할 수 없습니다."
+		"Citadel_PartySetMode_HeroLabsNotUnlocked"				"파티원 {g:citadel_persona:nl:account_id} 님이 아직 영웅 실험 매치를 플레이할 수 없습니다."
+		"Citadel_PartySetMode_NoHeroLabsWhileInLowPri"			"파티원 {g:citadel_persona:nl:account_id} 님이 낮은 우선순위 상태이므로 현재 영웅 실험 매치를 플레이할 수 없습니다."
+		"Citadel_PartySetMode_NoHighRangeFiveStack"				"실력 수준이 높은 5인 파티를 구성했습니다. 현재는 적합한 매치 상대를 찾을 수 없어 해당 파티가 허용되지 않습니다."
 
 		"Citadel_PartyInvite_ErrorTitle"						"초대 보내기 실패"
 		"Citadel_PartyInvite_FailedToGetResponse"				"현재 Deadlock 네트워크에 연결할 수 없어 지정된 사용자를 초대할 수 없습니다. 몇 분 후에 다시 시도하세요."
@@ -1304,17 +1335,19 @@
 		"Citadel_Profile_Win_Short"								"승"
 		"Citadel_Profile_Loss_Short"							"패"
 		"Citadel_Profile_Statistics"							"통계"
+		"Citadel_Profile_RankHistory"							"랭크 기록"
 		"Citadel_Profile_Stats_All"								"모든 영웅"
 		"Citadel_Profile_Stats_TitleSection"					"전체 시간 통계"
 		"Citadel_Profile_Stats_GamesPlayed"						"플레이한 게임"
-		"Citadel_Profile_Stats_GamesWon"						"승리한 게임"		
+		"Citadel_Profile_Stats_GamesWon"						"승리한 게임"
 		"Citadel_Profile_Stats_Kills"							"처치"
 		"Citadel_Profile_Stats_Assists"							"도움"
-		"Citadel_Profile_Stats_HeroDamage"						"영웅 피해"		
-		"Citadel_Profile_Stats_ObjDamage"						"주요 목표물 피해"		
-		"Citadel_Profile_Stats_LastHits"						"마지막 타격"		
-		"Citadel_Profile_Stats_Denies"							"디나이"		
-		"Citadel_Profile_Stats_Healing"							"치유"		
+		"Citadel_Profile_Stats_HeroDamage"						"영웅 피해"
+		"Citadel_Profile_Stats_ObjDamage"						"주요 목표물 피해"
+		"Citadel_Profile_Stats_LastHits"						"마지막 타격"
+		"Citadel_Profile_Stats_Denies"							"디나이"
+		"Citadel_Profile_Stats_Healing"							"치유"
+		"Citadel_Profile_Stats_Commends"						"추천"
 		"Citadel_Profile_Stats_Networth"						"획득한 영혼"
 		"Citadel_Profile_Stats_Value_Networth_Low"				"{i:game_networth}"
 		"Citadel_Profile_Stats_Value_Networth_High"				"{i:game_networth}k"
@@ -1351,6 +1384,7 @@
 		"Citadel_MatchDetails_Healing"							"치유"
 		"Citadel_MatchDetails_Victory"							"승리"
 		"Citadel_MatchDetails_Defeat"							"패배"
+		"Citadel_MatchDetails_Team_Result"						"<span class=\"TeamName h2 display\">{s:team_name}</span><br><span class=\"OutcomeLabel h1 display\">{s:outcome_label}</span>"
 		"Citadel_MatchDetails_Loading"							"매치 정보 불러오는 중"
 		"Citadel_MatchDetails_MatchID"							"매치 {s:match_id}"
 		"Citadel_MatchDetails_ViewScoreboard"					"점수표 보기"
@@ -1383,6 +1417,7 @@
 		"Citadel_ProfileCard_StatTitle_Wins"					"승리"
 		"Citadel_ProfileCard_StatTitle_Kills"					"처치"
 		"Citadel_ProfileCard_StatTitle_GamesPlayed"				"매치 수"
+		"Citadel_ProfileCard_StatTitle_Commends"				"추천"
 
 		"Citadel_ProfileCard_StatValue_Int"						"{d:stat_value}"
 		"Citadel_ProfileCard_StatValue_Date"					"{t:s:stat_value}"
@@ -1408,7 +1443,7 @@
 		"Citadel_Replay_DownloadingPct"							"다운로드 중 - {d:replay_progress}%"
 		"Citadel_Replay_DecompressPct"							"압축 해제 중 - {d:replay_progress}%"
 		"Citadel_Replay_Delete"									"리플레이 삭제"
-		
+
 		"Citadel_Graph_Team1"							"엠버"
 		"Citadel_Graph_Team2"							"사파이어"
 		"Citadel_Graph_WeaponDamage"					"총탄 피해"
@@ -1479,12 +1514,12 @@
 		// Hero Stats
 		"CitadelHeroStats_Weapon"							"무기 능력치"
 		"CitadelHeroStats_Vitality"							"생명력 능력치"
-		"CitadelHeroStats_Spirit"							"스피릿 능력치"
-		"CitadelHeroStats_SpiritPower_Impact"				"스피릿 위력 영향"
-		"CitadelHeroStats_SpiritPower_Desc"					"스피릿 위력은 능력과 아이템의 효율을 높입니다."
+		"CitadelHeroStats_Spirit"							"마법 능력치"
+		"CitadelHeroStats_SpiritPower_Impact"				"마력 영향"
+		"CitadelHeroStats_SpiritPower_Desc"					"마력은 능력과 아이템의 효율을 높입니다."
 		"CitadelHeroStats_Weapon_Falloff"					"피해 감소 거리"
-	
-		// Hero Builds UI	
+
+		// Hero Builds UI
 		"Citadel_HeroBuilds_Title"						"영웅 길잡이"
 		"Citadel_HeroBuilds_SelectedBuild_Title"		"현재 길잡이:"
 		"Citadel_HeroBuilds_Browse_button"				"길잡이 보기 또는 변경"
@@ -1532,9 +1567,9 @@
 
 		"Citadel_HeroBuilds_CurrenclyActive"			"현재 활성"
 		"Citadel_HeroBuilds_AbilityBuildTitle"			"능력 강화 순서"
-		"Citadel_HeroBuilds_AbilityBuildReset"			"편집"	
-		"Citadel_HeroBuilds_AbilityBuildInstructions"	"능력 강화 추천 순서를 설정하려면 편집 버튼을 누른 다음, 길잡이 사용자에게 표시할 순서대로 각 능력치에 스처치을 부여합니다."	
-		
+		"Citadel_HeroBuilds_AbilityBuildReset"			"편집"
+		"Citadel_HeroBuilds_AbilityBuildInstructions"	"능력 강화 추천 순서를 설정하려면 편집 버튼을 누른 다음, 길잡이 사용자에게 표시할 순서대로 각 능력치에 스처치을 부여합니다."
+
 		"Citadel_HeroBuilds_PublishBuildTitle"			"영웅 길잡이 게시"
 		"Citadel_HeroBuilds_PublishBuildDesc"			"이 길잡이를 다른 플레이어와 공유하기 위해 게시합니다."
 		"Citadel_HeroBuilds_BuildNameTitle"				"길잡이 이름"
@@ -1555,10 +1590,10 @@
 		"Citadel_HeroBuilds_ErrorTitle"					"오류"
 		"Citadel_HeroBuilds_ValidateErrorTitle"			"길잡이 저장 오류"
 		"Citadel_HeroBuilds_ValidateErrorBody"			"길잡이에 설명과 이름, 추천 아이템 1개 이상이 있는지 확인하세요."
-		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"		
-		"Citadel_HeroBuilds_DailyFavorite"				"최근 인기"		
-		"Citadel_HeroBuilds_WeeklyFavorite"				"급상승 인기"		
-		"Citadel_HeroBuilds_AllTimeFavorite"			"전체 인기"		
+		"Citadel_HeroBuilds_FavoriteCount"				"{i:favorite_count}"
+		"Citadel_HeroBuilds_DailyFavorite"				"최근 인기"
+		"Citadel_HeroBuilds_WeeklyFavorite"				"급상승 인기"
+		"Citadel_HeroBuilds_AllTimeFavorite"			"전체 인기"
 		"Citadel_HeroBuilds_New"						"신규"
 		"Citadel_HeroBuilds_Old"						"오래됨"
 		"Citadel_HeroBuilds_NameLabel"					"길잡이 이름"
@@ -1595,7 +1630,7 @@
 
 
 		"EShopFilterWeaponDamage"				"무기 피해"
-		"EShopFilterMagicDamage"				"스피릿 피해"
+		"EShopFilterMagicDamage"				"마법 피해"
 		"EShopFilterDurability"					"내구도"
 		"EShopFilterFireRate"					"연사 속도"
 		"EShopFilterClipSize"					"탄약"
@@ -1607,7 +1642,7 @@
 
 		"CitadelCategoryWeapon"					"무기"
 		"CitadelCategoryArmor"					"생명력"
-		"CitadelCategoryTech"					"스피릿"
+		"CitadelCategoryTech"					"마법"
 		"CitadelCategoryFlex"					"자유"
 		"CitadelCategoryBuilds"					"길잡이"
 		"CitadelCategorySuggested"				"추천 아이템"
@@ -1617,7 +1652,7 @@
 		"CitadelShop_SearchExampleLine1"		"검색 예시:"
 		"CitadelShop_SearchExampleLine2"		"이름: <span class=\"highlight\">유령 타격</span>"
 		"CitadelShop_SearchExampleLine3"		"속성: <b>총알 저항</b>"
-		"CitadelShop_SearchExampleAlt"			"<span class=\"highlight\">아이템 이름</span> 또는 <span class=\"highlight_weapon\">탄약</span>, <span class=\"highlight_vitality\">생명력 흡수</span> 또는 <span class=\"highlight_spirit\">스피릿 위력</span>과 같은 능력치로 검색해 보세요."
+		"CitadelShop_SearchExampleAlt"			"<span class=\"highlight\">아이템 이름</span> 또는 <span class=\"highlight_weapon\">탄약</span>, <span class=\"highlight_vitality\">생명력 흡수</span> 또는 <span class=\"highlight_spirit\">마력</span>과 같은 능력치로 검색해 보세요."
 
 		"Citadel_Dead_ShopReminder"				"상점 및 업그레이드"
 		"Citadel_Dead_ReplayDeath"				"죽음 다시보기"
@@ -1627,7 +1662,7 @@
 		// Item and Upgrade Modifiers
 
 
-			
+
 		"citadel_ability_sprint_roll"			"질주"
 		"modifier_citadel_sprint_start"			"무기 수납 중..."
 		"modifier_citadel_sprint_end"			"무기 장착 중..."
@@ -1645,7 +1680,7 @@
 
 		"citadel_ability_drone_boss_laser_beam"		"보스 레이저"
 
-		
+
 		"citadel_ability_dash"						"대시"
 		"citadel_ability_jump"						"점프"
 		"citadel_ability_teleport"					"순간이동"
@@ -1656,11 +1691,12 @@
 		// IN-GAME MODIFIERS
 		"modifier_idol_pickup_aura/aura_target/timer"			"영혼 항아리 획득 중"
 		"modifier_neutral_gold_pickup_aura/aura_target/timer"	"미확보 영혼 획득 중"
-		"modifier_rejuv_pickup_aura/aura_target/timer"			"팀 활력 장치 획득 중"
+		"modifier_rejuv_pickup_aura/aura_target/timer"			"팀 소생의 보석 획득 중"
 		"modifier_early_gold_pickup_aura/aura_target/timer"		"팀 영혼 획득 중"
-		"modifier_citadel_holding_golden_idol"  				"항아리를 반대편 제단으로 옮기기"							
+		"modifier_citadel_holding_golden_idol"  				"항아리를 반대편 제단으로 옮기기"
 		"modifier_citadel_holding_golden_idol_revealed"			"적에게 위치가 드러났습니다! 서두르세요!"
 		"modifier_citadel_returning_golden_idol"  				"영혼 항아리 반납 중"
+		"modifier_citadel_idol_pickup_disabled"					"영혼 단지 획득 비활성화 상태"
 		"modifier_knocked_off_zipline_slow"						"집라인에서 떨어짐"
 		"modifier_citadel_respawn_credit" 						"활력장치 효과"
 
@@ -1723,7 +1759,7 @@
 		"CITADEL_ABILITY_INVALID_NO_DAMAGE_TO_CLEAR"	"해제할 피해 없음"
 
 		"citadel_ability_interrupted"					"능력 방해됨. 원인: "
-		
+
 		"citadel_ability_personal_shield" ""
 		"citadel_ability_quick_melee" "근접 공격"
 		"citadel_ability_sprint" ""
@@ -1741,7 +1777,7 @@
 		"citadel_hint_upgrade_ability"	"<span class=\"hintTextEmphasis\">[{s:key_extra_info}]</span>를 길게 누르면 능력을 업그레이드합니다."
 		"citadel_hint_hero_testing_shop"	"<span class=\"hintTextEmphasis\">[{s:citadel_open_hero_sheet}]</span>를 누르면 상점을 열고 테스트 옵션을 설정합니다."
 		"citadel_hint_teleport"				"2티어 보스가 공격을 받고 있습니다. <span class=\"hintTextEmphasis\">[{s:key_teleport}]</span>를 눌러 도와주세요!"
-		
+
 		// Ability Hints
 		"citadel_hint_flamedash_boost" "부스트하려면 <span class=\"hintTextEmphasis\">[{s:key_innate_1}]</span>를 누르세요. 스테미나가 필요합니다."
 		"citadel_hint_activate_wall" "벽을 일찍 만들려면 <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span>를 누르세요."
@@ -1774,22 +1810,22 @@
 		"survival_powerup_pickup"							"생존력 강화"
 		"casting_powerup_pickup"							"주문력 강화"
 		"movement_powerup_pickup"							"기동성 강화"
-		
-		"spirit_permanent_pickup_label"					"+2 스피릿 위력"
+
+		"spirit_permanent_pickup_label"					"+2 마력"
 		"firerate_permanent_pickup_label"				"+1.5% 연사 속도"
 		"ammo_permanent_pickup_label"					"+4% 탄약"
 		"hp_permanent_pickup_label"						"+20 최대 체력"
 		"cd_permanent_pickup_label"						"+0.75% 쿨다운 감소"
 		"wp_permanent_pickup_label"						"+3% 무기 피해"
 
-		"spirit_permanent_pickup_label_lv2"				"+3 스피릿 위력"
+		"spirit_permanent_pickup_label_lv2"				"+3 마력"
 		"firerate_permanent_pickup_label_lv2"			"+2% 연사 속도"
 		"ammo_permanent_pickup_label_lv2"				"+6% 탄약"
 		"hp_permanent_pickup_label_lv2"					"+30 최대 체력"
 		"cd_permanent_pickup_label_lv2"					"+1% 쿨다운 감소"
 		"wp_permanent_pickup_label_lv2"					"+4% 무기 피해"
 
-		"spirit_permanent_pickup_label_lv3"				"+5 스피릿 위력"
+		"spirit_permanent_pickup_label_lv3"				"+5 마력"
 		"firerate_permanent_pickup_label_lv3"			"+2.5% 연사 속도"
 		"ammo_permanent_pickup_label_lv3"				"+8% 탄약"
 		"hp_permanent_pickup_label_lv3"					"+40 최대 체력"
@@ -1798,7 +1834,7 @@
 
 		"breakable_pickup_missing_loc"					"파괴 가능한 장식 이름 누락"
 
-		"Item_Rejuvenator"								"활력 장치"
+		"Item_Rejuvenator"								"소생의 보석"
 
 
 		"Citadel_AcquireTicket_ErrorTitle"						"오류"
@@ -1826,7 +1862,7 @@
 		"citadel_settings_per_unit_hotkeys"				"영웅별 단축키 설정"
 		"citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"영웅별로 별도의 단축키를 설정합니다."
 		"citadel_settings_defaultkeybinds"				"기본 설정"
-		"citadel_ClearHeroHotkeyBindings"				"초기화"		
+		"citadel_ClearHeroHotkeyBindings"				"초기화"
 		"citadel_settings_chatwheel"					"채팅 휠"
 		"chat_wheel_options"							"채팅 휠 옵션"
 		"citadel_settings_volume"						"음량"
@@ -1840,7 +1876,7 @@
 		"citadel_settings_musicvolume"					"메뉴 음악 음량"
 		"citadel_settings_musicvolume_desc"				"메인 메뉴의 음악 볼륨을 조절합니다"
 		"citadel_settings_voicevolume"					"음성 채팅 음량 (다른 플레이어)"
-		"citadel_settings_voicevolume_desc"				"다른 플레이어의 마이크 볼륨을 조절합니다"	
+		"citadel_settings_voicevolume_desc"				"다른 플레이어의 마이크 볼륨을 조절합니다"
 		"citadel_settings_gamevoicevolume"				"음성 입력 음량 (본인)"
 		"citadel_settings_gamevoicevolume_desc"			"마이크 입력 볼륨을 제어합니다"
 		"citadel_settings_playsoundinbackground" 		"배경에서 사운드 재생"
@@ -1933,6 +1969,7 @@
 		"citadel_settings_streamlined_mic"				"눌러서 말하기(고급)"
 		"citadel_settings_chat_invert_ping"				"핑 반전"
 		"citadel_settings_mousesensitivity"				"마우스 감도"
+		"citadel_settings_mousesensitivity_y_scale"		"마우스 감도: 수직 조정"
 		"citadel_settings_mousezoomsensitivity"			"확대 감도 비율"
 		"citadel_settings_keybinddefaults"				"모든 단축키를 기본값으로 재설정"
 		"citadel_settings_pingwheeldefaults"			"핑 휠을 기본값으로 재설정"
@@ -1971,12 +2008,12 @@
 		"citadel_settings_crosshair_pip_width"				"너비"
 		"citadel_settings_crosshair_pip_height"				"높이"
 		"citadel_settings_crosshair_pip_border"				"조준선 테두리 표시"
-		
+
 		"citadel_settings_crosshair_color"					"색상"
 		"citadel_settings_crosshair_color_r"				"빨간색"
 		"citadel_settings_crosshair_color_g"				"초록색"
 		"citadel_settings_crosshair_color_b"				"파란색"
-		
+
 		"citadel_settings_crosshair_visibility"				"조준점"
 		"citadel_settings_crosshair_pip_opacity"			"조준선 불투명도"
 		"citadel_settings_crosshair_dot_opacity"			"조준점 불투명도"
@@ -2130,9 +2167,12 @@
 		"citadel_keybind_backwards"						"뒤로 이동"
 		"citadel_keybind_left"							"왼쪽으로 이동 (옆걸음)"
 		"citadel_keybind_right"							"오른쪽으로 이동 (옆걸음)"
+		"citadel_keybind_up"							"위로 날기"
+		"citadel_keybind_down"							"아래로 날기"
 		"citadel_keybind_mantle"						"점프/오르기"
 		"citadel_keybind_attack"						"발사"
 		"citadel_keybind_ads"							"확대"
+		"citadel_keybind_reset_camera"					"카메라 초기화"
 		"citadel_keybind_ping"							"핑"
 		"citadel_keybind_quick_response"				"빠른 응답"
 		"citadel_keybind_extra_info"					"추가 정보"
@@ -2212,6 +2252,7 @@
 		"Citadel_ConflictingWithPrimaryModifier"		"이 변경 단축키는 {s:key_name} 키와 충돌합니다."
 
 		"citadel_clientversion"							"빌드 {d:client_version_number}"
+		"Citadel_ClientVersion_Connary"					""
 		"OS_Default_Device"								"기본 장치"
 
 		//-----------------------------------------------------------------------------
@@ -2358,16 +2399,16 @@
 		"kill_hype_FirstBlood"	"first blood"
 
 		"team_msg_Idol_Desc"	"영혼 항아리"
-		
-		//"team_msg_Winner_SubText"	"The Patrons favor you"
-		"Citadel_GameOver_Victory"	"승리"
-		"Citadel_GameOver_Defeat"	"패배"
+
+		"Citadel_GameOver_Victory:g"	"승리"
+		"Citadel_GameOver_Defeat:g"		"패배"
 
 
 		"Citadel_LaneColorPurple"						"보라"
 		"Citadel_LaneColorBlue"							"파랑"
 		"Citadel_LaneColorYellow"						"노랑"
 		"Citadel_LaneColorGreen"						"초록"
+		"Citadel_LaneColorUnassigned"					"대기 상태"
 		"Citadel_TeamMsg_EnemyBossKilledTitle"			"적 {s:lane_color} 티어 {i:boss_tier}"
 		"Citadel_TeamMsg_BossKilledTitle"				"아군 {s:lane_color} 티어 {i:boss_tier}"
 		"Citadel_TeamMsg_BossKilledMessage"				"파괴됨"
@@ -2376,7 +2417,7 @@
 
 		"Citadel_FlexSlot_Title"						"자유 슬롯 해제됨"
 		"Citadel_FlexSlotUnlockedAllTier1"				"세 기의 <span class=\"FlexSlotObjectiveName\">전선 수호자</span>를 처치하여 자유 슬롯이 해제되었습니다."
-		"Citadel_FlexSlotUnlockedGenerator"				"하나의 <span class=\"FlexSlotObjectiveName\">성소</span>를 처치하여 자유 슬롯이 해제되었습니다."
+		"Citadel_FlexSlotUnlockedGenerator"				"모든 <span class=\"FlexSlotObjectiveName\">성소</span>를 파괴하여 자유 슬롯이 해제되었습니다."
 		"Citadel_FlexSlotUnlockedAllTier2"				"모든 <span class=\"FlexSlotObjectiveName\">보행자</span>를 처치하여 자유 슬롯이 해제되었습니다."
 		"Citadel_FlexSlotUnlockedKill2Tier2"			"두 기의 <span class=\"FlexSlotObjectiveName\">보행자</span>를 처치하여 자유 슬롯이 해제되었습니다."
 
@@ -2418,6 +2459,7 @@
 		"menu_getstarted"							"시작하기"
 		"menu_bot_practice"							"개인전 봇 매치"
 		"menu_bot_custom"							"맞춤 설정 매치"
+		"menu_bot_hero_labs"						"영웅 실험실"
 		"menu_learn"								"배우기"
 		"menu_resources"							"자료"
 		"menu_training"								"훈련"
@@ -2433,6 +2475,8 @@
 		"Citadel_Confirm_Discord_InMatch_Body"		"파티에 참여 중이거나 매치메이킹 중일 때는 나중에 Discord 링크를 사용하세요."
 		"Citadel_Dashboard_Recommended"				"추천"
 
+		"Citadel_Commend_Toast_NoHero_Generic"		"{s:commender} commended you"
+		"Citadel_Commend_Toast_Generic"				"{s:commender}({s:commender_hero}) 님의 추천을 받았습니다!"
 		"Citadel_Commend_Toast_Friendly"			"{s:commender} ({s:commender_hero}) 님이 당신을 친절하고 유쾌한 팀원으로 추천했습니다."
 		"Citadel_Commend_Toast_Teamwork"			"{s:commender} ({s:commender_hero}) 님이 당신을 좋은 팀워크를 가진 팀원으로 추천했습니다."
 		"Citadel_Commend_Toast_Skilled"				"{s:commender} ({s:commender_hero}) 님이 당신을 뛰어난 실력을 가진 팀원으로 추천했습니다."
@@ -2463,6 +2507,8 @@
 		"menu_play_lane_training_desc"				"친절한 영웅의 안내를 받으며 초반 게임을 배우세요."
 		"menu_play_bots_easy_desc"					"봇과 사설 매치를 플레이합니다."
 		"menu_play_custom_game_desc"				"최대 12명이 참가할 수 있는 맞춤 설정 매치를 만들거나 참여합니다."
+		"menu_play_hero_labs_desc"					"Help test experimental new Heroes"
+		"menu_play_hero_labs_locked_desc"			"Help test experimental new Heroes. Unlocked after 50 games played"
 		
 		"menu_play_get_started_time_est"			"4분"
 		"menu_play_sandbox_time_est"				"5분"
@@ -2479,6 +2525,9 @@
 		"menu_learn_incomplete"						"미완료"
 		"menu_learn_completed"						"완료"
 
+		"menu_hero_labs_unavailable"				"잠김"
+		"menu_hero_labs_schedule_title"				"플레이 가능 시간:"
+		"menu_hero_labs_schedule_times"				"{t:t:start_time}~{t:t:end_time}"
 		"menu_play_ranked"							"랭크 매치 참가"
 		"menu_play_ranked_desc"						"비슷한 실력의 플레이어를 상대로 더 경쟁적인 매치를 플레이하세요."
 		"menu_ranked_title"							"랭크:"
@@ -2513,30 +2562,30 @@
 		"Citadel_ranked_explainer_title"			"랭크 매치메이킹"
 		"Citadel_ranked_explainer_desc"				"랭크 모드는 전 세계 플레이어들 간의 실력을 겨루기 위해, 비슷한 실력의 플레이어들끼리 매칭되는 Deadlock의 경쟁전 모드입니다.<br><br>매주, 각 플레이어는 해당 지역의 시간대 중 하나를 선택하여 랭크 매치에 참가할 수 있습니다."
 		"Citadel_ranked_howitworks_title"			"자세한 정보"
-		"Citadel_ranked_howitworks_desc"			"모든 플레이어들은 '은둔인'의 임시 랭크로 시작합니다. 해당 주간의 랭크를 확인하려면 매주 7개의 랭크 게임을 완료해야 합니다. 그 주간이 끝날 때 성적을 분석하여 랭크가 수여되며, 프로필에 배지로 표시됩니다.<br><br>해당 주간 동안 랭크 매치를 7번 하지 않을 경우, 랭크가 다시 은둔인으로 돌아가며, 해당 주기에 랭크 게임 7번을 완료해야 그 다음 주기에 다시 메달을 수여받습니다. 휴면 상태로 돌아가도 추후 랭크 매치에 활용될 플레이 성적이나 지표 등은 유지됩니다만, 해당 주기에는 배지가 표시되지 않습니다.<br><br>랭크는 총 11종류가 있으며, 각 랭크는 I부터 VI까지 하위 랭크 6단계로 나누어져 해당 랭크 내에서의 위치를 확인할 수 있습니다."
+		"Citadel_ranked_howitworks_desc"			"모든 플레이어들은 '옵스큐러스'의 임시 랭크로 시작합니다. 해당 주간의 랭크를 확인하려면 매주 7개의 랭크 게임을 완료해야 합니다. 그 주간이 끝날 때 성적을 분석하여 랭크가 수여되며, 프로필에 배지로 표시됩니다.<br><br>해당 주간 동안 랭크 매치를 7번 하지 않을 경우, 랭크가 다시 옵스큐러스로 돌아가며, 해당 주기에 랭크 게임 7번을 완료해야 그 다음 주기에 다시 메달을 수여받습니다. 휴면 상태로 돌아가도 추후 랭크 매치에 활용될 플레이 성적이나 지표 등은 유지됩니다만, 해당 주기에는 배지가 표시되지 않습니다.<br><br>랭크는 총 11종류가 있으며, 각 랭크는 I부터 VI까지 하위 랭크 6단계로 나누어져 해당 랭크 내에서의 위치를 확인할 수 있습니다."
 		"Citadel_ranked_rankedmedals"				"랭크:"
+		"Citadel_ranked_subranks_explainer"			"하위 랭크: I, II, III, IV, V, <Panel class=\"starIcon\"></Panel>"
 
 		"Citadel_ranked_explainer_note"				"배지 디자인은 10월 23일 수요일 첫 번째 랭크 점수 공개와 함께 발표됩니다."
-		
+
 		"Citadel_ranked_result_title"				"랭크 결과 보고"
 		"Citadel_ranked_result_rankup"				"랭크 상승!"
 		"Citadel_ranked_result_adjustment"			"랭크 조정"
 		"Citadel_ranked_numGamesPlayed"				"{s:games_played} 게임 플레이함"
 		"Citadel_ranked_match_history"				"매치 전적:"
-		"Citadel_ClickToViewReport"					"클릭하여 랭크 매치 전적을 확인하세요"
 
-		"Citadel_ranks_rank0"						"은둔인"
-		"Citadel_ranks_rank1"						"입교인"
-		"Citadel_ranks_rank2"						"탐문인"
-		"Citadel_ranks_rank3"						"연금술사"
-		"Citadel_ranks_rank4"						"신비술사"
-		"Citadel_ranks_rank5"						"의식술사"
-		"Citadel_ranks_rank6"						"특임관"
-		"Citadel_ranks_rank7"						"집정관"
-		"Citadel_ranks_rank8"						"예지자"
-		"Citadel_ranks_rank9"						"영존자"
-		"Citadel_ranks_rank10"						"승천자"
-		"Citadel_ranks_rank11"						"초월자"
+		"Citadel_ranks_rank0"						"옵스큐러스"
+		"Citadel_ranks_rank1"						"이니시에이트"
+		"Citadel_ranks_rank2"						"시커"
+		"Citadel_ranks_rank3"						"알케니스트"
+		"Citadel_ranks_rank4"						"아케이니스트"
+		"Citadel_ranks_rank5"						"리추얼리스트"
+		"Citadel_ranks_rank6"						"에미서리"
+		"Citadel_ranks_rank7"						"아르콘"
+		"Citadel_ranks_rank8"						"오라클"
+		"Citadel_ranks_rank9"						"팬텀"
+		"Citadel_ranks_rank10"						"어센던트"
+		"Citadel_ranks_rank11"						"이터너스"
 
 		"Citadel_subranks_1"						"I"
 		"Citadel_subranks_2"						"II"
@@ -2571,11 +2620,11 @@
 		"SafeToAbandon_Text"						"이제 포기 페널티 없이 매치를 나갈 수 있습니다."
 
 		"ModIconTooltip_UnlockTier2"				"팀이 적 보행자를 둘 파괴하면 해제됨"
-		"ModIconTooltip_UnlockGuardians"			"팀이 적 기지의 수호자 한 쌍을 파괴하면 해제됨"	
-		"ModIconTooltip_UnlockGenerators"			"팀이 적 성소 하나를 파괴하면 해제됨"	
+		"ModIconTooltip_UnlockGuardians"			"팀이 적 기지의 수호자 한 쌍을 파괴하면 해제됨"
+		"ModIconTooltip_UnlockGenerators"			"팀이 적 성소를 모두 파괴하면 해제됨"
 		//"ModIconTooltip_UnlockTier3"				"Unlocked after your team destroys the enemy Patron's first form"
 		"ModIconTooltip_UnlockAllTier1"				"팀이 적 전선 수호자를 셋 파괴하면 해제됨"
-		"ModIconTooltip_UnlockAllTier2"				"팀이 모든 적 보행자를 파괴하면 해제됨"
+		"ModIconTooltip_UnlockAllTier2"				"팀이 적 보행자를 모두 파괴하면 해제됨"
 
 		"HeroesPageTitle"							"영웅"
 		"HeroesPageActionText"						"영웅을 선택하여 세부 정보를 확인하세요."
@@ -2601,6 +2650,7 @@
 		"MyRosterNumHeroesInRoster"					"명단에 {i:num_heroes_in_roster}명의 영웅이 있습니다."
 		"MyRosterNumHeroesInRosterSingular"			"명단에 {i:num_heroes_in_roster}명의 영웅이 있습니다."
 		"MyRosterGreatForNewPlayers"				"새로운 플레이어에게 적합"
+		"MyRosterHeroLabsHero"						"영웅 실험실"
 		"MyRosterAssignedTesting"					"일시 제외됨"
 		"MyRosterAssignedOpenTesting"				"개방형 테스트 배정됨"
 		"MyRosterChangeHero"						"영웅 변경"
@@ -2615,6 +2665,7 @@
 		"MyRosterPartyReadyCount"					"{d:party_ready_count}/{d:party_player_count} 준비 완료"
 		"MyRosterPartyMemberRoster"					"이미 명단에 있는 영웅:"
 
+		"MyRosterRosterDesc_HeroLabs"				"명단에는 최소 3명의 영웅이 필요하며 선택한 영웅 중 2명은 반드시 테스트 대상이 아닌 일반 영웅이어야 합니다."
 
 		//-----------------------------------------------------------------------------
 		// SANDBOX - DEMO CONTROLS
@@ -2667,7 +2718,7 @@
 		//-----------------------------------------------------------------------------
 		// TUTORIAL - LANE TRAINING
 		//-----------------------------------------------------------------------------
-		
+
 		"LaneTraining_Intro_Title"					"<b>전선 훈련</b>에 오신 것을 환영합니다"
 		"LaneTraining_Intro_Desc"					"초반 게임의 목표는 힘을 모아서 목표를 처치하는 것입니다.<br><br>오른쪽에 나열된 <span class=\"introHighlight\">목표를 처치하면</span> 상상을 초월하는 <span class=\"introHighlight\">힘</span>을 얻어 수호자를 무찌를 수 있습니다."
 		"LaneTraining_Intro_Button"					"시작"
@@ -2675,7 +2726,7 @@
 		"LaneTraining_Outro_Title"					"<b>전선 훈련</b> 완료"
 
 		//"ReportCard_PlayerDamage"					"Player Damage"
-		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"	
+		//"ReportCard_PlayerDamage_Desc"				"Damage you’ve dealt to enemy heroes"
 		//"ReportCard_PlayerDamage_Progress"			"<span class=\"yourscore\">{i:playerDamage}</span> / {i:playerDamageNextGoal}"
 
 		"ReportCard_LastHits"						"마지막 타격"
@@ -2720,9 +2771,9 @@
 		"ReportCard_KillGuardian"					"적 수호자 처치"
 		"ReportCard_KillGuardian_Desc"				"승리를 위해 방해하는 적을 모두 처치하세요!"
 
-		//"NewPlayer_NewPlayerFlow"					"Learn to Play"				
+		//"NewPlayer_NewPlayerFlow"					"Learn to Play"
 		"NewPlayer_Skip"							"튜토리얼 건너뛰기"
-		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."	
+		//"NewPlayer_NewPlayerFlow_Desc"				"To get started, check out the tasks within <span class=\"introText\">Learn</span>."
 		//"NewPlayer_GetStarted"						"Review <span class='TaskHighlight'>Get Started</span>"
 		//"NewPlayer_GetStarted_Time"					"4 mins"
 		//"NewPlayer_HeroSandbox"						"Try out your moves in <span class='TaskHighlight'>Hero Training</span>"
@@ -2730,7 +2781,7 @@
 		//"NewPlayer_LaneTraining"					"Learn the early game in <span class='TaskHighlight'>Lane Training</span>"
 		//"NewPlayer_LaneTraining_Time"				"8 mins"
 		//"NewPlayer_YouAreFinished"					"You're ready! Try a bot match within Practice or Play your first game!"
-		//"NewPlayer_Finish"							"End Tutorial"				
+		//"NewPlayer_Finish"							"End Tutorial"
 
 		"HeroTraining_Intro_Title"					"<b>영웅 훈련</b>에 오신 것을 환영합니다"
 		"HeroTraining_Intro_Desc"					"이곳에서 영웅의 이동과 능력을 연습할 수 있습니다. 승리를 위해서는 기초 개념을 숙달하는 것이 가장 중요합니다."
@@ -2742,10 +2793,10 @@
 		"NPE_Heroes_Modal_Title"					"추천 영웅"
 		"NPE_Heroes_Modal_Desc"						"<span class=\"introText\">처음 플레이하시는 것 같네요!</span><br><br>새로운 플레이어에게 적합한 몇몇 영웅을 강조 표시했습니다. 시작할 영웅을 정하지 못했다면 이러한 영웅 중 하나를 시도해 보세요."
 		"NPE_Heroes_Modal_Button"					"알겠습니다!"
-		
+
 		"NPE_Bots_Modal_Desc"						"<span class=\"introText\">첫 번째 봇 매치!</span><br><br>봇 매치는 영웅에 익숙해지는 데 좋지만 PvP 매치의 흐름과 팀워크를 완벽하게 재현하지는 못합니다.<br><br>편안해지면 봇 매치를 종료하고 매치메이킹에 참하세요."
 		"NPE_Bots_Modal_Button"						"알겠습니다!"
-		
+
 
 		"Sandbox_Tutorial_Movement"					"조작 테스트"
 		"Sandbox_Tutorial_Movement_desc"			"이 영역에서 조작을 테스트하세요."
@@ -2771,7 +2822,7 @@
 		"Sandbox_Tutorial_Step_1"					"1/6 단계"
 		"Sandbox_Tutorial_Step_2"					"2/6 단계"
 		"Sandbox_Tutorial_Step_3"					"3/6 단계"
-		"Sandbox_Tutorial_Step_4"					"4/6 단계"		
+		"Sandbox_Tutorial_Step_4"					"4/6 단계"
 		"Sandbox_Tutorial_Step_5"					"5/6 단계"
 		"Sandbox_Tutorial_Step_6"					"6/6 단계"
 
@@ -2795,7 +2846,7 @@
 
 		"BrowseItems_Title"							"아이템 둘러보기"
 		"BrowseItems_Desc"							"아이템 목록을 둘러보고 다음 경기를 준비하세요!"
-		
+
 		"CreateBuilds_Title"						"{s:hero_name} 길잡이 생성"
 		"CreateBuilds_Desc"							"상점에서 아이템을 선택하여 추천 길잡이 목록에 추가하세요."
 
@@ -2833,7 +2884,7 @@
 		"AbilityButtonHint_DropTarget"				"아군 내려놓기"
 		"AbilityButtonHint_HatTrickFire"			"발사"
 		"AbilityButtonHint_HatTrickCancel"			"돌아가기"
-		"AbilityButtonHint_MeleeRejuvinator"		"강력 근접 공격으로 활력 장치를 획득"
+		"AbilityButtonHint_MeleeRejuvinator"		"강력 근접 공격으로 소생의 보석를 획득"
 		"AbilityButtonHint_ClimbRope"				"길게 눌러 밧줄 타기"
 
 		"AbilityButtonHint_HealTarget"			"대상 치유"
@@ -2846,7 +2897,7 @@
 		"AbilityButtonHint_CastIceDome"				"얼어붙은 성채 시전"
 		"AbilityButtonHint_CastLifeDrain"			"Drain Enemy"
 		"AbilityButtonHint_AlotCastLifeDrain"				"아군 치유"
-		
+
 		//-----------------------------------------------------------------------------
 		// Guided Bot Match
 		//-----------------------------------------------------------------------------
@@ -2867,7 +2918,7 @@
 		"citadel_bot_name_prefix"				"[봇]"
 		"citadel_purchasemessage"				"<span class=\"ChatTarget\">{s:target} <span class=\"ChatPersona\"><span class=\"{s:player_color_class}\">{s:persona}</span></span></span> <span class=\"{s:purchaseText}\">{s:soldOrPurchasedText}</span> <span class=\"{s:message_color_class}\">{s:message}</span>"
 		"citadel_ping_wheel_message"			"{s:message}"
-	
+
 		"citadel_ping_wheel_disabled_while_dead"				"죽은 상태에서 사용 불가."
 		"citadel_all_chat_label_prefix"							"[모두] "
 		"citadel_chatwheel_label_Care"							"조심"
@@ -2973,6 +3024,9 @@
 		//"citadel_quick_response_respond_onmyway"					"Respond 'On my Way'"
 
 		// These are loc strings for ping response rules. Good for if we don't have VO for a response rule to show what the player would've said.
+		"ping_message"											"{s:pre_punctuation}{s:ping}{s:post_punctuation}"
+		"ping_pre_exclamation"									""
+		"ping_post_exclamation"									"!"
 		"ping_headed_yellow"									"노랑으로 이동 중"
 		"ping_headed_blue"										"파랑으로 이동 중"
 		"ping_headed_green"										"초록으로 이동 중"

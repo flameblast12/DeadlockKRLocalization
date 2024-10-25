@@ -13,7 +13,7 @@
 		"MODIFIER_STATE_SILENCED"							"침묵"
 		"MODIFIER_STATE_STUNNED"							"기절함"
 		"MODIFIER_STATE_INVULNERABLE"						"무적"
-		"MODIFIER_STATE_TECH_INVULNERABLE"					"스피릿 무적"
+		"MODIFIER_STATE_TECH_INVULNERABLE"					"마법 피해 무적"
 		//"MODIFIER_STATE_BURNING"							"Burning"
 
 		// Commenting this out so it doesn't show overhead of the player your applied it to
@@ -43,6 +43,7 @@
 		"Citadel_StatusEffectImmobilize" 		"고정"
 		"Citadel_StatusEffectDisarmed"			"무장 해제"
 		"Citadel_StatusEffectInvisible"			"투명"
+		"Citadel_StatusEffectPetrify"				"석화"
 		//"Citadel_StatusEffectStacks"			"Stacks "
 		//"Citadel_StatusEffectInfiniteClip"		"Infinite Ammo"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
@@ -77,7 +78,7 @@
 		//"emp_immune"							"Silenced Immune"
 		//"modifier_citadel_muted"				"Muted"
 		"modifier_citadel_disarmed"				"무장 해제"
-		"modifier_citadel_tech_shield"		"스피릿 보호막"
+		"modifier_citadel_tech_shield"		"마법 보호막"
 
 		"modifier_item_disarmed"				"무장 해제"
 		"modifier_citadel_disarm_proc"			"무장 해제"
@@ -133,12 +134,12 @@
 		//"StatDesc_IncomingBulletDamageScale"			"Bullet Damage Scale"
 		//"StatDesc_IncomingMeleeDamageReduction"			"Melee Damage Armor"
 		//"StatDesc_IncomingMeleeDamageScale"				"Melee Damage Scale"
-		"StatDesc_TechArmor"							"스피릿 방어력"				
-		"StatDesc_TechArmorDamageReduction"		 		"스피릿 저항"
+		"StatDesc_TechArmor"							"마법 방어력"				
+		"StatDesc_TechArmorDamageReduction"		 		"마법 저항"
 		"StatDesc_TechArmorDamageReduction_postfix"		"%"
 		//"StatDesc_IncomingAbilityDamageReduction"		"Ability Armor"
 		//"StatDesc_IncomingAbilityDamageScale"			"Ability Damage Scale"
-		"StatDesc_TechPower"							"스피릿 위력"
+		"StatDesc_TechPower"							"마력"
 		//"StatDesc_ManaPerLevel"							"Energy Per Level"
 		//"StatDesc_HealthPerLevel"						"Health Per Level"
 		//"StatDesc_ManaRegenPerLevel"					"Energy Regen Per Level"
@@ -176,7 +177,7 @@
 		"StatDesc_WeaponPowerAttribute"					"무기 공격력"
 		"StatDesc_ArmorAttribute"						"방어력"
 		"StatDesc_HealthAttribute"						"체력"
-		"StatDesc_TechDamageAttribute"					"스피릿 공격력"
+		"StatDesc_TechDamageAttribute"					"마법 공격력"
 		"StatDesc_FireRateAttribute"					"연사 속도"
 		"StatDesc_ReloadTime"							"재장전 시간"
 		"StatDesc_ReloadTime_postfix"					"초"
@@ -185,8 +186,8 @@
 		"StatDesc_StaminaRegenPerSecond_postfix"		"%"
 		"StatDesc_BaseWeaponDamage"						"기본 무기 공격력"
 		"StatDesc_BaseWeaponDamage_postfix"				"%"
-		"StatDesc_TechDamageScale"						"스피릿 피해"
-		"StatDesc_TechShieldHealth"						"스피릿 보호막"
+		"StatDesc_TechDamageScale"						"마법 피해"
+		"StatDesc_TechShieldHealth"						"마법 보호막"
 		"StatDesc_BulletShieldHealth"					"총탄 보호막"
 		"StatDesc_ReloadSpeed_prefix"					"{s:sign}"
 		"StatDesc_ReloadSpeed"							"재장전 감소"
@@ -204,6 +205,8 @@
 		"StatDesc_HealingOutput_postfix"				"%"
 		"StatDesc_CritDamageBonusScale"					"치명타 추가 피해"
 		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"Melee Resist"
+		"StatDesc_MeleeResist_postfix"					"%"
 
 		"StatDesc_BulletSpeed"							"총탄 속도"
 		"StatDesc_BulletSpeed_postfix"					"m/s"
@@ -218,11 +221,11 @@
 		//"StatDesc_DefensePower"							"Defense Power"
 
 		"StatDesc_TechLifesteal_prefix"					"{s:sign}"
-		"StatDesc_TechLifesteal"						"스피릿 흡혈"
+		"StatDesc_TechLifesteal"						"마법 흡혈"
 		"StatDesc_TechLifesteal_postfix"				"%"
 
 		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
-		"StatDesc_TechLifestealNonHero"					"비영웅 대상 스피릿 흡혈"
+		"StatDesc_TechLifestealNonHero"					"비영웅 대상 마법 흡혈"
 
 		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
 		"StatDesc_BulletLifesteal"						"총탄 흡혈"
@@ -421,26 +424,26 @@
 		// this name is misleading since we use this as a debuff ("TechResist" is the buff version)
 		"TechArmorDamageReduction_prefix"				"{s:sign}"
 		"TechArmorDamageReduction_postfix"				"%"
-		"TechArmorDamageReduction_Label"				"스피릿 저항"
+		"TechArmorDamageReduction_Label"				"마법 저항"
 
 		"TechDamageScale_prefix"						"{s:sign}"
 		"TechDamageScale_postfix"						"%"
-		"TechDamageScale_label"							"스피릿 피해"
+		"TechDamageScale_label"							"마법 피해"
 
 		"TechArmor_prefix"								"{s:sign}"
-		"TechArmor_label"								"스피릿 방어력"
+		"TechArmor_label"								"마법 방어력"
 		
 		"TechResist_prefix"								"{s:sign}"
 		"TechResist_postfix"							"%"
-		"TechResist_label"								"스피릿 저항"
+		"TechResist_label"								"마법 저항"
 
 		"TechResistPerStack_prefix"						"{s:sign}"
 		"TechResistPerStack_postfix"					"%"
-		"TechResistPerStack_label"						"중첩당 스피릿 증폭"
+		"TechResistPerStack_label"						"중첩당 마법 증폭"
 
 		"MagicIncreasePerStack_prefix"					"{s:sign}"
 		"MagicIncreasePerStack_postfix"					"%"
-		"MagicIncreasePerStack_label"					"중첩당 스피릿 증폭"
+		"MagicIncreasePerStack_label"					"중첩당 마법 증폭"
 
 		"BulletDamageReduction_postfix"					"%"
 		"BulletDamageReduction_label"					"총탄 방어력"
@@ -493,7 +496,7 @@
 		"BulletPenetrationPercent_label"				"총탄 관통력"
 
 		"TechPower_prefix"								"{s:sign}"
-		"TechPower_label"								"스피릿 위력"
+		"TechPower_label"								"마력"
 		"TechPower_postfix"								""
 
 		"ArmorPower_prefix"								"{s:sign}"
@@ -505,11 +508,11 @@
 		//"TechPowerAmp_postfix"							""
 
 		"SpellAmplificationPercent_prefix"				"{s:sign}"
-		"SpellAmplificationPercent_label"				"스피릿 위력"
+		"SpellAmplificationPercent_label"				"마력"
 		"SpellAmplificationPercent_postfix"				""
 
 		//BaseDamagePerShot_label							"Base Damage"
-		"NanoTechPerShot_label"							"스피릿 피해"
+		"NanoTechPerShot_label"							"마법 피해"
 		//"ExplosiveSplashDamage_label"						"Explode Damage"
 		"BulletDamageTotal_label"							"총탄 피해"
 
@@ -535,7 +538,7 @@
 		"BonusMeleeAttackSpeed_postfix"					"%"
 		//"BonusMeleeAttackSpeed_label"					"Melee Speed"
 
-		"AbilityDamageReduction_label"				"스피릿 피해 감소"
+		"AbilityDamageReduction_label"				"마법 피해 감소"
 		"AbilityDamageReduction_postfix"				"%"
 
 		//"SlowProcChance_label"						"Chance to slow on hit"
@@ -643,7 +646,7 @@
 		"BulletLifestealPercent_postfix"				"%"
 
 		"TechLifestealPercent_prefix"					"{s:sign}"
-		"TechLifestealPercent_label"						"스피릿 흡혈"
+		"TechLifestealPercent_label"						"마법 흡혈"
 		"TechLifestealPercent_postfix"					"%"
 
 		"MeleeLifestealPercent_prefix"						"{s:sign}"
@@ -706,6 +709,9 @@
 
 		"HealAmpReceivePenaltyPercent_label"		"치유 감소"
 		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"치유 감소"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
 
 		"DegenResistance_label"						"치유 감소 저항"
 		"DegenResistance_postfix"					"%"
@@ -741,7 +747,7 @@
 		"MeleeDamagePercent_postfix"					"%"
 
 
-		"TechShieldHealth_label"					"스피릿 보호막 체력"
+		"TechShieldHealth_label"					"마법 보호막 체력"
 		//"TempTechShieldHealth_label"				"Temp Spirit Shield Health"
 		"TechShieldDamagePercent_prefix"			"{s:sign}"
 		//"TechShieldDamagePercent_label"				"Spirit Shield Damage"
@@ -790,15 +796,15 @@
 		"BulletDamagePercent_postfix"					"%"
 
 		"AbilityLifestealPercent_prefix"					"{s:sign}"
-		"AbilityLifestealPercent_label"				"스피릿 흡혈"
+		"AbilityLifestealPercent_label"				"마법 흡혈"
 		"AbilityLifestealPercent_postfix"				"%"
 		
 		"AbilityLifestealPercentHero_prefix"					"{s:sign}"
-		"AbilityLifestealPercentHero_label"				"스피릿 흡혈"
+		"AbilityLifestealPercentHero_label"				"마법 흡혈"
 		"AbilityLifestealPercentHero_postfix"			"%"
 
 		"AbilityLifestealPercentNonHero_prefix"					"{s:sign}"
-		"AbilityLifestealPercentNonHero_label"			"비영웅 대상 스피릿 흡혈"
+		"AbilityLifestealPercentNonHero_label"			"비영웅 대상 마법 흡혈"
 		"AbilityLifestealPercentNonHero_postfix"		"%"
 
 		"RegenDuration_label"							"재생 지속 시간"
@@ -926,7 +932,7 @@
 		"MoveSpeedMax_label"							"이동 속도"
 		"MoveSpeedMax_postfix"						" m/s"
 
-		"BulletDamagePercentAsTechDamage_label"		"추가 스피릿 피해"
+		"BulletDamagePercentAsTechDamage_label"		"추가 마법 피해"
 		//"BulletDamagePercentAsTechDamage_postfix"		"% Bullet Damage "
 
 		"BonusCritDamagePercent_prefix"					"{s:sign}"
@@ -1219,7 +1225,7 @@
 		//"FullDistance_label"							"Max Range: "
 		"FullDistance_postfix"							"m"
 
-		"ProcDamage_label"								"스피릿 피해"
+		"ProcDamage_label"								"마법 피해"
 		"ProcDamage_postfix"							""
 
 		//"BaseDamagePct_label"							"Bonus Spirit Amp"
@@ -1459,7 +1465,7 @@
 		"BulletShieldMaxHealth_prefix"				"{s:sign}"
 		"BulletShieldMaxHealth_label"				"총탄 보호막 체력"
 		"TechShieldMaxHealth_prefix"				"{s:sign}"
-		"TechShieldMaxHealth_label"					"스피릿 보호막 체력"
+		"TechShieldMaxHealth_label"					"마법 보호막 체력"
 
 		"ActiveBulletShieldMaxHealth_prefix"		"{s:sign}"
 		"ActiveBulletShieldMaxHealth_label"			"총탄 보호막 체력"
@@ -1510,7 +1516,7 @@
 		"FervorFireRate_postfix"	"%"
 		//"FervorDebuffResistance_label"		"Enrage Debuff Resistance"
 		"FervorDebuffResistance_postfix"	"%"
-		"FervorTechResist_label"			"스피릿 저항"
+		"FervorTechResist_label"			"마법 저항"
 
 		"PassiveFireRate_label"		"연사 속도"
 		"PassiveFireRate_postfix"	"%"
@@ -1531,7 +1537,7 @@
 
 		"BulletDamageReflectedPct_label"					"총탄 피해 반사"
 		"BulletDamageReflectedPct_postfix"					"%"
-		"SpiritDamageReflectedPct_label"					"스피릿 피해 반사"
+		"SpiritDamageReflectedPct_label"					"마법 피해 반사"
 		"SpiritDamageReflectedPct_postfix"					"%"
 		"DamageReflectedFrequencyPct_label"				"발동 확률"
 		"DamageReflectedFrequencyPct_postfix"			"%"
@@ -1578,7 +1584,7 @@
 		"TechResistDuration_label"			"지속 시간"
 		"TechResistDuration_postfix"			"초"
 
-		"BleedTechResist_label"				"스피릿 저항"
+		"BleedTechResist_label"				"마법 저항"
 		"BleedTechResist_prefix"				"{s:sign}"
 		"BleedTechResist_postfix"				"%"
 
@@ -1648,7 +1654,7 @@
 		"WeaponDamageBonus_label"			"무기 피해"
 
 		"TechDamageBonusPercent_prefix"		"{s:sign}"
-		"TechDamageBonusPercent_label"		"스피릿 피해"
+		"TechDamageBonusPercent_label"		"마법 피해"
 		"TechDamageBonusPercent_postfix"		"%"
 
 		"SuperiorStaminaBonusSpirit_prefix"	"{s:sign}"
@@ -1660,7 +1666,7 @@
 
 
 		"BonusSpirit_prefix"				"{s:sign}"
-		"BonusSpirit_label"				"스피릿 위력"
+		"BonusSpirit_label"				"마력"
 		//"modifier_power_shard_bonus"		"Echo Boost"
 
 		//"BonusDuration_label"				"Bonus Duration"
@@ -1680,7 +1686,7 @@
 		"BaseAttackDamagePercent_postfix"					"%"
 
 		"ImbuedTechPower_prefix"					"{s:sign}"
-		"ImbuedTechPower_label"						"연동된 능력 스피릿 위력"
+		"ImbuedTechPower_label"						"연동된 능력 마력"
 
 		"MovementSpeedBonusDuration_label"			"이동 속도 지속 시간"
 		"MovementSpeedBonusDuration_postfix"		"초"
@@ -1716,7 +1722,7 @@
 		//"Cloaked"								"Cloaked"
 
 		"zipline_boost"							"하이퍼라인 부스트"
-		"ActiveTechPower_label"					"스피릿 위력"
+		"ActiveTechPower_label"					"마력"
 		"ActiveTechPower_prefix"				"+"
 
 		//"ActiveBulletShieldHealth_label"		"Active Shield Health"
@@ -1768,7 +1774,7 @@
 		//"ChannelMoveSpeed_prefix"						""
 
 		"BulletShieldOnCast_label"						"총탄 보호막"
-		"TechShieldOnCast_label"						"스피릿 보호막"
+		"TechShieldOnCast_label"						"마법 보호막"
 		//"BulletShieldDuration_label"					"Bullet Shield Duration"
 		"BulletShieldDuration_postfix"					"초"
 
@@ -1781,7 +1787,7 @@
 
 		//"LowHealthThreshold_label"						"Health Threshold"
 		"LowHealthThreshold_postfix"					"%"
-		"LowHealthTechResist_label"						"스피릿 저항"
+		"LowHealthTechResist_label"						"마법 저항"
 		"LowHealthTechResist_prefix"					"{s:sign}"
 		//"LowHealthWeaponPowerPercent_label"				"Courage"
 		"LowHealthWeaponPowerPercent_prefix"			"{s:sign}"
@@ -1824,6 +1830,13 @@
 
 		"StaminaRegenPercent_label"			"스테미나 회복력"
 		"StaminaRegenPercent_postfix"		"%"
+
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"근거리 공격 저항"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"강화 지속 시간"
+		"BuffDuration_postfix"				"초"
 
 		//-----------------------------------------------------------------------------
 		// END Ability Properties desc
