@@ -751,8 +751,8 @@
 		"Citadel_Roster_Instructions_Select"						"<span class='keybind'>{s:iv_attack}</span> 키를 눌러 영웅을 선택으로 표시합니다."
 		"Citadel_Roster_Instructions_Prefer"						"<span class='keybind'>{s:iv_attack2}</span> 키를 눌러 <b>우선</b> 또는 <b>최우선</b>을 순환합니다."
 
-		"Citadel_Roster_Instructions_Title_HeroLabs"				"Hero Labs"
-		"Citadel_Roster_Instructions_Desc_HeroLabs"					"Queue up to play as or against new Experimental Heroes.<br><br>Select a minimum of three Heroes, <b>two of which must be standard, non-testing Heroes.</b> Players will be more likely to be given an Experimental Hero from their roster based on how long it has been since they've played any Experimental Hero."
+		"Citadel_Roster_Instructions_Title_HeroLabs"				"영웅 실험실"
+		"Citadel_Roster_Instructions_Desc_HeroLabs"					"실험 개발 단계의 영웅들이 등장할 수 있는 모드입니다.<br><br>최소 세 명의 영웅을 선택하여야 하며, <b>둘은 실험 단계가 아닌 일반 영웅을 선택하여야 합니다.</b> 실험 영웅이 선택될 확률은 현재 게임 모드에서 실험 영웅이 선택되지 않을수록 점차 증가합니다."
 
 		"Citadel_ViewMatchID_Title"									"매치 ID 보기"
 		"Citadel_ViewMatchID_Desc"									"매치 세부 정보를 보려면 매치 ID를 입력하세요."
@@ -1162,7 +1162,7 @@
 		"Citadel_Dashboard_Status_Mode_Private"						"비공개 매치"
 		"Citadel_Dashboard_Status_Mode_Coop"						"협동 봇 매치"
 		
-		"Citadel_Dashboard_ShowHeroLabHeroes"						"Show Experimental Heroes"
+		"Citadel_Dashboard_ShowHeroLabHeroes"						"실험 단계 영웅 표시"
 		
 		"Citadel_Watch_Title"										"매치 관전"
 		"Citadel_Watch_Featured"									"추천 매치"
@@ -2507,8 +2507,8 @@
 		"menu_play_lane_training_desc"				"친절한 영웅의 안내를 받으며 초반 게임을 배우세요."
 		"menu_play_bots_easy_desc"					"봇과 사설 매치를 플레이합니다."
 		"menu_play_custom_game_desc"				"최대 12명이 참가할 수 있는 맞춤 설정 매치를 만들거나 참여합니다."
-		"menu_play_hero_labs_desc"					"Help test experimental new Heroes"
-		"menu_play_hero_labs_locked_desc"			"Help test experimental new Heroes. Unlocked after 50 games played"
+		"menu_play_hero_labs_desc"					"개발 단계의 신규 영웅들을 실험하는 모드입니다."
+		"menu_play_hero_labs_locked_desc"			"개발 단계의 신규 영웅들을 플레이할 수 있는 실험 모드입니다. 일반 매치 50회를 플레이하여야 합니다."
 		
 		"menu_play_get_started_time_est"			"4분"
 		"menu_play_sandbox_time_est"				"5분"
