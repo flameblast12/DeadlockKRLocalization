@@ -921,7 +921,7 @@
 
 		"ability_warden_crowd_control"			"연금술 약병"
 		"ability_warden_crowd_control_quip"		"근처의 적들에게 피해와 약화 효과를 줍니다."
-		"ability_warden_crowd_control_desc"		"약병을 던져서 적들에게 <span class=\"highlight\">피해를 입히고, 느려지게 하며,</span> <span class=\"highlight\">무기 피해</span>와 <span class=\"highlight\">스테미나</span>를 감소시킵니다."
+		"ability_warden_crowd_control_desc"		"약병을 던져서 적들에게 <span class=\"highlight\">피해를 입히고, 느려지게 하며,</span> <span class=\"highlight\">무기 피해</span>를 감소시킵니다."
 		"ability_warden_crowd_control_t1_desc"	"적중 시 대상의 스테미나 <span class=\"highlight\">{s:StaminaReduction}</span> 감소"
 		"ability_warden_crowd_control_t3_desc"		"<span class=\"highlight\">{s:AbilityCooldown}s</span> 쿨다운 및 <span class=\"highlight\">{s:FireRateSlow}%</span> 연사 속도 감소 적용"
 		"MoveSpeedSlowPct_label"					"이동 둔화"
@@ -929,8 +929,8 @@
 		"WeaponPowerDebuff_label"					"무기 피해"
 		"WeaponPowerDebuff_postfix"				"%"
 		"modifier_warden_crowd_control_debuff"	"연금술 약병"
-		"FlaskDebuffDuration_label"				"Weapon Debuff Duration"
-		"FlaskDebuffDuration_postfix"			"s"
+		"FlaskDebuffDuration_label"				"무기 약화 지속시간"
+		"FlaskDebuffDuration_postfix"			"초"
 
 		"ability_warden_riot_protocol"			"최후의 저항"
 		"ability_warden_riot_protocol_quip"		"적들에게 피해를 주고 생명력을 흡수하는 파동을 방출합니다."
@@ -1171,7 +1171,7 @@
 
 		"citadel_ability_sticky_bomb"			"끈끈이 폭탄"
 		"citadel_ability_sticky_bomb_quip"		"적에게 폭탄을 부착합니다."
-		"citadel_ability_sticky_bomb_desc"		"근처의 대상에게 끈끈이 폭탄을 붙여 짧은 지연 시간 후에 <span class=\"highlight\">폭발 피해</span>를 입힙니다. <br> 적 영웅이 맞을 때마다 <span class=\"highlight\"> 폭탄 피해가 +{s:BonusDamagePctPerPlayerHit}% 증가</span>합니다. 사망 시 피해 중첩을 {s:BonusLossPerDeath}% 잃습니다.  <br> [{s:key_alt_cast}]를 사용해 자신에 끈끈이 폭탄을 붙일 수 있습니다."
+		"citadel_ability_sticky_bomb_desc"		"근처의 대상에게 끈끈이 폭탄을 붙여 짧은 지연 시간 후에 <span class=\"highlight\">폭발 피해</span>를 입힙니다. <br>폭탄 피해를 입은 적 영웅이 {s:KillCheckWindow}초 이내에 사망 시 폭탄 피해가 영구히 <span class=\"highlight\">+{s:BonusDamagePctPerPlayerHit}%</span> 증가합니다. <br>[{s:key_alt_cast}]를 길게 눌러 자신에게 폭탄을 붙일 수 있습니다."
 		"modifier_citadel_sticky_bomb_attached"	"폭탄 부착됨"
 		"citadel_ability_sticky_bomb_t3_desc"	"부착 시, <span class=\"highlight\">대상을 무장 해제</span>시킴. {s:DebuffDuration}초 지속"
 		"StunTargetOnExplode_label"				"지속 시간"
